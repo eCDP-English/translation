@@ -25,6 +25,15 @@
             ]
         },
         {
+            "str": "GoodJob!",
+            "blen": 8,
+            "memory_address": 35960236,
+            "rom_address": 1404108,
+            "xrefs": [
+                1400700
+            ]
+        },
+        {
             "str": "SOCチェック合格",
             "blen": 15,
             "memory_address": 35960248,
