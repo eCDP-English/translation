@@ -1,33 +1,33 @@
-マックフライポテト
+French Fries
 ===#===
-ハッシュポテト
+Hash Browns
 ===#===
-エッグ
+Egg
 ===#===
-イングリッシュマフィン
+English Muffin
 ===#===
-ソーセージパティ
+Sausage Patty
 ===#===
-カナディアンベーコン
+Canadian Bacons
 ===#===
 ミートパティ／80パティ
 ===#===
-てりやきパティ
+Teriyaki Patties
 ===#===
 エッグマフィン
 ===#===
-チーズバーガー
+Cheeseburger
 ===#===
-ビッグマック
+Big Mac
 ===#===
 てりやきバーガー
 ===#===
-フィレオフィッシュ
+Filet-O-Fish
 ===#===
-フィッシュポーション
+Fish Portions
 ===#===
 カウンター6ステップ
 ===#===
-ドライブスルー
+Drive-thru
 ===#===
-ロット＆ロビー
+Lot and Lobby
