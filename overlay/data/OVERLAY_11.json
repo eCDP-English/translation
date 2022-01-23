@@ -61,6 +61,24 @@
             ]
         },
         {
+            "str": "eCDPランキング",
+            "blen": 14,
+            "memory_address": 35960284,
+            "rom_address": 1404156,
+            "xrefs": [
+                1403104
+            ]
+        },
+        {
+            "str": "eCDPランキング",
+            "blen": 14,
+            "memory_address": 35960300,
+            "rom_address": 1404172,
+            "xrefs": [
+                1403108
+            ]
+        },
+        {
             "str": "テイクオフメッセージ",
             "blen": 20,
             "memory_address": 35960316,

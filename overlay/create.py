@@ -44,6 +44,7 @@ exceptions = [
     "[テイクオフ]",
     "GoodJob!",
 	"SOC",
+    "eCDP",
 	"「"
 ]
 
