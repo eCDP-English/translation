@@ -1,12 +1,19 @@
 #!/bin/python3
+from ast import arg
 import os
 import json
 import struct
 import hashlib
 import ndspy.rom
 import ndspy.code
+import argparse
 
-ROM_NAME = "ecdp"
+parser = argparse.ArgumentParser()
+parser.add_argument("-r", "--romname", dest = "romName", default = "ecdp", help = "Name of ROM to create files from")
+args = parser.parse_args()
+
+if args.romName:
+	ROM_NAME = args.romName
 
 rom_bytes = open(ROM_NAME+".nds", "rb").read()
 master_strings = []
@@ -126,7 +133,6 @@ def search_data(friendlyname, data, base_address):
 	new_mem = 0
 	real_location = find_in_rom(data)
 	strings = []
-	data_mod = {}
 	for b in data:
 		new_mem += 1
 		if b == 0:
@@ -153,8 +159,7 @@ def search_data(friendlyname, data, base_address):
 								if len(ptr_to_ptrs) > 0: # No real address ptr found?
 									rom_address = (mloc - base_address)+real_location
 									if rom_bytes[rom_address:rom_address+len(obytes)] == obytes:
-										strings.append({"str":strs, "blen": len(obytes), "memory_address": mloc, "rom_address":rom_address, "xrefs":ptr_to_ptrs})
-										data_mod[str(rom_address)] = strs
+										strings.append({"str":strs, "blen": len(obytes), "memory_address": mloc, "rom_address":rom_address, "xrefs":ptr_to_ptrs,"mod": None})
 				except UnicodeDecodeError:
 					pass					
 			
@@ -166,7 +171,7 @@ def search_data(friendlyname, data, base_address):
 		strBytes += b.to_bytes(1, "little")
 	data_info = {"name":friendlyname, "ram_loc":base_address, "file_loc": real_location, "length":len(data), "strings":strings}
 	
-	return [data_info, data_mod]
+	return data_info
 		
 		
 rom = ndspy.rom.NintendoDSRom.fromFile(ROM_NAME+".nds")
@@ -178,34 +183,28 @@ total_strings = 0
 sectionId = 0
 for section in arm9.sections:
 	print("Scanning ARM9 Section: "+str(sectionId)+" .. ", end="", flush=True)
-	data = search_data("ARM9_"+str(sectionId), section.data, section.ramAddress)
-	dinfo = data[0]
+	dinfo = search_data("ARM9_"+str(sectionId), section.data, section.ramAddress)
 	#master_strings.append(dinfo)
 	total_found = len(dinfo["strings"])
 	total_strings += total_found
 	print("Found "+str(total_found)+" Strings!", flush=True)
 	jsonData = json.dumps(dinfo, indent=4, ensure_ascii=False)
-	jsonData_mod = json.dumps(data[1], indent=4, ensure_ascii=False)
 	jsonName = "ARM9_"+str(sectionId)+".json"
-	open("data/" + jsonName, "wb").write(bytes(jsonData, "UTF-8"))
-	open("text_ja/" + jsonName, "wb").write(bytes(jsonData_mod, "UTF-8"))
+	open("jsonName", "wb").write(bytes(jsonData, "UTF-8"))
 	json_files.append(jsonName)
 	sectionId+=1
 	
 overlays = rom.loadArm9Overlays()
 for oid, overlay in overlays.items():
 	print("Scanning Overlay "+str(oid)+" .. ", end="", flush=True)
-	data = search_data("OVERLAY_"+str(oid), overlay.data, overlay.ramAddress)
-	dinfo = data[0]
+	dinfo = search_data("OVERLAY_"+str(oid), overlay.data, overlay.ramAddress)
 	#master_strings.append(dinfo)
 	total_found = len(dinfo["strings"])
 	total_strings += total_found
 	print("Found "+str(total_found)+" Strings!", flush=True)
 	jsonData = json.dumps(dinfo, indent=4, ensure_ascii=False)
-	jsonData_mod = json.dumps(data[1], indent=4, ensure_ascii=False)
 	jsonName = "OVERLAY_"+str(oid)+".json"
-	open("data/" + jsonName, "wb").write(bytes(jsonData, "UTF-8"))
-	open("text_ja/" + jsonName, "wb").write(bytes(jsonData_mod, "UTF-8"))
+	open(jsonName, "wb").write(bytes(jsonData, "UTF-8"))
 	json_files.append(jsonName)
 
 jsonData = json.dumps(json_files, indent=4, ensure_ascii=False)

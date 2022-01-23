@@ -4,14 +4,19 @@ import json
 import struct
 import hashlib
 import random
+import argparse
 #import ndspy.rom
 #import ndspy.code
 
-ROM_NAME = "ecdp"
-LANG = "en"
+parser = argparse.ArgumentParser()
+parser.add_argument("-r", "--romname", dest = "romName", default = "ecdp", help = "Name of ROM to create files from")
+args = parser.parse_args()
+
+if args.romName:
+	ROM_NAME = args.romName
 
 rom_data = bytearray(open(ROM_NAME+".nds", "rb").read())
-json_names = []
+sections = []
 
 def find_all(data, to_find):
 	addresses = []
@@ -57,8 +62,8 @@ def find_areas_with_zeros(section):
 
 def find_free_area(section, size):
 
-	if not section["name"] == json_names[0]["name"]: # First search in section 0! 
-		location_in_arm9 = find_free_area(json_names[0], size)
+	if not section["name"] == sections[0]["name"]: # First search in section 0! 
+		location_in_arm9 = find_free_area(sections[0], size)
 		if not location_in_arm9 == None:
 			return location_in_arm9
 
@@ -93,21 +98,20 @@ def find_free_area(section, size):
 
 
 
-def apply_mods(name):
-	section = json.loads(open("data/" + name, "rb").read())
-	text = json.loads(open("text_" + LANG + "/" + name, "rb").read())
-
+def apply_mods(section):
 	for string in section["strings"]:
-		old_text = string["str"]
-		old_blen = string["blen"]
-		rom_addr = string["rom_address"]
-		mem_addr = string["memory_address"]
-		xrefs = string["xrefs"]
-		new_text = text[str(rom_addr)]
+		if string["mod"] == None:
+			continue
+		else:
+			old_text = string["str"]
+			new_text = string["mod"]
+			old_blen = string["blen"]
+			rom_addr = string["rom_address"]
+			mem_addr = string["memory_address"]
+			xrefs = string["xrefs"]
 			
-		og_bytes = rom_data[rom_addr:rom_addr+old_blen]
-		
-		if old_text != new_text:
+			og_bytes = rom_data[rom_addr:rom_addr+old_blen]
+			
 			text_sjis = new_text.encode("SHIFT_JIS")
 			new_blen = len(text_sjis)+1
 			print("Changing: "+old_text+" to "+new_text)
@@ -132,12 +136,12 @@ def apply_mods(name):
 def read_jsons(jsonname):
 	json_list = json.loads(open(jsonname, "rb").read())	
 	for json_name in json_list:
-		json_names.append(json_name)
+		sections.append(json.loads(open(json_name, "rb").read()))
 
 
 read_jsons(ROM_NAME + ".json")
-for name in json_names:
-	apply_mods(name)
+for section in sections:
+	apply_mods(section)
 
 print("Patches done. writing to file.")
 open(ROM_NAME + "_patched.nds", "wb").write(rom_data)
