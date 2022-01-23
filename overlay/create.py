@@ -41,6 +41,7 @@ range_sjis = [
 #always valid when a string starts with any of these
 #(still goes through control character checks)
 exceptions = [
+    "[テイクオフ]",
     "GoodJob!",
 	"SOC",
 	"「"

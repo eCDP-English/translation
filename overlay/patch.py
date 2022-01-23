@@ -104,31 +104,35 @@ def apply_mods(name):
 		rom_addr = string["rom_address"]
 		mem_addr = string["memory_address"]
 		xrefs = string["xrefs"]
-		new_text = text[str(rom_addr)]
 			
 		og_bytes = rom_data[rom_addr:rom_addr+old_blen]
 		
-		if old_text != new_text:
-			text_sjis = new_text.encode("SHIFT_JIS")
-			new_blen = len(text_sjis)+1
-			print("Changing: "+old_text+" to "+new_text)
-			if new_blen <= old_blen:
-				print(new_text + " is smaller than "+ old_text+". changing in-place")
-				strcpy(text_sjis, rom_data, rom_addr)
-			else:
-				print(new_text + " is larger than "+old_text+" reallocating")
-				print("Locating new area for text")
-				new_file_addr, new_mem_addr = find_free_area(section, new_blen)
-				print("Found : "+hex(new_file_addr)+", "+hex(new_mem_addr))
-				strcpy(text_sjis, rom_data, new_file_addr)
-				for xref in xrefs:
-					old_addr = struct.unpack("I", rom_data[xref:xref+4])[0]
-					if not old_addr == mem_addr:
-						print("address at "+hex(xref)+" is "+hex(old_addr)+" not "+hex(mem_addr)+" NOT CHANGING!")
-						continue
-					print("Changing "+hex(old_addr)+" to "+hex(new_mem_addr))
-					new_addr = struct.pack("I", new_mem_addr)
-					memcpy(new_addr, rom_data, xref)
+		if str(rom_addr) in text.keys():
+			new_text = text[str(rom_addr)]
+
+			if old_text != new_text:
+				text_sjis = new_text.encode("SHIFT_JIS")
+				new_blen = len(text_sjis)+1
+				print("Changing: "+old_text+" to "+new_text)
+				if new_blen <= old_blen:
+					print(new_text + " is smaller than "+ old_text+". changing in-place")
+					strcpy(text_sjis, rom_data, rom_addr)
+				else:
+					print(new_text + " is larger than "+old_text+" reallocating")
+					print("Locating new area for text")
+					new_file_addr, new_mem_addr = find_free_area(section, new_blen)
+					print("Found : "+hex(new_file_addr)+", "+hex(new_mem_addr))
+					strcpy(text_sjis, rom_data, new_file_addr)
+					for xref in xrefs:
+						old_addr = struct.unpack("I", rom_data[xref:xref+4])[0]
+						if not old_addr == mem_addr:
+							print("address at "+hex(xref)+" is "+hex(old_addr)+" not "+hex(mem_addr)+" NOT CHANGING!")
+							continue
+						print("Changing "+hex(old_addr)+" to "+hex(new_mem_addr))
+						new_addr = struct.pack("I", new_mem_addr)
+						memcpy(new_addr, rom_data, xref)
+		else:
+			print(old_text + " (" + str(rom_addr) + ") is missing from translation!")
 					
 def read_jsons(jsonname):
 	json_list = json.loads(open(jsonname, "rb").read())	

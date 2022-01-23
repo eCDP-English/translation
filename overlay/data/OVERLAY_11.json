@@ -25,6 +25,15 @@
             ]
         },
         {
+            "str": "[テイクオフ]",
+            "blen": 12,
+            "memory_address": 35960212,
+            "rom_address": 1404084,
+            "xrefs": [
+                1399536
+            ]
+        },
+        {
             "str": "GoodJob!",
             "blen": 8,
             "memory_address": 35960236,
