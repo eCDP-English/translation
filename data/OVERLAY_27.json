@@ -1,0 +1,197 @@
+{
+    "name": "OVERLAY_27",
+    "ram_loc": 35950816,
+    "file_loc": 1633792,
+    "length": 20992,
+    "strings": [
+        {
+            "str": "「START!」をタッチして\n始めましょう",
+            "blen": 35,
+            "memory_address": 35970636,
+            "rom_address": 1653612,
+            "xrefs": [
+                1635720
+            ]
+        },
+        {
+            "str": "挨拶しましょう",
+            "blen": 14,
+            "memory_address": 35970776,
+            "rom_address": 1653752,
+            "xrefs": [
+                1653908
+            ]
+        },
+        {
+            "str": "注文を承りましょう",
+            "blen": 18,
+            "memory_address": 35970792,
+            "rom_address": 1653768,
+            "xrefs": [
+                1653912
+            ]
+        },
+        {
+            "str": "商品を手渡しましょう",
+            "blen": 20,
+            "memory_address": 35970832,
+            "rom_address": 1653808,
+            "xrefs": [
+                1653924
+            ]
+        },
+        {
+            "str": "注文を取り揃えましょう",
+            "blen": 22,
+            "memory_address": 35970856,
+            "rom_address": 1653832,
+            "xrefs": [
+                1653916
+            ]
+        },
+        {
+            "str": "代金を受け取りましょう",
+            "blen": 22,
+            "memory_address": 35970880,
+            "rom_address": 1653856,
+            "xrefs": [
+                1653920
+            ]
+        },
+        {
+            "str": "感謝の言葉で挨拶しま\nしょう",
+            "blen": 27,
+            "memory_address": 35970904,
+            "rom_address": 1653880,
+            "xrefs": [
+                1653928
+            ]
+        },
+        {
+            "str": "挨拶しましょう",
+            "blen": 14,
+            "memory_address": 35971012,
+            "rom_address": 1653988,
+            "xrefs": [
+                1654144
+            ]
+        },
+        {
+            "str": "注文を承りましょう",
+            "blen": 18,
+            "memory_address": 35971028,
+            "rom_address": 1654004,
+            "xrefs": [
+                1654148
+            ]
+        },
+        {
+            "str": "商品を手渡しましょう",
+            "blen": 20,
+            "memory_address": 35971068,
+            "rom_address": 1654044,
+            "xrefs": [
+                1654160
+            ]
+        },
+        {
+            "str": "注文を取り揃えましょう",
+            "blen": 22,
+            "memory_address": 35971092,
+            "rom_address": 1654068,
+            "xrefs": [
+                1654152
+            ]
+        },
+        {
+            "str": "代金を受け取りましょう",
+            "blen": 22,
+            "memory_address": 35971116,
+            "rom_address": 1654092,
+            "xrefs": [
+                1654156
+            ]
+        },
+        {
+            "str": "感謝の言葉で挨拶しま\nしょう",
+            "blen": 27,
+            "memory_address": 35971140,
+            "rom_address": 1654116,
+            "xrefs": [
+                1654164
+            ]
+        },
+        {
+            "str": "挨拶しましょう",
+            "blen": 14,
+            "memory_address": 35971264,
+            "rom_address": 1654240,
+            "xrefs": [
+                1654396
+            ]
+        },
+        {
+            "str": "注文を承りましょう",
+            "blen": 18,
+            "memory_address": 35971280,
+            "rom_address": 1654256,
+            "xrefs": [
+                1654400
+            ]
+        },
+        {
+            "str": "商品を手渡しましょう",
+            "blen": 20,
+            "memory_address": 35971320,
+            "rom_address": 1654296,
+            "xrefs": [
+                1654412
+            ]
+        },
+        {
+            "str": "注文を取り揃えましょう",
+            "blen": 22,
+            "memory_address": 35971344,
+            "rom_address": 1654320,
+            "xrefs": [
+                1654404
+            ]
+        },
+        {
+            "str": "代金を受け取りましょう",
+            "blen": 22,
+            "memory_address": 35971368,
+            "rom_address": 1654344,
+            "xrefs": [
+                1654408
+            ]
+        },
+        {
+            "str": "感謝の言葉で挨拶しま\nしょう",
+            "blen": 27,
+            "memory_address": 35971392,
+            "rom_address": 1654368,
+            "xrefs": [
+                1654416
+            ]
+        },
+        {
+            "str": "目標タイム ",
+            "blen": 11,
+            "memory_address": 35971716,
+            "rom_address": 1654692,
+            "xrefs": [
+                1651880
+            ]
+        },
+        {
+            "str": "ドライブスルー",
+            "blen": 14,
+            "memory_address": 35971732,
+            "rom_address": 1654708,
+            "xrefs": [
+                1651936
+            ]
+        }
+    ]
+}

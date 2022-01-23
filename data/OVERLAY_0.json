@@ -1,0 +1,1115 @@
+{
+    "name": "OVERLAY_0",
+    "ram_loc": 35950816,
+    "file_loc": 828928,
+    "length": 46016,
+    "strings": [
+        {
+            "str": "０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ",
+            "blen": 72,
+            "memory_address": 35985660,
+            "rom_address": 863772,
+            "xrefs": [
+                862960
+            ]
+        },
+        {
+            "str": "カナ",
+            "blen": 4,
+            "memory_address": 35987520,
+            "rom_address": 865632,
+            "xrefs": [
+                870056
+            ]
+        },
+        {
+            "str": "濁点",
+            "blen": 4,
+            "memory_address": 35987528,
+            "rom_address": 865640,
+            "xrefs": [
+                870068
+            ]
+        },
+        {
+            "str": "句点",
+            "blen": 4,
+            "memory_address": 35987536,
+            "rom_address": 865648,
+            "xrefs": [
+                870076
+            ]
+        },
+        {
+            "str": "読点",
+            "blen": 4,
+            "memory_address": 35987544,
+            "rom_address": 865656,
+            "xrefs": [
+                870080
+            ]
+        },
+        {
+            "str": "小字",
+            "blen": 4,
+            "memory_address": 35987552,
+            "rom_address": 865664,
+            "xrefs": [
+                870084
+            ]
+        },
+        {
+            "str": "かな",
+            "blen": 4,
+            "memory_address": 35987560,
+            "rom_address": 865672,
+            "xrefs": [
+                870296
+            ]
+        },
+        {
+            "str": "濁点",
+            "blen": 4,
+            "memory_address": 35987568,
+            "rom_address": 865680,
+            "xrefs": [
+                870308
+            ]
+        },
+        {
+            "str": "句点",
+            "blen": 4,
+            "memory_address": 35987576,
+            "rom_address": 865688,
+            "xrefs": [
+                870316
+            ]
+        },
+        {
+            "str": "読点",
+            "blen": 4,
+            "memory_address": 35987584,
+            "rom_address": 865696,
+            "xrefs": [
+                870320
+            ]
+        },
+        {
+            "str": "小字",
+            "blen": 4,
+            "memory_address": 35987592,
+            "rom_address": 865704,
+            "xrefs": [
+                870324
+            ]
+        },
+        {
+            "str": "かな",
+            "blen": 4,
+            "memory_address": 35987600,
+            "rom_address": 865712,
+            "xrefs": [
+                868464
+            ]
+        },
+        {
+            "str": "かな",
+            "blen": 4,
+            "memory_address": 35987608,
+            "rom_address": 865720,
+            "xrefs": [
+                868632
+            ]
+        },
+        {
+            "str": "カナ",
+            "blen": 4,
+            "memory_address": 35987616,
+            "rom_address": 865728,
+            "xrefs": [
+                868636
+            ]
+        },
+        {
+            "str": "カナ",
+            "blen": 4,
+            "memory_address": 35987624,
+            "rom_address": 865736,
+            "xrefs": [
+                868468
+            ]
+        },
+        {
+            "str": "英／数",
+            "blen": 6,
+            "memory_address": 35987632,
+            "rom_address": 865744,
+            "xrefs": [
+                870060
+            ]
+        },
+        {
+            "str": "半濁点",
+            "blen": 6,
+            "memory_address": 35987640,
+            "rom_address": 865752,
+            "xrefs": [
+                870072
+            ]
+        },
+        {
+            "str": "半濁点",
+            "blen": 6,
+            "memory_address": 35987648,
+            "rom_address": 865760,
+            "xrefs": [
+                870312
+            ]
+        },
+        {
+            "str": "英／数",
+            "blen": 6,
+            "memory_address": 35987656,
+            "rom_address": 865768,
+            "xrefs": [
+                870300
+            ]
+        },
+        {
+            "str": "入力完了",
+            "blen": 8,
+            "memory_address": 35987664,
+            "rom_address": 865776,
+            "xrefs": [
+                870088
+            ]
+        },
+        {
+            "str": "入力完了",
+            "blen": 8,
+            "memory_address": 35987676,
+            "rom_address": 865788,
+            "xrefs": [
+                868480
+            ]
+        },
+        {
+            "str": "入力完了",
+            "blen": 8,
+            "memory_address": 35987688,
+            "rom_address": 865800,
+            "xrefs": [
+                870328
+            ]
+        },
+        {
+            "str": "ｅＣＤＰ",
+            "blen": 8,
+            "memory_address": 35987700,
+            "rom_address": 865812,
+            "xrefs": [
+                865392
+            ]
+        },
+        {
+            "str": "入力完了",
+            "blen": 8,
+            "memory_address": 35987712,
+            "rom_address": 865824,
+            "xrefs": [
+                868648
+            ]
+        },
+        {
+            "str": "一文字消す",
+            "blen": 10,
+            "memory_address": 35987724,
+            "rom_address": 865836,
+            "xrefs": [
+                870064
+            ]
+        },
+        {
+            "str": "一文字消す",
+            "blen": 10,
+            "memory_address": 35987736,
+            "rom_address": 865848,
+            "xrefs": [
+                870304
+            ]
+        },
+        {
+            "str": "一文字消す",
+            "blen": 10,
+            "memory_address": 35987748,
+            "rom_address": 865860,
+            "xrefs": [
+                868476
+            ]
+        },
+        {
+            "str": "一文字消す",
+            "blen": 10,
+            "memory_address": 35987760,
+            "rom_address": 865872,
+            "xrefs": [
+                868644
+            ]
+        },
+        {
+            "str": "一文字あける",
+            "blen": 12,
+            "memory_address": 35987772,
+            "rom_address": 865884,
+            "xrefs": [
+                870052
+            ]
+        },
+        {
+            "str": "一文字あける",
+            "blen": 12,
+            "memory_address": 35987788,
+            "rom_address": 865900,
+            "xrefs": [
+                870292
+            ]
+        },
+        {
+            "str": "一文字あける",
+            "blen": 12,
+            "memory_address": 35987804,
+            "rom_address": 865916,
+            "xrefs": [
+                868460
+            ]
+        },
+        {
+            "str": "一文字あける",
+            "blen": 12,
+            "memory_address": 35987820,
+            "rom_address": 865932,
+            "xrefs": [
+                868628
+            ]
+        },
+        {
+            "str": "パスワード入力",
+            "blen": 14,
+            "memory_address": 35987836,
+            "rom_address": 865948,
+            "xrefs": [
+                865400
+            ]
+        },
+        {
+            "str": "パスワード変更",
+            "blen": 14,
+            "memory_address": 35987852,
+            "rom_address": 865964,
+            "xrefs": [
+                865408
+            ]
+        },
+        {
+            "str": "入力内容を保存しました",
+            "blen": 22,
+            "memory_address": 35988420,
+            "rom_address": 866532,
+            "xrefs": [
+                863404
+            ]
+        },
+        {
+            "str": "入力内容を保存しました",
+            "blen": 22,
+            "memory_address": 35988444,
+            "rom_address": 866556,
+            "xrefs": [
+                863536
+            ]
+        },
+        {
+            "str": "登録してよろしいですか？",
+            "blen": 24,
+            "memory_address": 35988468,
+            "rom_address": 866580,
+            "xrefs": [
+                863200
+            ]
+        },
+        {
+            "str": "登録内容を確認してください",
+            "blen": 26,
+            "memory_address": 35988496,
+            "rom_address": 866608,
+            "xrefs": [
+                863188
+            ]
+        },
+        {
+            "str": "新規クルーが登録されました",
+            "blen": 26,
+            "memory_address": 35988524,
+            "rom_address": 866636,
+            "xrefs": [
+                863212
+            ]
+        },
+        {
+            "str": "店舗Ｎｏ．を入力してください",
+            "blen": 28,
+            "memory_address": 35988552,
+            "rom_address": 866664,
+            "xrefs": [
+                863320
+            ]
+        },
+        {
+            "str": "削除するクルーを選んでください",
+            "blen": 30,
+            "memory_address": 35988584,
+            "rom_address": 866696,
+            "xrefs": [
+                863224
+            ]
+        },
+        {
+            "str": "クルーの年齢を入力してください",
+            "blen": 30,
+            "memory_address": 35988616,
+            "rom_address": 866728,
+            "xrefs": [
+                863164
+            ]
+        },
+        {
+            "str": "選択されたクルーが削除されました",
+            "blen": 32,
+            "memory_address": 35988648,
+            "rom_address": 866760,
+            "xrefs": [
+                863248
+            ]
+        },
+        {
+            "str": "シリアルコードを入力してください",
+            "blen": 32,
+            "memory_address": 35988684,
+            "rom_address": 866796,
+            "xrefs": [
+                863344
+            ]
+        },
+        {
+            "str": "お好みのアバターを\n選んでください",
+            "blen": 33,
+            "memory_address": 35988720,
+            "rom_address": 866832,
+            "xrefs": [
+                863152
+            ]
+        },
+        {
+            "str": "新しいパスワードを入力してください",
+            "blen": 34,
+            "memory_address": 35988756,
+            "rom_address": 866868,
+            "xrefs": [
+                863308
+            ]
+        },
+        {
+            "str": "新しいパスワードを入力してください",
+            "blen": 34,
+            "memory_address": 35988792,
+            "rom_address": 866904,
+            "xrefs": [
+                863512
+            ]
+        },
+        {
+            "str": "今までのパスワードを入力してください",
+            "blen": 36,
+            "memory_address": 35988828,
+            "rom_address": 866940,
+            "xrefs": [
+                863488
+            ]
+        },
+        {
+            "str": "変更前のパスワードを入力してください",
+            "blen": 36,
+            "memory_address": 35988868,
+            "rom_address": 866980,
+            "xrefs": [
+                863296
+            ]
+        },
+        {
+            "str": "クルーＩＤか社員番号を\n入力してください",
+            "blen": 39,
+            "memory_address": 35988908,
+            "rom_address": 867020,
+            "xrefs": [
+                863416
+            ]
+        },
+        {
+            "str": "クルーＩＤか社員番号を\n入力してください",
+            "blen": 39,
+            "memory_address": 35988948,
+            "rom_address": 867060,
+            "xrefs": [
+                863464
+            ]
+        },
+        {
+            "str": "マネージャーの社員番号を\n入力してください",
+            "blen": 41,
+            "memory_address": 35988988,
+            "rom_address": 867100,
+            "xrefs": [
+                863368
+            ]
+        },
+        {
+            "str": "新規に登録する\nパスワードを入力してください",
+            "blen": 43,
+            "memory_address": 35989032,
+            "rom_address": 867144,
+            "xrefs": [
+                863272
+            ]
+        },
+        {
+            "str": "ＩＤが既に登録されています\n再入力してください",
+            "blen": 45,
+            "memory_address": 35989076,
+            "rom_address": 867188,
+            "xrefs": [
+                863116
+            ]
+        },
+        {
+            "str": "クルーの名前を\n入力してください。（６文字まで）",
+            "blen": 47,
+            "memory_address": 35989124,
+            "rom_address": 867236,
+            "xrefs": [
+                863140
+            ]
+        },
+        {
+            "str": "削除後の復元はできません\n削除してよろしいですか？",
+            "blen": 49,
+            "memory_address": 35989172,
+            "rom_address": 867284,
+            "xrefs": [
+                863236
+            ]
+        },
+        {
+            "str": "パスワードを入力することで\nＭＧＲモードに入れます",
+            "blen": 49,
+            "memory_address": 35989224,
+            "rom_address": 867336,
+            "xrefs": [
+                863260
+            ]
+        },
+        {
+            "str": "パスワードを入力することで\nＭＧＲモードに入れます",
+            "blen": 49,
+            "memory_address": 35989276,
+            "rom_address": 867388,
+            "xrefs": [
+                863284
+            ]
+        },
+        {
+            "str": "パスワードを入力することで\nＭＧＲモードに入れます",
+            "blen": 49,
+            "memory_address": 35989328,
+            "rom_address": 867440,
+            "xrefs": [
+                865396
+            ]
+        },
+        {
+            "str": "パスワードを入力することで\nＭＧＲモードに入れます",
+            "blen": 49,
+            "memory_address": 35989380,
+            "rom_address": 867492,
+            "xrefs": [
+                865404
+            ]
+        },
+        {
+            "str": "ご自身で決めた6ケタのパスワードを\n入力してください",
+            "blen": 50,
+            "memory_address": 35989432,
+            "rom_address": 867544,
+            "xrefs": [
+                863380
+            ]
+        },
+        {
+            "str": "ご自身で決めた6ケタのパスワードを\n入力してください",
+            "blen": 50,
+            "memory_address": 35989484,
+            "rom_address": 867596,
+            "xrefs": [
+                863440
+            ]
+        },
+        {
+            "str": "クルーが所属する店舗の\n店舗Ｎｏ．を入力してください",
+            "blen": 51,
+            "memory_address": 35989536,
+            "rom_address": 867648,
+            "xrefs": [
+                863176
+            ]
+        },
+        {
+            "str": "入力内容が間違っています\n正しい情報を入力してください",
+            "blen": 53,
+            "memory_address": 35989588,
+            "rom_address": 867700,
+            "xrefs": [
+                863476
+            ]
+        },
+        {
+            "str": "入力内容が間違っています\n正しい情報を入力してください",
+            "blen": 53,
+            "memory_address": 35989644,
+            "rom_address": 867756,
+            "xrefs": [
+                863428
+            ]
+        },
+        {
+            "str": "入力内容が間違っています\n正しい情報を入力してください",
+            "blen": 53,
+            "memory_address": 35989700,
+            "rom_address": 867812,
+            "xrefs": [
+                863500
+            ]
+        },
+        {
+            "str": "入力内容が間違っています\n正しい情報を入力してください",
+            "blen": 53,
+            "memory_address": 35989756,
+            "rom_address": 867868,
+            "xrefs": [
+                863356
+            ]
+        },
+        {
+            "str": "新規クルーの登録を行います\nクルーＩＤを入力してください",
+            "blen": 55,
+            "memory_address": 35989868,
+            "rom_address": 867980,
+            "xrefs": [
+                863128
+            ]
+        },
+        {
+            "str": "「新規クルーの登録」もしくは\n「クルーの削除」を選択してください",
+            "blen": 63,
+            "memory_address": 35989924,
+            "rom_address": 868036,
+            "xrefs": [
+                863104
+            ]
+        },
+        {
+            "str": "入力内容が間違っているか、重複しています\n正しい情報を入力してください",
+            "blen": 69,
+            "memory_address": 35989988,
+            "rom_address": 868100,
+            "xrefs": [
+                863392
+            ]
+        },
+        {
+            "str": "入力内容が間違っているか、重複しています\n正しい情報を入力してください",
+            "blen": 69,
+            "memory_address": 35990060,
+            "rom_address": 868172,
+            "xrefs": [
+                863524
+            ]
+        },
+        {
+            "str": "入力内容が間違っているか、重複しています\n正しい情報を入力してください",
+            "blen": 69,
+            "memory_address": 35990132,
+            "rom_address": 868244,
+            "xrefs": [
+                863452
+            ]
+        },
+        {
+            "str": "登録内容",
+            "blen": 8,
+            "memory_address": 35992220,
+            "rom_address": 870332,
+            "xrefs": [
+                830068
+            ]
+        },
+        {
+            "str": "クルーＩＤ",
+            "blen": 10,
+            "memory_address": 35992232,
+            "rom_address": 870344,
+            "xrefs": [
+                830072
+            ]
+        },
+        {
+            "str": "なまえ",
+            "blen": 6,
+            "memory_address": 35992244,
+            "rom_address": 870356,
+            "xrefs": [
+                830076
+            ]
+        },
+        {
+            "str": "年齢",
+            "blen": 4,
+            "memory_address": 35992252,
+            "rom_address": 870364,
+            "xrefs": [
+                830080
+            ]
+        },
+        {
+            "str": "店舗Ｎｏ．",
+            "blen": 10,
+            "memory_address": 35992260,
+            "rom_address": 870372,
+            "xrefs": [
+                830084
+            ]
+        },
+        {
+            "str": "新規クルーの登録",
+            "blen": 16,
+            "memory_address": 35992272,
+            "rom_address": 870384,
+            "xrefs": [
+                834244
+            ]
+        },
+        {
+            "str": "クルーの削除",
+            "blen": 12,
+            "memory_address": 35992292,
+            "rom_address": 870404,
+            "xrefs": [
+                834248
+            ]
+        },
+        {
+            "str": "登録人数 %d/10",
+            "blen": 14,
+            "memory_address": 35992308,
+            "rom_address": 870420,
+            "xrefs": [
+                834252
+            ]
+        },
+        {
+            "str": "確認",
+            "blen": 4,
+            "memory_address": 35992324,
+            "rom_address": 870436,
+            "xrefs": [
+                834280
+            ]
+        },
+        {
+            "str": "はい",
+            "blen": 4,
+            "memory_address": 35992332,
+            "rom_address": 870444,
+            "xrefs": [
+                834284
+            ]
+        },
+        {
+            "str": "いいえ",
+            "blen": 6,
+            "memory_address": 35992340,
+            "rom_address": 870452,
+            "xrefs": [
+                834288
+            ]
+        },
+        {
+            "str": "はい",
+            "blen": 4,
+            "memory_address": 35992348,
+            "rom_address": 870460,
+            "xrefs": [
+                834296
+            ]
+        },
+        {
+            "str": "いいえ",
+            "blen": 6,
+            "memory_address": 35992356,
+            "rom_address": 870468,
+            "xrefs": [
+                834300
+            ]
+        },
+        {
+            "str": "００００００",
+            "blen": 12,
+            "memory_address": 35992368,
+            "rom_address": 870480,
+            "xrefs": [
+                838792
+            ]
+        },
+        {
+            "str": "パスワードが違います。\nもう一度よく確かめて\n入力して下さい。",
+            "blen": 60,
+            "memory_address": 35992384,
+            "rom_address": 870496,
+            "xrefs": [
+                845232
+            ]
+        },
+        {
+            "str": "００００００",
+            "blen": 12,
+            "memory_address": 35992448,
+            "rom_address": 870560,
+            "xrefs": [
+                845240
+            ]
+        },
+        {
+            "str": "００００００",
+            "blen": 12,
+            "memory_address": 35992464,
+            "rom_address": 870576,
+            "xrefs": [
+                846076
+            ]
+        },
+        {
+            "str": "はじめて起動したときの\nシリアルコードは、 %s です",
+            "blen": 49,
+            "memory_address": 35992496,
+            "rom_address": 870608,
+            "xrefs": [
+                848932
+            ]
+        },
+        {
+            "str": "男性",
+            "blen": 4,
+            "memory_address": 35992548,
+            "rom_address": 870660,
+            "xrefs": [
+                849684
+            ]
+        },
+        {
+            "str": "女性",
+            "blen": 4,
+            "memory_address": 35992556,
+            "rom_address": 870668,
+            "xrefs": [
+                849688
+            ]
+        },
+        {
+            "str": "選択完了",
+            "blen": 8,
+            "memory_address": 35992564,
+            "rom_address": 870676,
+            "xrefs": [
+                849692
+            ]
+        },
+        {
+            "str": "小文字",
+            "blen": 6,
+            "memory_address": 35992580,
+            "rom_address": 870692,
+            "xrefs": [
+                851652
+            ]
+        },
+        {
+            "str": "大文字",
+            "blen": 6,
+            "memory_address": 35992588,
+            "rom_address": 870700,
+            "xrefs": [
+                851656
+            ]
+        },
+        {
+            "str": "トレーニングを開始します",
+            "blen": 24,
+            "memory_address": 35993376,
+            "rom_address": 871488,
+            "xrefs": [
+                871216
+            ]
+        },
+        {
+            "str": "マネージャー専用のモードです",
+            "blen": 28,
+            "memory_address": 35993404,
+            "rom_address": 871516,
+            "xrefs": [
+                871212
+            ]
+        },
+        {
+            "str": "マネージャー専用のモードです",
+            "blen": 28,
+            "memory_address": 35993436,
+            "rom_address": 871548,
+            "xrefs": [
+                871204
+            ]
+        },
+        {
+            "str": "ｅＣＤＰのコンテンツが練習できます",
+            "blen": 34,
+            "memory_address": 35993468,
+            "rom_address": 871580,
+            "xrefs": [
+                871208
+            ]
+        },
+        {
+            "str": "マクドナルドのクイズにチャレンジ　！",
+            "blen": 36,
+            "memory_address": 35993504,
+            "rom_address": 871616,
+            "xrefs": [
+                871220
+            ]
+        },
+        {
+            "str": "ＳＯＣガイド",
+            "blen": 12,
+            "memory_address": 35993904,
+            "rom_address": 872016,
+            "xrefs": [
+                872188
+            ]
+        },
+        {
+            "str": "セルフチェック",
+            "blen": 14,
+            "memory_address": 35993920,
+            "rom_address": 872032,
+            "xrefs": [
+                872204
+            ]
+        },
+        {
+            "str": "セルフスタディ",
+            "blen": 14,
+            "memory_address": 35993936,
+            "rom_address": 872048,
+            "xrefs": [
+                872196
+            ]
+        },
+        {
+            "str": "オペレーションの基本や知識を学ぶ\nモードです",
+            "blen": 43,
+            "memory_address": 35994224,
+            "rom_address": 872336,
+            "xrefs": [
+                872184
+            ]
+        },
+        {
+            "str": "オペレーションプロシージャーを\nタッチペンで学ぶモードです",
+            "blen": 57,
+            "memory_address": 35994268,
+            "rom_address": 872380,
+            "xrefs": [
+                872192
+            ]
+        },
+        {
+            "str": "学んだことを確認するために、１０問の設問に\n挑戦するモードです",
+            "blen": 61,
+            "memory_address": 35994328,
+            "rom_address": 872440,
+            "xrefs": [
+                872200
+            ]
+        },
+        {
+            "str": "クルーが登録されていません",
+            "blen": 26,
+            "memory_address": 35994732,
+            "rom_address": 872844,
+            "xrefs": [
+                872576
+            ]
+        },
+        {
+            "str": "クルーの登録と削除を行なうモードです",
+            "blen": 36,
+            "memory_address": 35994760,
+            "rom_address": 872872,
+            "xrefs": [
+                872580
+            ]
+        },
+        {
+            "str": "Ｗｉ−Ｆｉコネクションに\n接続するモードです",
+            "blen": 43,
+            "memory_address": 35994800,
+            "rom_address": 872912,
+            "xrefs": [
+                872588
+            ]
+        },
+        {
+            "str": "セルフスタディで扱う機材の\n配置を変更するモードです",
+            "blen": 51,
+            "memory_address": 35994844,
+            "rom_address": 872956,
+            "xrefs": [
+                872592
+            ]
+        },
+        {
+            "str": "クルーのトレーニングの進捗を確認し、\nベリフィケーションするモードです",
+            "blen": 69,
+            "memory_address": 35994896,
+            "rom_address": 873008,
+            "xrefs": [
+                872584
+            ]
+        },
+        {
+            "str": "データを読めませんでした。\n電源を切って、カードを差し込み直してください。",
+            "blen": 73,
+            "memory_address": 35995324,
+            "rom_address": 873436,
+            "xrefs": [
+                873428
+            ]
+        },
+        {
+            "str": "データを書けませんでした。\n電源を切って、カードを差し込み直してください。",
+            "blen": 73,
+            "memory_address": 35995400,
+            "rom_address": 873512,
+            "xrefs": [
+                873432
+            ]
+        },
+        {
+            "str": "残念ですが、\nセーブデータが破損しています。\n　\neCDPを起動するには、\n新しいデータを作り直す必要があります。\n　\n下画面をタッチして、\nシリアルコードの入力からやり直してください。",
+            "blen": 175,
+            "memory_address": 35995584,
+            "rom_address": 873696,
+            "xrefs": [
+                873420
+            ]
+        },
+        {
+            "str": "パスワード変更",
+            "blen": 14,
+            "memory_address": 35995916,
+            "rom_address": 874028,
+            "xrefs": [
+                873948
+            ]
+        },
+        {
+            "str": "パスワード入力",
+            "blen": 14,
+            "memory_address": 35995932,
+            "rom_address": 874044,
+            "xrefs": [
+                873936
+            ]
+        },
+        {
+            "str": "シリアルコード入力",
+            "blen": 18,
+            "memory_address": 35995948,
+            "rom_address": 874060,
+            "xrefs": [
+                873960
+            ]
+        },
+        {
+            "str": "項目を選択してください",
+            "blen": 22,
+            "memory_address": 35996064,
+            "rom_address": 874176,
+            "xrefs": [
+                873876
+            ]
+        },
+        {
+            "str": "パスワードを入力することで\nタイトルメニュー画面に入れます",
+            "blen": 57,
+            "memory_address": 35996184,
+            "rom_address": 874296,
+            "xrefs": [
+                873940
+            ]
+        },
+        {
+            "str": "はじめて起動するときは、\nシリアルコードを入力してください",
+            "blen": 57,
+            "memory_address": 35996244,
+            "rom_address": 874356,
+            "xrefs": [
+                873944
+            ]
+        },
+        {
+            "str": "はじめて起動するときは、\nシリアルコードを入力してください",
+            "blen": 57,
+            "memory_address": 35996304,
+            "rom_address": 874416,
+            "xrefs": [
+                873956
+            ]
+        },
+        {
+            "str": "はじめて起動するときは、\nシリアルコードを入力してください",
+            "blen": 57,
+            "memory_address": 35996364,
+            "rom_address": 874476,
+            "xrefs": [
+                873964
+            ]
+        },
+        {
+            "str": "登録されているクルーとマネージャーの\nパスワードの変更ができます",
+            "blen": 63,
+            "memory_address": 35996424,
+            "rom_address": 874536,
+            "xrefs": [
+                873952
+            ]
+        }
+    ]
+}

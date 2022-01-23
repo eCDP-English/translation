@@ -1,0 +1,53 @@
+{
+    "name": "OVERLAY_13",
+    "ram_loc": 35950816,
+    "file_loc": 1412608,
+    "length": 2016,
+    "strings": [
+        {
+            "str": "ＢＧＭ番号：",
+            "blen": 12,
+            "memory_address": 35952676,
+            "rom_address": 1414468,
+            "xrefs": [
+                1414188
+            ]
+        },
+        {
+            "str": "ＳＥ番号：",
+            "blen": 10,
+            "memory_address": 35952692,
+            "rom_address": 1414484,
+            "xrefs": [
+                1414192
+            ]
+        },
+        {
+            "str": "グループ番号：",
+            "blen": 14,
+            "memory_address": 35952704,
+            "rom_address": 1414496,
+            "xrefs": [
+                1414196
+            ]
+        },
+        {
+            "str": "サウンドテスト",
+            "blen": 14,
+            "memory_address": 35952720,
+            "rom_address": 1414512,
+            "xrefs": [
+                1414280
+            ]
+        },
+        {
+            "str": "ＢＧＭ再生： Ｘ\nＢＧＭ停止： Ｙ\n\n← 番号選択 →\nＳＥ再生： Ａ\nＳＥグループ読み替え： Ｂ",
+            "blen": 87,
+            "memory_address": 35952736,
+            "rom_address": 1414528,
+            "xrefs": [
+                1414284
+            ]
+        }
+    ]
+}

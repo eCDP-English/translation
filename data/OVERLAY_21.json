@@ -1,0 +1,260 @@
+{
+    "name": "OVERLAY_21",
+    "ram_loc": 35950816,
+    "file_loc": 1504256,
+    "length": 24032,
+    "strings": [
+        {
+            "str": "する",
+            "blen": 4,
+            "memory_address": 35972352,
+            "rom_address": 1525792,
+            "xrefs": [
+                1526384
+            ]
+        },
+        {
+            "str": "黄身を",
+            "blen": 6,
+            "memory_address": 35972360,
+            "rom_address": 1525800,
+            "xrefs": [
+                1526444
+            ]
+        },
+        {
+            "str": "卵を割る",
+            "blen": 8,
+            "memory_address": 35972368,
+            "rom_address": 1525808,
+            "xrefs": [
+                1526404
+            ]
+        },
+        {
+            "str": "保管する",
+            "blen": 8,
+            "memory_address": 35972380,
+            "rom_address": 1525820,
+            "xrefs": [
+                1526552
+            ]
+        },
+        {
+            "str": "ぬるま湯を",
+            "blen": 10,
+            "memory_address": 35972392,
+            "rom_address": 1525832,
+            "xrefs": [
+                1526468
+            ]
+        },
+        {
+            "str": "黄身を割る",
+            "blen": 10,
+            "memory_address": 35972404,
+            "rom_address": 1525844,
+            "xrefs": [
+                1526452
+            ]
+        },
+        {
+            "str": "準備します",
+            "blen": 10,
+            "memory_address": 35972416,
+            "rom_address": 1525856,
+            "xrefs": [
+                1526496
+            ]
+        },
+        {
+            "str": "手を拭きます",
+            "blen": 12,
+            "memory_address": 35972428,
+            "rom_address": 1525868,
+            "xrefs": [
+                1526420
+            ]
+        },
+        {
+            "str": "リムーブする",
+            "blen": 12,
+            "memory_address": 35972444,
+            "rom_address": 1525884,
+            "xrefs": [
+                1526528
+            ]
+        },
+        {
+            "str": "リングを上げて",
+            "blen": 14,
+            "memory_address": 35972460,
+            "rom_address": 1525900,
+            "xrefs": [
+                1526524
+            ]
+        },
+        {
+            "str": "パーで手を拭く",
+            "blen": 14,
+            "memory_address": 35972476,
+            "rom_address": 1525916,
+            "xrefs": [
+                1526432
+            ]
+        },
+        {
+            "str": "ＵＨＣに入れ、",
+            "blen": 14,
+            "memory_address": 35972492,
+            "rom_address": 1525932,
+            "xrefs": [
+                1526540
+            ]
+        },
+        {
+            "str": "カラを入れない",
+            "blen": 14,
+            "memory_address": 35972508,
+            "rom_address": 1525948,
+            "xrefs": [
+                1526396
+            ]
+        },
+        {
+            "str": "ツイストします",
+            "blen": 14,
+            "memory_address": 35972524,
+            "rom_address": 1525964,
+            "xrefs": [
+                1526448
+            ]
+        },
+        {
+            "str": "湯を入れながら",
+            "blen": 14,
+            "memory_address": 35972540,
+            "rom_address": 1525980,
+            "xrefs": [
+                1526476
+            ]
+        },
+        {
+            "str": "スイッチを押す",
+            "blen": 14,
+            "memory_address": 35972556,
+            "rom_address": 1525996,
+            "xrefs": [
+                1526480
+            ]
+        },
+        {
+            "str": "ＵＨＣトレーを",
+            "blen": 14,
+            "memory_address": 35972572,
+            "rom_address": 1526012,
+            "xrefs": [
+                1526492
+            ]
+        },
+        {
+            "str": "スプレーします",
+            "blen": 14,
+            "memory_address": 35972588,
+            "rom_address": 1526028,
+            "xrefs": [
+                1526376
+            ]
+        },
+        {
+            "str": "タイマーを押し",
+            "blen": 14,
+            "memory_address": 35972604,
+            "rom_address": 1526044,
+            "xrefs": [
+                1526548
+            ]
+        },
+        {
+            "str": "２〜３ショット",
+            "blen": 14,
+            "memory_address": 35972620,
+            "rom_address": 1526060,
+            "xrefs": [
+                1526372
+            ]
+        },
+        {
+            "str": "流れませんか？",
+            "blen": 14,
+            "memory_address": 35972636,
+            "rom_address": 1526076,
+            "xrefs": [
+                1526520
+            ]
+        },
+        {
+            "str": "抗菌ウェットワイ",
+            "blen": 16,
+            "memory_address": 35972652,
+            "rom_address": 1526092,
+            "xrefs": [
+                1526428
+            ]
+        },
+        {
+            "str": "使っていますか？",
+            "blen": 16,
+            "memory_address": 35972672,
+            "rom_address": 1526112,
+            "xrefs": [
+                1526472
+            ]
+        },
+        {
+            "str": "トレーを準備する",
+            "blen": 16,
+            "memory_address": 35972692,
+            "rom_address": 1526132,
+            "xrefs": [
+                1526500
+            ]
+        },
+        {
+            "str": "オイルをスプレー",
+            "blen": 16,
+            "memory_address": 35972712,
+            "rom_address": 1526152,
+            "xrefs": [
+                1526380
+            ]
+        },
+        {
+            "str": "タイマーを押します",
+            "blen": 18,
+            "memory_address": 35972732,
+            "rom_address": 1526172,
+            "xrefs": [
+                1526544
+            ]
+        },
+        {
+            "str": "黄身は火が通って、",
+            "blen": 18,
+            "memory_address": 35972752,
+            "rom_address": 1526192,
+            "xrefs": [
+                1526516
+            ]
+        },
+        {
+            "str": "ようにしてください",
+            "blen": 18,
+            "memory_address": 35972772,
+            "rom_address": 1526212,
+            "xrefs": [
+                1526400
+            ]
+        }
+    ]
+}

@@ -1,0 +1,233 @@
+{
+    "name": "OVERLAY_25",
+    "ram_loc": 35950816,
+    "file_loc": 1588736,
+    "length": 19264,
+    "strings": [
+        {
+            "str": "保管する",
+            "blen": 8,
+            "memory_address": 35968544,
+            "rom_address": 1606464,
+            "xrefs": [
+                1607532
+            ]
+        },
+        {
+            "str": "５〜１０秒、",
+            "blen": 12,
+            "memory_address": 35968556,
+            "rom_address": 1606476,
+            "xrefs": [
+                1607472
+            ]
+        },
+        {
+            "str": "リムーブする",
+            "blen": 12,
+            "memory_address": 35968572,
+            "rom_address": 1606492,
+            "xrefs": [
+                1607484
+            ]
+        },
+        {
+            "str": "トレーに移す",
+            "blen": 12,
+            "memory_address": 35968588,
+            "rom_address": 1606508,
+            "xrefs": [
+                1607504
+            ]
+        },
+        {
+            "str": "バットに入れ",
+            "blen": 12,
+            "memory_address": 35968604,
+            "rom_address": 1606524,
+            "xrefs": [
+                1607456
+            ]
+        },
+        {
+            "str": "ように注意して",
+            "blen": 14,
+            "memory_address": 35968620,
+            "rom_address": 1606540,
+            "xrefs": [
+                1607452
+            ]
+        },
+        {
+            "str": "スイッチを押す",
+            "blen": 14,
+            "memory_address": 35968636,
+            "rom_address": 1606556,
+            "xrefs": [
+                1607460
+            ]
+        },
+        {
+            "str": "バットの上では",
+            "blen": 14,
+            "memory_address": 35968652,
+            "rom_address": 1606572,
+            "xrefs": [
+                1607424
+            ]
+        },
+        {
+            "str": "トングを使って",
+            "blen": 14,
+            "memory_address": 35968668,
+            "rom_address": 1606588,
+            "xrefs": [
+                1607496
+            ]
+        },
+        {
+            "str": "行わないように",
+            "blen": 14,
+            "memory_address": 35968684,
+            "rom_address": 1606604,
+            "xrefs": [
+                1607428
+            ]
+        },
+        {
+            "str": "ホールディング",
+            "blen": 14,
+            "memory_address": 35968700,
+            "rom_address": 1606620,
+            "xrefs": [
+                1607520
+            ]
+        },
+        {
+            "str": "タイムは３０分",
+            "blen": 14,
+            "memory_address": 35968716,
+            "rom_address": 1606636,
+            "xrefs": [
+                1607524
+            ]
+        },
+        {
+            "str": "タイマーを押し",
+            "blen": 14,
+            "memory_address": 35968732,
+            "rom_address": 1606652,
+            "xrefs": [
+                1607528
+            ]
+        },
+        {
+            "str": "ガードをかける",
+            "blen": 14,
+            "memory_address": 35968748,
+            "rom_address": 1606668,
+            "xrefs": [
+                1607436
+            ]
+        },
+        {
+            "str": "バスケットに入れ",
+            "blen": 16,
+            "memory_address": 35968764,
+            "rom_address": 1606684,
+            "xrefs": [
+                1607432
+            ]
+        },
+        {
+            "str": "オイルがはねない",
+            "blen": 16,
+            "memory_address": 35968784,
+            "rom_address": 1606704,
+            "xrefs": [
+                1607448
+            ]
+        },
+        {
+            "str": "ブザーが鳴ったら",
+            "blen": 16,
+            "memory_address": 35968804,
+            "rom_address": 1606724,
+            "xrefs": [
+                1607480
+            ]
+        },
+        {
+            "str": "トレーに並べます",
+            "blen": 16,
+            "memory_address": 35968824,
+            "rom_address": 1606744,
+            "xrefs": [
+                1607500
+            ]
+        },
+        {
+            "str": "油をきってください",
+            "blen": 18,
+            "memory_address": 35968844,
+            "rom_address": 1606764,
+            "xrefs": [
+                1607476
+            ]
+        },
+        {
+            "str": "「早送り」を押して下さい",
+            "blen": 24,
+            "memory_address": 35968960,
+            "rom_address": 1606880,
+            "xrefs": [
+                1606448
+            ]
+        },
+        {
+            "str": "十字キー左ボタンを押して下さい",
+            "blen": 30,
+            "memory_address": 35968988,
+            "rom_address": 1606908,
+            "xrefs": [
+                1606452
+            ]
+        },
+        {
+            "str": "十字キー右ボタンを押して下さい",
+            "blen": 30,
+            "memory_address": 35969020,
+            "rom_address": 1606940,
+            "xrefs": [
+                1606456
+            ]
+        },
+        {
+            "str": "バスケットを右にスライドして下さい",
+            "blen": 34,
+            "memory_address": 35969052,
+            "rom_address": 1606972,
+            "xrefs": [
+                1606444
+            ]
+        },
+        {
+            "str": "バスケットを左にスライドして下さい",
+            "blen": 34,
+            "memory_address": 35969088,
+            "rom_address": 1607008,
+            "xrefs": [
+                1606440
+            ]
+        },
+        {
+            "str": "バスケットをタッチしたまま、５〜１０秒間待つ",
+            "blen": 44,
+            "memory_address": 35969164,
+            "rom_address": 1607084,
+            "xrefs": [
+                1606460
+            ]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "name": "OVERLAY_1",
+    "ram_loc": 35950816,
+    "file_loc": 875008,
+    "length": 28384,
+    "strings": [
+        {
+            "str": "マフィン",
+            "blen": 8,
+            "memory_address": 35978544,
+            "rom_address": 902736,
+            "xrefs": [
+                902916
+            ]
+        },
+        {
+            "str": "エッグマック",
+            "blen": 12,
+            "memory_address": 35978556,
+            "rom_address": 902748,
+            "xrefs": [
+                902912
+            ]
+        },
+        {
+            "str": "のアッセンブル",
+            "blen": 14,
+            "memory_address": 35978572,
+            "rom_address": 902764,
+            "xrefs": [
+                902908
+            ]
+        },
+        {
+            "str": "エッグマックマフィン",
+            "blen": 20,
+            "memory_address": 35978588,
+            "rom_address": 902780,
+            "xrefs": [
+                902904
+            ]
+        }
+    ]
+}

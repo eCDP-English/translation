@@ -1,0 +1,35 @@
+{
+    "name": "OVERLAY_18",
+    "ram_loc": 35950816,
+    "file_loc": 1447936,
+    "length": 2432,
+    "strings": [
+        {
+            "str": "もう一度受ける",
+            "blen": 14,
+            "memory_address": 35953096,
+            "rom_address": 1450216,
+            "xrefs": [
+                1448876
+            ]
+        },
+        {
+            "str": "終了",
+            "blen": 4,
+            "memory_address": 35953112,
+            "rom_address": 1450232,
+            "xrefs": [
+                1448880
+            ]
+        },
+        {
+            "str": "うーん、残念・・\neCDP を見直して\n再チャレンジしよう ！",
+            "blen": 54,
+            "memory_address": 35953164,
+            "rom_address": 1450284,
+            "xrefs": [
+                1448960
+            ]
+        }
+    ]
+}

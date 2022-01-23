@@ -1,0 +1,26 @@
+{
+    "name": "OVERLAY_14",
+    "ram_loc": 35950816,
+    "file_loc": 1414656,
+    "length": 3616,
+    "strings": [
+        {
+            "str": "テストする項目を\n選択してください。",
+            "blen": 35,
+            "memory_address": 35954332,
+            "rom_address": 1418172,
+            "xrefs": [
+                1415624
+            ]
+        },
+        {
+            "str": "１０問のテストに挑戦 ！",
+            "blen": 23,
+            "memory_address": 35954368,
+            "rom_address": 1418208,
+            "xrefs": [
+                1416268
+            ]
+        }
+    ]
+}

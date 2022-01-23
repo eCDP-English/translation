@@ -1,0 +1,143 @@
+{
+    "name": "OVERLAY_4",
+    "ram_loc": 35950816,
+    "file_loc": 955904,
+    "length": 134816,
+    "strings": [
+        {
+            "str": "うーん残念…マックシェイクを",
+            "blen": 28,
+            "memory_address": 36061440,
+            "rom_address": 1066528,
+            "xrefs": [
+                1056672
+            ]
+        },
+        {
+            "str": "１０問のクイズに挑戦！",
+            "blen": 22,
+            "memory_address": 36063492,
+            "rom_address": 1068580,
+            "xrefs": [
+                1045636
+            ]
+        },
+        {
+            "str": "クイズのコースを選んでください",
+            "blen": 30,
+            "memory_address": 36064764,
+            "rom_address": 1069852,
+            "xrefs": [
+                1054880
+            ]
+        },
+        {
+            "str": "マクドナルドの豆知識",
+            "blen": 20,
+            "memory_address": 36064796,
+            "rom_address": 1069884,
+            "xrefs": [
+                1054884
+            ]
+        },
+        {
+            "str": "フードセーフティに関するクイズ",
+            "blen": 30,
+            "memory_address": 36064820,
+            "rom_address": 1069908,
+            "xrefs": [
+                1054888
+            ]
+        },
+        {
+            "str": "１００点目指してがんばろう！",
+            "blen": 28,
+            "memory_address": 36064852,
+            "rom_address": 1069940,
+            "xrefs": [
+                1054892
+            ]
+        },
+        {
+            "str": "きみはいくつ正解できるかな？",
+            "blen": 28,
+            "memory_address": 36064884,
+            "rom_address": 1069972,
+            "xrefs": [
+                1054896
+            ]
+        },
+        {
+            "str": "安全",
+            "blen": 4,
+            "memory_address": 36066504,
+            "rom_address": 1071592,
+            "xrefs": [
+                1046348
+            ]
+        },
+        {
+            "str": "衛生",
+            "blen": 4,
+            "memory_address": 36067604,
+            "rom_address": 1072692,
+            "xrefs": [
+                1046336
+            ]
+        },
+        {
+            "str": "食中毒",
+            "blen": 6,
+            "memory_address": 36068904,
+            "rom_address": 1073992,
+            "xrefs": [
+                1046356
+            ]
+        },
+        {
+            "str": "市販されているチーズ",
+            "blen": 20,
+            "memory_address": 36070204,
+            "rom_address": 1075292,
+            "xrefs": [
+                1046332
+            ]
+        },
+        {
+            "str": "ＭｃＤ　オリジナルチーズ",
+            "blen": 24,
+            "memory_address": 36071804,
+            "rom_address": 1076892,
+            "xrefs": [
+                1046340
+            ]
+        },
+        {
+            "str": "専用牧場で製造したチーズ",
+            "blen": 24,
+            "memory_address": 36073404,
+            "rom_address": 1078492,
+            "xrefs": [
+                1046352
+            ]
+        },
+        {
+            "str": "マクドナルドでは、どんなチーズを使っているか？",
+            "blen": 46,
+            "memory_address": 36075104,
+            "rom_address": 1080192,
+            "xrefs": [
+                1056384
+            ]
+        },
+        {
+            "str": "食品を取り扱うときには、清潔と何に注意する必要があるか？",
+            "blen": 56,
+            "memory_address": 36079404,
+            "rom_address": 1084492,
+            "xrefs": [
+                1056392
+            ]
+        }
+    ]
+}

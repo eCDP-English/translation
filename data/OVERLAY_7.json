@@ -1,0 +1,404 @@
+{
+    "name": "OVERLAY_7",
+    "ram_loc": 35950816,
+    "file_loc": 1354752,
+    "length": 24832,
+    "strings": [
+        {
+            "str": "バンカート",
+            "blen": 10,
+            "memory_address": 35973556,
+            "rom_address": 1377492,
+            "xrefs": [
+                1377008
+            ]
+        },
+        {
+            "str": "ブレンダー",
+            "blen": 10,
+            "memory_address": 35973568,
+            "rom_address": 1377504,
+            "xrefs": [
+                1377116
+            ]
+        },
+        {
+            "str": "ワークテーブル",
+            "blen": 14,
+            "memory_address": 35973580,
+            "rom_address": 1377516,
+            "xrefs": [
+                1376984
+            ]
+        },
+        {
+            "str": "キャッシャーPOS",
+            "blen": 15,
+            "memory_address": 35973596,
+            "rom_address": 1377532,
+            "xrefs": [
+                1377128
+            ]
+        },
+        {
+            "str": "プレップテーブル",
+            "blen": 16,
+            "memory_address": 35973612,
+            "rom_address": 1377548,
+            "xrefs": [
+                1377032
+            ]
+        },
+        {
+            "str": "ポテトフリーザー",
+            "blen": 16,
+            "memory_address": 35973632,
+            "rom_address": 1377568,
+            "xrefs": [
+                1376912
+            ]
+        },
+        {
+            "str": "リーチイン冷凍庫",
+            "blen": 16,
+            "memory_address": 35973652,
+            "rom_address": 1377588,
+            "xrefs": [
+                1376924
+            ]
+        },
+        {
+            "str": "クラムシェルグリル",
+            "blen": 18,
+            "memory_address": 35973672,
+            "rom_address": 1377608,
+            "xrefs": [
+                1377080
+            ]
+        },
+        {
+            "str": "センターアイランド",
+            "blen": 18,
+            "memory_address": 35973712,
+            "rom_address": 1377648,
+            "xrefs": [
+                1377140
+            ]
+        },
+        {
+            "str": "マフィントースター",
+            "blen": 18,
+            "memory_address": 35973732,
+            "rom_address": 1377668,
+            "xrefs": [
+                1377056
+            ]
+        },
+        {
+            "str": "バギングステーション",
+            "blen": 20,
+            "memory_address": 35973752,
+            "rom_address": 1377688,
+            "xrefs": [
+                1376960
+            ]
+        },
+        {
+            "str": "グリルサイドフリーザー",
+            "blen": 22,
+            "memory_address": 35973776,
+            "rom_address": 1377712,
+            "xrefs": [
+                1377092
+            ]
+        },
+        {
+            "str": "シェイクマシーン（C602）",
+            "blen": 24,
+            "memory_address": 35973800,
+            "rom_address": 1377736,
+            "xrefs": [
+                1377104
+            ]
+        },
+        {
+            "str": "フライヤー１\n（ポテト用）",
+            "blen": 25,
+            "memory_address": 35973828,
+            "rom_address": 1377764,
+            "xrefs": [
+                1376936
+            ]
+        },
+        {
+            "str": "フライヤー２\n（ナゲット用）",
+            "blen": 27,
+            "memory_address": 35973856,
+            "rom_address": 1377792,
+            "xrefs": [
+                1376948
+            ]
+        },
+        {
+            "str": "アーチフライ\nディスペンサー",
+            "blen": 27,
+            "memory_address": 35973884,
+            "rom_address": 1377820,
+            "xrefs": [
+                1376972
+            ]
+        },
+        {
+            "str": "エッグクッカー\n（エッグテーブル）",
+            "blen": 33,
+            "memory_address": 35973912,
+            "rom_address": 1377848,
+            "xrefs": [
+                1377068
+            ]
+        },
+        {
+            "str": "ラピッドトースター\n（ラピッドスチーマー）",
+            "blen": 41,
+            "memory_address": 35973948,
+            "rom_address": 1377884,
+            "xrefs": [
+                1377020
+            ]
+        },
+        {
+            "str": "本バージョンでは変更は反映されません",
+            "blen": 36,
+            "memory_address": 35974312,
+            "rom_address": 1378248,
+            "xrefs": [
+                1362012
+            ]
+        },
+        {
+            "str": "選択した機材を\n配置 ・ 回転 ・ 削除\nしてください。",
+            "blen": 50,
+            "memory_address": 35974352,
+            "rom_address": 1378288,
+            "xrefs": [
+                1362020
+            ]
+        },
+        {
+            "str": "ロードしました。",
+            "blen": 16,
+            "memory_address": 35974532,
+            "rom_address": 1378468,
+            "xrefs": [
+                1372200
+            ]
+        },
+        {
+            "str": "ロードに失敗しました。",
+            "blen": 22,
+            "memory_address": 35974552,
+            "rom_address": 1378488,
+            "xrefs": [
+                1372204
+            ]
+        },
+        {
+            "str": "セーブしました。",
+            "blen": 16,
+            "memory_address": 35974576,
+            "rom_address": 1378512,
+            "xrefs": [
+                1372208
+            ]
+        },
+        {
+            "str": "セーブに失敗しました。",
+            "blen": 22,
+            "memory_address": 35974596,
+            "rom_address": 1378532,
+            "xrefs": [
+                1372212
+            ]
+        },
+        {
+            "str": "クリアしました。",
+            "blen": 16,
+            "memory_address": 35974620,
+            "rom_address": 1378556,
+            "xrefs": [
+                1372216
+            ]
+        },
+        {
+            "str": "クリアに失敗しました。",
+            "blen": 22,
+            "memory_address": 35974640,
+            "rom_address": 1378576,
+            "xrefs": [
+                1372220
+            ]
+        },
+        {
+            "str": "デフォルトに戻しました。",
+            "blen": 24,
+            "memory_address": 35974664,
+            "rom_address": 1378600,
+            "xrefs": [
+                1372224
+            ]
+        },
+        {
+            "str": "デフォルトに戻すのに失敗しました。",
+            "blen": 34,
+            "memory_address": 35974692,
+            "rom_address": 1378628,
+            "xrefs": [
+                1372228
+            ]
+        },
+        {
+            "str": "セーブが完了しました。",
+            "blen": 22,
+            "memory_address": 35974728,
+            "rom_address": 1378664,
+            "xrefs": [
+                1372232
+            ]
+        },
+        {
+            "str": "セーブに失敗しました。\n再度セーブを行いますか？",
+            "blen": 47,
+            "memory_address": 35974752,
+            "rom_address": 1378688,
+            "xrefs": [
+                1372236
+            ]
+        },
+        {
+            "str": "項目を選択してください。",
+            "blen": 24,
+            "memory_address": 35974800,
+            "rom_address": 1378736,
+            "xrefs": [
+                1372396
+            ]
+        },
+        {
+            "str": "機材の配置に変更がありました。\n現在の配置をセーブしますか？",
+            "blen": 59,
+            "memory_address": 35974828,
+            "rom_address": 1378764,
+            "xrefs": [
+                1372400
+            ]
+        },
+        {
+            "str": "データのセーブ ・ ロード\n配置した機材を全て消去 ・ \n機材の配置を初期状態に戻します。",
+            "blen": 84,
+            "memory_address": 35974888,
+            "rom_address": 1378824,
+            "xrefs": [
+                1373076
+            ]
+        },
+        {
+            "str": "機材配置をロードする",
+            "blen": 20,
+            "memory_address": 35974976,
+            "rom_address": 1378912,
+            "xrefs": [
+                1373212
+            ]
+        },
+        {
+            "str": "機材配置をセーブする",
+            "blen": 20,
+            "memory_address": 35975000,
+            "rom_address": 1378936,
+            "xrefs": [
+                1373216
+            ]
+        },
+        {
+            "str": "機材配置をクリアする",
+            "blen": 20,
+            "memory_address": 35975024,
+            "rom_address": 1378960,
+            "xrefs": [
+                1373220
+            ]
+        },
+        {
+            "str": "デフォルトに戻す",
+            "blen": 16,
+            "memory_address": 35975048,
+            "rom_address": 1378984,
+            "xrefs": [
+                1373224
+            ]
+        },
+        {
+            "str": "はい",
+            "blen": 4,
+            "memory_address": 35975068,
+            "rom_address": 1379004,
+            "xrefs": [
+                1373228
+            ]
+        },
+        {
+            "str": "いいえ",
+            "blen": 6,
+            "memory_address": 35975076,
+            "rom_address": 1379012,
+            "xrefs": [
+                1373232
+            ]
+        },
+        {
+            "str": "設定を保存しました。",
+            "blen": 20,
+            "memory_address": 35975416,
+            "rom_address": 1379352,
+            "xrefs": [
+                1374844
+            ]
+        },
+        {
+            "str": "「プレップの進行方向」\n「バギングステーションの向き」\n「アーチフライディスペンサーの有無」\nを設定してください",
+            "blen": 109,
+            "memory_address": 35975440,
+            "rom_address": 1379376,
+            "xrefs": [
+                1376056
+            ]
+        },
+        {
+            "str": "プレップの進行方向",
+            "blen": 18,
+            "memory_address": 35975552,
+            "rom_address": 1379488,
+            "xrefs": [
+                1376128
+            ]
+        },
+        {
+            "str": "バギングステーションの向き",
+            "blen": 26,
+            "memory_address": 35975572,
+            "rom_address": 1379508,
+            "xrefs": [
+                1376132
+            ]
+        },
+        {
+            "str": "アーチフライディスペンサー",
+            "blen": 26,
+            "memory_address": 35975600,
+            "rom_address": 1379536,
+            "xrefs": [
+                1376136
+            ]
+        }
+    ]
+}

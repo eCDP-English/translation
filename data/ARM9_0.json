@@ -1,0 +1,1088 @@
+{
+    "name": "ARM9_0",
+    "ram_loc": 33554432,
+    "file_loc": 16384,
+    "length": 810528,
+    "strings": [
+        {
+            "str": "００００００",
+            "blen": 12,
+            "memory_address": 34312660,
+            "rom_address": 774612,
+            "xrefs": [
+                137736
+            ]
+        },
+        {
+            "str": "SOCチェック合格数",
+            "blen": 17,
+            "memory_address": 34312684,
+            "rom_address": 774636,
+            "xrefs": [
+                140592
+            ]
+        },
+        {
+            "str": "総得点",
+            "blen": 6,
+            "memory_address": 34312704,
+            "rom_address": 774656,
+            "xrefs": [
+                140596
+            ]
+        },
+        {
+            "str": "未登録",
+            "blen": 6,
+            "memory_address": 34312724,
+            "rom_address": 774676,
+            "xrefs": [
+                140608
+            ]
+        },
+        {
+            "str": "SOCチェック合格数",
+            "blen": 17,
+            "memory_address": 34312740,
+            "rom_address": 774692,
+            "xrefs": [
+                140620
+            ]
+        },
+        {
+            "str": "総得点",
+            "blen": 6,
+            "memory_address": 34312760,
+            "rom_address": 774712,
+            "xrefs": [
+                140624
+            ]
+        },
+        {
+            "str": "エッグ",
+            "blen": 6,
+            "memory_address": 34332444,
+            "rom_address": 794396,
+            "xrefs": [
+                795648
+            ]
+        },
+        {
+            "str": "テイクオフ",
+            "blen": 10,
+            "memory_address": 34332452,
+            "rom_address": 794404,
+            "xrefs": [
+                795596
+            ]
+        },
+        {
+            "str": "４：１パティ",
+            "blen": 12,
+            "memory_address": 34332464,
+            "rom_address": 794416,
+            "xrefs": [
+                795668
+            ]
+        },
+        {
+            "str": "ビッグマック",
+            "blen": 12,
+            "memory_address": 34332480,
+            "rom_address": 794432,
+            "xrefs": [
+                795684
+            ]
+        },
+        {
+            "str": "ロット＆ロビー",
+            "blen": 14,
+            "memory_address": 34332496,
+            "rom_address": 794448,
+            "xrefs": [
+                795644
+            ]
+        },
+        {
+            "str": "ロット＆ロビー",
+            "blen": 14,
+            "memory_address": 34332512,
+            "rom_address": 794464,
+            "xrefs": [
+                795592
+            ]
+        },
+        {
+            "str": "ハッシュポテト",
+            "blen": 14,
+            "memory_address": 34332528,
+            "rom_address": 794480,
+            "xrefs": [
+                795640
+            ]
+        },
+        {
+            "str": "ロット＆ロビー",
+            "blen": 14,
+            "memory_address": 34332544,
+            "rom_address": 794496,
+            "xrefs": [
+                795548
+            ]
+        },
+        {
+            "str": "チーズバーガー",
+            "blen": 14,
+            "memory_address": 34332560,
+            "rom_address": 794512,
+            "xrefs": [
+                795680
+            ]
+        },
+        {
+            "str": "ドライブスルー",
+            "blen": 14,
+            "memory_address": 34332576,
+            "rom_address": 794528,
+            "xrefs": [
+                795632
+            ]
+        },
+        {
+            "str": "ドライブスルー",
+            "blen": 14,
+            "memory_address": 34332592,
+            "rom_address": 794544,
+            "xrefs": [
+                795536
+            ]
+        },
+        {
+            "str": "ロット＆ロビー",
+            "blen": 14,
+            "memory_address": 34332608,
+            "rom_address": 794560,
+            "xrefs": [
+                795500
+            ]
+        },
+        {
+            "str": "ドライブスルー",
+            "blen": 14,
+            "memory_address": 34332624,
+            "rom_address": 794576,
+            "xrefs": [
+                795584
+            ]
+        },
+        {
+            "str": "ドライブスルー",
+            "blen": 14,
+            "memory_address": 34332640,
+            "rom_address": 794592,
+            "xrefs": [
+                795712
+            ]
+        },
+        {
+            "str": "てりやきパティ",
+            "blen": 14,
+            "memory_address": 34332656,
+            "rom_address": 794608,
+            "xrefs": [
+                795672
+            ]
+        },
+        {
+            "str": "ハッシュポテト",
+            "blen": 14,
+            "memory_address": 34332672,
+            "rom_address": 794624,
+            "xrefs": [
+                795544
+            ]
+        },
+        {
+            "str": "１０：１パティ",
+            "blen": 14,
+            "memory_address": 34332688,
+            "rom_address": 794640,
+            "xrefs": [
+                795664
+            ]
+        },
+        {
+            "str": "グリルプロダクト",
+            "blen": 16,
+            "memory_address": 34332704,
+            "rom_address": 794656,
+            "xrefs": [
+                795564
+            ]
+        },
+        {
+            "str": "グリルプロダクト",
+            "blen": 16,
+            "memory_address": 34332724,
+            "rom_address": 794676,
+            "xrefs": [
+                795612
+            ]
+        },
+        {
+            "str": "フライプロダクト",
+            "blen": 16,
+            "memory_address": 34332744,
+            "rom_address": 794696,
+            "xrefs": [
+                795624
+            ]
+        },
+        {
+            "str": "フードセーフティ",
+            "blen": 16,
+            "memory_address": 34332764,
+            "rom_address": 794716,
+            "xrefs": [
+                795504
+            ]
+        },
+        {
+            "str": "フードセーフティ",
+            "blen": 16,
+            "memory_address": 34332784,
+            "rom_address": 794736,
+            "xrefs": [
+                795600
+            ]
+        },
+        {
+            "str": "グリルプロダクト",
+            "blen": 16,
+            "memory_address": 34332804,
+            "rom_address": 794756,
+            "xrefs": [
+                795516
+            ]
+        },
+        {
+            "str": "フードセーフティ",
+            "blen": 16,
+            "memory_address": 34332824,
+            "rom_address": 794776,
+            "xrefs": [
+                795552
+            ]
+        },
+        {
+            "str": "ソーセージパティ",
+            "blen": 16,
+            "memory_address": 34332844,
+            "rom_address": 794796,
+            "xrefs": [
+                795656
+            ]
+        },
+        {
+            "str": "フライプロダクト",
+            "blen": 16,
+            "memory_address": 34332864,
+            "rom_address": 794816,
+            "xrefs": [
+                795528
+            ]
+        },
+        {
+            "str": "フライプロダクト",
+            "blen": 16,
+            "memory_address": 34332884,
+            "rom_address": 794836,
+            "xrefs": [
+                795576
+            ]
+        },
+        {
+            "str": "マックフライポテト",
+            "blen": 18,
+            "memory_address": 34332904,
+            "rom_address": 794856,
+            "xrefs": [
+                795588
+            ]
+        },
+        {
+            "str": "フロントカウンター",
+            "blen": 18,
+            "memory_address": 34332924,
+            "rom_address": 794876,
+            "xrefs": [
+                795580
+            ]
+        },
+        {
+            "str": "アッセンブル（BF）",
+            "blen": 18,
+            "memory_address": 34332944,
+            "rom_address": 794896,
+            "xrefs": [
+                795568
+            ]
+        },
+        {
+            "str": "アッセンブル（BF）",
+            "blen": 18,
+            "memory_address": 34332964,
+            "rom_address": 794916,
+            "xrefs": [
+                795616
+            ]
+        },
+        {
+            "str": "フロントカウンター",
+            "blen": 18,
+            "memory_address": 34332984,
+            "rom_address": 794936,
+            "xrefs": [
+                795628
+            ]
+        },
+        {
+            "str": "マックフライポテト",
+            "blen": 18,
+            "memory_address": 34333004,
+            "rom_address": 794956,
+            "xrefs": [
+                795496
+            ]
+        },
+        {
+            "str": "アッセンブル（BF）",
+            "blen": 18,
+            "memory_address": 34333024,
+            "rom_address": 794976,
+            "xrefs": [
+                795520
+            ]
+        },
+        {
+            "str": "マックフライポテト",
+            "blen": 18,
+            "memory_address": 34333044,
+            "rom_address": 794996,
+            "xrefs": [
+                795540
+            ]
+        },
+        {
+            "str": "フロントカウンター",
+            "blen": 18,
+            "memory_address": 34333064,
+            "rom_address": 795016,
+            "xrefs": [
+                795532
+            ]
+        },
+        {
+            "str": "フィレオフィッシュ",
+            "blen": 18,
+            "memory_address": 34333084,
+            "rom_address": 795036,
+            "xrefs": [
+                795700
+            ]
+        },
+        {
+            "str": "マックフライポテト",
+            "blen": 18,
+            "memory_address": 34333104,
+            "rom_address": 795056,
+            "xrefs": [
+                795636
+            ]
+        },
+        {
+            "str": "フロントカウンター",
+            "blen": 18,
+            "memory_address": 34333124,
+            "rom_address": 795076,
+            "xrefs": [
+                795708
+            ]
+        },
+        {
+            "str": "アッセンブル（DAY）",
+            "blen": 19,
+            "memory_address": 34333144,
+            "rom_address": 795096,
+            "xrefs": [
+                795620
+            ]
+        },
+        {
+            "str": "アッセンブル（DAY）",
+            "blen": 19,
+            "memory_address": 34333164,
+            "rom_address": 795116,
+            "xrefs": [
+                795572
+            ]
+        },
+        {
+            "str": "アッセンブル（DAY）",
+            "blen": 19,
+            "memory_address": 34333184,
+            "rom_address": 795136,
+            "xrefs": [
+                795524
+            ]
+        },
+        {
+            "str": "カナディアンベーコン",
+            "blen": 20,
+            "memory_address": 34333204,
+            "rom_address": 795156,
+            "xrefs": [
+                795660
+            ]
+        },
+        {
+            "str": "エッグマックマフィン",
+            "blen": 20,
+            "memory_address": 34333228,
+            "rom_address": 795180,
+            "xrefs": [
+                795676
+            ]
+        },
+        {
+            "str": "クォーターパウンダー",
+            "blen": 20,
+            "memory_address": 34333252,
+            "rom_address": 795204,
+            "xrefs": [
+                795688
+            ]
+        },
+        {
+            "str": "フィッシュポーション",
+            "blen": 20,
+            "memory_address": 34333276,
+            "rom_address": 795228,
+            "xrefs": [
+                795704
+            ]
+        },
+        {
+            "str": "イングリッシュマフィン",
+            "blen": 22,
+            "memory_address": 34333300,
+            "rom_address": 795252,
+            "xrefs": [
+                795652
+            ]
+        },
+        {
+            "str": "てりやきマックバーガー",
+            "blen": 22,
+            "memory_address": 34333324,
+            "rom_address": 795276,
+            "xrefs": [
+                795696
+            ]
+        },
+        {
+            "str": "ブレックファーストミート",
+            "blen": 24,
+            "memory_address": 34333348,
+            "rom_address": 795300,
+            "xrefs": [
+                795608
+            ]
+        },
+        {
+            "str": "ブレックファーストミート",
+            "blen": 24,
+            "memory_address": 34333376,
+            "rom_address": 795328,
+            "xrefs": [
+                795512
+            ]
+        },
+        {
+            "str": "ブレックファーストミート",
+            "blen": 24,
+            "memory_address": 34333404,
+            "rom_address": 795356,
+            "xrefs": [
+                795560
+            ]
+        },
+        {
+            "str": "ブレックファーストストック",
+            "blen": 26,
+            "memory_address": 34333432,
+            "rom_address": 795384,
+            "xrefs": [
+                795604
+            ]
+        },
+        {
+            "str": "ブレックファーストストック",
+            "blen": 26,
+            "memory_address": 34333460,
+            "rom_address": 795412,
+            "xrefs": [
+                795508
+            ]
+        },
+        {
+            "str": "ダブルクォーターパウンダー",
+            "blen": 26,
+            "memory_address": 34333488,
+            "rom_address": 795440,
+            "xrefs": [
+                795692
+            ]
+        },
+        {
+            "str": "ブレックファーストストック",
+            "blen": 26,
+            "memory_address": 34333516,
+            "rom_address": 795468,
+            "xrefs": [
+                795556
+            ]
+        },
+        {
+            "str": "「ＳＴＡＲＴ！」をタッチして",
+            "blen": 28,
+            "memory_address": 34334952,
+            "rom_address": 796904,
+            "xrefs": [
+                526852
+            ]
+        },
+        {
+            "str": "始めましょう",
+            "blen": 12,
+            "memory_address": 34334984,
+            "rom_address": 796936,
+            "xrefs": [
+                526856
+            ]
+        },
+        {
+            "str": "イングリッシュ\nマフィン",
+            "blen": 23,
+            "memory_address": 34335000,
+            "rom_address": 796952,
+            "xrefs": [
+                526864
+            ]
+        },
+        {
+            "str": "ダブル\nクォーターパウンダー",
+            "blen": 27,
+            "memory_address": 34335024,
+            "rom_address": 796976,
+            "xrefs": [
+                526868
+            ]
+        },
+        {
+            "str": "てりやき\nマックバーガー",
+            "blen": 23,
+            "memory_address": 34335052,
+            "rom_address": 797004,
+            "xrefs": [
+                526872
+            ]
+        },
+        {
+            "str": "バンカート",
+            "blen": 10,
+            "memory_address": 34335384,
+            "rom_address": 797336,
+            "xrefs": [
+                800620
+            ]
+        },
+        {
+            "str": "バンカート",
+            "blen": 10,
+            "memory_address": 34335396,
+            "rom_address": 797348,
+            "xrefs": [
+                800608
+            ]
+        },
+        {
+            "str": "ワークテーブル",
+            "blen": 14,
+            "memory_address": 34335408,
+            "rom_address": 797360,
+            "xrefs": [
+                800704
+            ]
+        },
+        {
+            "str": "プレップテーブル",
+            "blen": 16,
+            "memory_address": 34335424,
+            "rom_address": 797376,
+            "xrefs": [
+                800632
+            ]
+        },
+        {
+            "str": "プレップテーブル",
+            "blen": 16,
+            "memory_address": 34335444,
+            "rom_address": 797396,
+            "xrefs": [
+                800644
+            ]
+        },
+        {
+            "str": "プレップテーブル",
+            "blen": 16,
+            "memory_address": 34335464,
+            "rom_address": 797416,
+            "xrefs": [
+                800668
+            ]
+        },
+        {
+            "str": "プレップテーブル",
+            "blen": 16,
+            "memory_address": 34335484,
+            "rom_address": 797436,
+            "xrefs": [
+                800656
+            ]
+        },
+        {
+            "str": "ップテーブル",
+            "blen": 12,
+            "memory_address": 34335488,
+            "rom_address": 797440,
+            "xrefs": [
+                178090
+            ]
+        },
+        {
+            "str": "リーチイン冷凍庫",
+            "blen": 16,
+            "memory_address": 34335504,
+            "rom_address": 797456,
+            "xrefs": [
+                800692
+            ]
+        },
+        {
+            "str": "ポテトフリーザー",
+            "blen": 16,
+            "memory_address": 34335524,
+            "rom_address": 797476,
+            "xrefs": [
+                800368
+            ]
+        },
+        {
+            "str": "クラムシェルグリル",
+            "blen": 18,
+            "memory_address": 34335544,
+            "rom_address": 797496,
+            "xrefs": [
+                800524
+            ]
+        },
+        {
+            "str": "マフィントースター",
+            "blen": 18,
+            "memory_address": 34335564,
+            "rom_address": 797516,
+            "xrefs": [
+                800500
+            ]
+        },
+        {
+            "str": "バギングステーション",
+            "blen": 20,
+            "memory_address": 34335744,
+            "rom_address": 797696,
+            "xrefs": [
+                800428
+            ]
+        },
+        {
+            "str": "バギングステーション",
+            "blen": 20,
+            "memory_address": 34335768,
+            "rom_address": 797720,
+            "xrefs": [
+                800416
+            ]
+        },
+        {
+            "str": "グリルサイドフリーザー",
+            "blen": 22,
+            "memory_address": 34338120,
+            "rom_address": 800072,
+            "xrefs": [
+                800512
+            ]
+        },
+        {
+            "str": "フライヤー１\n（ポテト用）",
+            "blen": 25,
+            "memory_address": 34338144,
+            "rom_address": 800096,
+            "xrefs": [
+                800380
+            ]
+        },
+        {
+            "str": "フライヤー１\n（ポテト用）",
+            "blen": 25,
+            "memory_address": 34338172,
+            "rom_address": 800124,
+            "xrefs": [
+                800392
+            ]
+        },
+        {
+            "str": "フライヤー２\n（ナゲット用）",
+            "blen": 27,
+            "memory_address": 34338200,
+            "rom_address": 800152,
+            "xrefs": [
+                800716
+            ]
+        },
+        {
+            "str": "アーチフライ\nディスペンサー",
+            "blen": 27,
+            "memory_address": 34338228,
+            "rom_address": 800180,
+            "xrefs": [
+                800404
+            ]
+        },
+        {
+            "str": "フライヤー２\n（ナゲット用）",
+            "blen": 27,
+            "memory_address": 34338256,
+            "rom_address": 800208,
+            "xrefs": [
+                800728
+            ]
+        },
+        {
+            "str": "エッグクッカー\n（エッグテーブル）",
+            "blen": 33,
+            "memory_address": 34338316,
+            "rom_address": 800268,
+            "xrefs": [
+                800440
+            ]
+        },
+        {
+            "str": "ラピッドトースター\n（ラピッドスチーマー）",
+            "blen": 41,
+            "memory_address": 34338352,
+            "rom_address": 800304,
+            "xrefs": [
+                800680
+            ]
+        },
+        {
+            "str": "はい。",
+            "blen": 6,
+            "memory_address": 34339284,
+            "rom_address": 801236,
+            "xrefs": [
+                687260
+            ]
+        },
+        {
+            "str": "はい。",
+            "blen": 6,
+            "memory_address": 34339292,
+            "rom_address": 801244,
+            "xrefs": [
+                687188
+            ]
+        },
+        {
+            "str": "はい。",
+            "blen": 6,
+            "memory_address": 34339300,
+            "rom_address": 801252,
+            "xrefs": [
+                686844
+            ]
+        },
+        {
+            "str": "挨拶しましょう",
+            "blen": 14,
+            "memory_address": 34339308,
+            "rom_address": 801260,
+            "xrefs": [
+                687132
+            ]
+        },
+        {
+            "str": "挨拶しましょう",
+            "blen": 14,
+            "memory_address": 34339324,
+            "rom_address": 801276,
+            "xrefs": [
+                686732
+            ]
+        },
+        {
+            "str": "注文を承りましょう",
+            "blen": 18,
+            "memory_address": 34339340,
+            "rom_address": 801292,
+            "xrefs": [
+                686772
+            ]
+        },
+        {
+            "str": "注文を承りましょう",
+            "blen": 18,
+            "memory_address": 34339360,
+            "rom_address": 801312,
+            "xrefs": [
+                687172
+            ]
+        },
+        {
+            "str": "少々お待ちください。",
+            "blen": 20,
+            "memory_address": 34339380,
+            "rom_address": 801332,
+            "xrefs": [
+                687348
+            ]
+        },
+        {
+            "str": "お待たせ致しました。",
+            "blen": 20,
+            "memory_address": 34339404,
+            "rom_address": 801356,
+            "xrefs": [
+                687060
+            ]
+        },
+        {
+            "str": "商品を手渡しましょう",
+            "blen": 20,
+            "memory_address": 34339428,
+            "rom_address": 801380,
+            "xrefs": [
+                686636
+            ]
+        },
+        {
+            "str": "お待たせ致しました。",
+            "blen": 20,
+            "memory_address": 34339452,
+            "rom_address": 801404,
+            "xrefs": [
+                686660
+            ]
+        },
+        {
+            "str": "商品を手渡しましょう",
+            "blen": 20,
+            "memory_address": 34339476,
+            "rom_address": 801428,
+            "xrefs": [
+                687044
+            ]
+        },
+        {
+            "str": "代金を受け取りましょう",
+            "blen": 22,
+            "memory_address": 34339500,
+            "rom_address": 801452,
+            "xrefs": [
+                686932
+            ]
+        },
+        {
+            "str": "ご注文をお伺いします。",
+            "blen": 22,
+            "memory_address": 34339524,
+            "rom_address": 801476,
+            "xrefs": [
+                687212
+            ]
+        },
+        {
+            "str": "注文を取り揃えましょう",
+            "blen": 22,
+            "memory_address": 34339548,
+            "rom_address": 801500,
+            "xrefs": [
+                686860
+            ]
+        },
+        {
+            "str": "ご注文をお伺いします。",
+            "blen": 22,
+            "memory_address": 34339572,
+            "rom_address": 801524,
+            "xrefs": [
+                686796
+            ]
+        },
+        {
+            "str": "代金を受け取りましょう",
+            "blen": 22,
+            "memory_address": 34339596,
+            "rom_address": 801548,
+            "xrefs": [
+                687276
+            ]
+        },
+        {
+            "str": "注文を取り揃えましょう",
+            "blen": 22,
+            "memory_address": 34339620,
+            "rom_address": 801572,
+            "xrefs": [
+                687364
+            ]
+        },
+        {
+            "str": "お車、前にお進みください。",
+            "blen": 26,
+            "memory_address": 34339644,
+            "rom_address": 801596,
+            "xrefs": [
+                686884
+            ]
+        },
+        {
+            "str": "感謝の言葉で挨拶しま\nしょう",
+            "blen": 27,
+            "memory_address": 34339672,
+            "rom_address": 801624,
+            "xrefs": [
+                686684
+            ]
+        },
+        {
+            "str": "感謝の言葉で挨拶しま\nしょう",
+            "blen": 27,
+            "memory_address": 34339700,
+            "rom_address": 801652,
+            "xrefs": [
+                687092
+            ]
+        },
+        {
+            "str": "お会計は○○円になり\nます。",
+            "blen": 27,
+            "memory_address": 34339728,
+            "rom_address": 801680,
+            "xrefs": [
+                687300
+            ]
+        },
+        {
+            "str": "お会計は○○円に\nなります。",
+            "blen": 27,
+            "memory_address": 34339756,
+            "rom_address": 801708,
+            "xrefs": [
+                686980
+            ]
+        },
+        {
+            "str": "いらっしゃいませ、\nこんにちは。",
+            "blen": 31,
+            "memory_address": 34339812,
+            "rom_address": 801764,
+            "xrefs": [
+                686948
+            ]
+        },
+        {
+            "str": "いらっしゃいませ、\nこんにちは！！",
+            "blen": 33,
+            "memory_address": 34339844,
+            "rom_address": 801796,
+            "xrefs": [
+                686756
+            ]
+        },
+        {
+            "str": "ご注文は以上でよろしい\nでしょうか？",
+            "blen": 35,
+            "memory_address": 34339880,
+            "rom_address": 801832,
+            "xrefs": [
+                687244
+            ]
+        },
+        {
+            "str": "ご注文は以上で\nよろしいでしょうか？",
+            "blen": 35,
+            "memory_address": 34339916,
+            "rom_address": 801868,
+            "xrefs": [
+                686828
+            ]
+        },
+        {
+            "str": "ありがとうございました。\nまたお越しくださいませ。",
+            "blen": 49,
+            "memory_address": 34339952,
+            "rom_address": 801904,
+            "xrefs": [
+                687108
+            ]
+        },
+        {
+            "str": "ビッグマック、ポテトＭ、\nコカ・コーラＭをください。",
+            "blen": 51,
+            "memory_address": 34340004,
+            "rom_address": 801956,
+            "xrefs": [
+                687228
+            ]
+        },
+        {
+            "str": "ビッグマック、ポテトＭ、\nコカ・コーラＭをください。",
+            "blen": 51,
+            "memory_address": 34340056,
+            "rom_address": 802008,
+            "xrefs": [
+                686812
+            ]
+        },
+        {
+            "str": "ありがとうございました。\nごゆっくりお召し上がりく\nださいませ。",
+            "blen": 62,
+            "memory_address": 34340108,
+            "rom_address": 802060,
+            "xrefs": [
+                686708
+            ]
+        },
+        {
+            "str": "いらっしゃいませ、こん\nにちは！　店内でお召し上\nがりでしょうか？",
+            "blen": 64,
+            "memory_address": 34340172,
+            "rom_address": 802124,
+            "xrefs": [
+                687156
+            ]
+        }
+    ]
+}
