@@ -4,14 +4,21 @@ import json
 import struct
 import hashlib
 import random
+import sys
 #import ndspy.rom
 #import ndspy.code
 
-ROM_NAME = "ecdp"
-LANG = "en"
+from config import *
 
+if len(sys.argv) >= 2:
+	ROM_NAME = sys.argv[1]
+	ROM_NAME = ROM_NAME.replace(".nds", "")
+	ROM_NAME = ROM_NAME.replace(".NDS", "")
+	
 rom_data = bytearray(open(ROM_NAME+".nds", "rb").read())
-json_names = []
+sections = []
+
+relocated_text = []
 
 def find_all(data, to_find):
 	addresses = []
@@ -57,8 +64,8 @@ def find_areas_with_zeros(section):
 
 def find_free_area(section, size):
 
-	if not section["name"] == json_names[0]["name"]: # First search in section 0! 
-		location_in_arm9 = find_free_area(json_names[0], size)
+	if not section["name"] == sections[0]["name"]: # First search in section 0! 
+		location_in_arm9 = find_free_area(sections[0], size)
 		if not location_in_arm9 == None:
 			return location_in_arm9
 
@@ -93,33 +100,58 @@ def find_free_area(section, size):
 
 
 
-def apply_mods(name):
-	section = json.loads(open("data/" + name, "rb").read())
-	text = json.loads(open("text_" + LANG + "/" + name, "rb").read())
-
+def apply_mods(section):
 	for string in section["strings"]:
-		old_text = string["str"]
-		old_blen = string["blen"]
-		rom_addr = string["rom_address"]
-		mem_addr = string["memory_address"]
-		xrefs = string["xrefs"]
-		new_text = text[str(rom_addr)]
+		if string["mod"] == None:
+			continue
+		else:
+			old_text = string["str"]
+			new_text = string["mod"]
+			old_blen = string["blen"]
+			rom_addr = string["rom_address"]
+			mem_addr = string["memory_address"]
+			xrefs = string["xrefs"]
 			
-		og_bytes = rom_data[rom_addr:rom_addr+old_blen]
-		
-		if old_text != new_text:
-			text_sjis = new_text.encode("SHIFT_JIS")
+			og_bytes = rom_data[rom_addr:rom_addr+old_blen]
+			
+			if not IGNORE_MD5:
+				md5_hash = string["md5"]
+				hstr = hashlib.md5(og_bytes).hexdigest()[:8]
+				
+				if not hstr == md5_hash:
+					print(old_text + " MD5 Mismatch, NOT CHANGED!")
+					continue
+			
+			text_sjis = bytes(new_text, "SHIFT_JIS")
 			new_blen = len(text_sjis)+1
-			print("Changing: "+old_text+" to "+new_text)
 			if new_blen <= old_blen:
-				print(new_text + " is smaller than "+ old_text+". changing in-place")
+				print(new_text.replace("\n", "\\n") + " is smaller than "+ old_text.replace("\n", "\\n")+". changing in-place")
 				strcpy(text_sjis, rom_data, rom_addr)
 			else:
-				print(new_text + " is larger than "+old_text+" reallocating")
-				print("Locating new area for text")
-				new_file_addr, new_mem_addr = find_free_area(section, new_blen)
-				print("Found : "+hex(new_file_addr)+", "+hex(new_mem_addr))
-				strcpy(text_sjis, rom_data, new_file_addr)
+				print(new_text.replace("\n", "\\n") + " is larger than "+old_text.replace("\n", "\\n")+" relocating!")
+				print("Locating new area for text .. ", end="", flush=True)
+
+				# check if we've used this text before
+				
+				new_file_addr = None
+				new_mem_addr = None
+				for rloc_txt in relocated_text:
+					if  rloc_txt["txt"].endswith(text_sjis): # im pretty proud of this tbh
+						missing = len(rloc_txt["txt"]) - len(text_sjis)
+						new_file_addr = (rloc_txt["file_addr"] + missing)
+						new_mem_addr = (rloc_txt["mem_addr"] + missing)
+						break
+				
+				
+				if new_mem_addr == None and new_file_addr == None:
+					new_file_addr, new_mem_addr = find_free_area(section, new_blen)
+					strcpy(text_sjis, rom_data, new_file_addr)				
+					relocated_text.append({"txt":text_sjis, "file_addr": new_file_addr, "mem_addr": new_mem_addr})
+					
+					print("Found New : "+hex(new_file_addr)+", "+hex(new_mem_addr))
+				else:
+					print("Reusing : "+hex(new_file_addr)+", "+hex(new_mem_addr))
+					
 				for xref in xrefs:
 					old_addr = struct.unpack("I", rom_data[xref:xref+4])[0]
 					if not old_addr == mem_addr:
@@ -128,16 +160,16 @@ def apply_mods(name):
 					print("Changing "+hex(old_addr)+" to "+hex(new_mem_addr))
 					new_addr = struct.pack("I", new_mem_addr)
 					memcpy(new_addr, rom_data, xref)
-					
 def read_jsons(jsonname):
 	json_list = json.loads(open(jsonname, "rb").read())	
 	for json_name in json_list:
-		json_names.append(json_name)
+		sections.append(json.loads(open(json_name, "rb").read()))
+
 
 
 read_jsons(ROM_NAME + ".json")
-for name in json_names:
-	apply_mods(name)
+for section in sections:
+	apply_mods(section)
 
 print("Patches done. writing to file.")
 open(ROM_NAME + "_patched.nds", "wb").write(rom_data)
