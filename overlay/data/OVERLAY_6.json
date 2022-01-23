@@ -509,6 +509,24 @@
             ]
         },
         {
+            "str": "位",
+            "blen": 2,
+            "memory_address": 36129460,
+            "rom_address": 1353684,
+            "xrefs": [
+                1327680
+            ]
+        },
+        {
+            "str": "%04d/%02d/%02d %02d:%02d のデータです。",
+            "blen": 39,
+            "memory_address": 36129464,
+            "rom_address": 1353688,
+            "xrefs": [
+                1327688
+            ]
+        },
+        {
             "str": "ランキングデータを受信していません。",
             "blen": 36,
             "memory_address": 36129504,

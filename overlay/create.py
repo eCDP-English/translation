@@ -40,12 +40,25 @@ range_sjis = [
 
 #always valid when a string starts with any of these
 #(still goes through control character checks)
-exceptions = [
+exceptions_start = [
     "[テイクオフ]",
     "GoodJob!",
 	"SOC",
     "eCDP",
 	"「"
+]
+
+#always valid when a string ends with any of these
+#(still goes through control character checks)
+exceptions_end = [
+    "のデータです。"
+]
+
+#always valid when a string equals to any of these
+#this ignores the length check
+#(still goes through control character checks)
+exceptions_single = [
+	"位"
 ]
 
 #you probably don't want to edit this
@@ -55,9 +68,6 @@ control_chars = [
 ]
 
 def check_valid(obytes):
-	if len(obytes) < minimum_length:
-		return False
-
 	#check for control characters in the whole string
 	i = 0
 	while i < len(obytes):
@@ -69,14 +79,30 @@ def check_valid(obytes):
 			j += 1
 		i += 1
 
-	#exception checks
 	str = obytes.decode("SHIFT-JIS")
+	#exception checks 1
 	i = 0
-	while i < len(exceptions):
-		if (str.startswith(exceptions[i])):
+	while i < len(exceptions_single):
+		if (str == exceptions_single[i]):
 			return True
 		i += 1
 
+	if len(obytes) < minimum_length:
+		return False
+
+	#exception checks 2
+	i = 0
+	while i < len(exceptions_start):
+		if (str.startswith(exceptions_start[i])):
+			return True
+		i += 1
+
+	i = 0
+	while i < len(exceptions_end):
+		if (str.endswith(exceptions_end[i])):
+			return True
+		i += 1
+	
 	#doesn't need to check the whole string, garbage strings usually have invalid character at the start
 	firstByte = obytes[0]
 	secondByte = obytes[1]
