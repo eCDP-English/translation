@@ -12,6 +12,7 @@ LANG = "en"
 
 rom_data = bytearray(open(ROM_NAME+".nds", "rb").read())
 json_names = []
+json_datas = []
 
 def find_all(data, to_find):
 	addresses = []
@@ -57,8 +58,8 @@ def find_areas_with_zeros(section):
 
 def find_free_area(section, size):
 
-	if not section["name"] == json_names[0]["name"]: # First search in section 0! 
-		location_in_arm9 = find_free_area(json_names[0], size)
+	if not section["name"] == json_datas[0]["name"]: # First search in section 0! 
+		location_in_arm9 = find_free_area(json_datas[0], size)
 		if not location_in_arm9 == None:
 			return location_in_arm9
 
@@ -132,6 +133,7 @@ def apply_mods(name):
 def read_jsons(jsonname):
 	json_list = json.loads(open(jsonname, "rb").read())	
 	for json_name in json_list:
+		json_datas.append(json.loads(open("data/" + json_name, "rb").read()))
 		json_names.append(json_name)
 
 
