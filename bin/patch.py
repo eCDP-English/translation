@@ -18,7 +18,7 @@ def LEshort(num):
 
 for folder in os.listdir(LANG):
 	for file in os.listdir(LANG + "/" + folder):
-		rom_filename = folder + "/" + file[0:len(file)-5] + ".bin"
+		rom_filename = folder + "/" + file[0:len(file)-5]
 		strings = json.loads(open("%s/%s/%s" % (LANG, folder, file), "rb").read())
 
 		print("Compiling: %s (%d)" % (rom_filename, rom.filenames[rom_filename]))
