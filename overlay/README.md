@@ -1,6 +1,6 @@
 # Overlay Translation
 ## How to apply the translations
-1. Place the original unmodified eCDP ROM in this folder, and rename it to `ecdp.nds`.
+1. Place the original unmodified eCDP ROM in this folder, and rename it to `ecdp.nds` or use the command line argument `-r` or `--romname` to read the name of the rom.
 2. Run the python script `patch.py`.
 3. Wait for the patching process to complete.
 4. A file named `ecdp_patched.nds` should appear. You can now play the ROM in any DS emulator of your choice.
