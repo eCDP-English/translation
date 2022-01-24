@@ -14,4 +14,4 @@ for folder in os.listdir("en"):
 		f.close()
 		strings=o.strip().split("\n===#===\n")
 		jsonData = json.dumps(strings, indent=4, ensure_ascii=False)
-		open("en_converted/" + folder + "/" + file[0:len(file)-8] + ".json", "wb").write(bytes(jsonData, "UTF-8"))
+		open("en_converted/" + folder + "/" + file[0:len(file)-4] + ".json", "wb").write(bytes(jsonData, "UTF-8"))

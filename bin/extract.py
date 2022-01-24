@@ -3,6 +3,7 @@ import os
 import json
 import struct
 import hashlib
+import re
 import ndspy.rom
 import ndspy.code
 
@@ -15,13 +16,14 @@ bins = []
 
 targets = [
 	"sec_tp",
+    "sec_cp",
+    "sec_dp",
 	"ses_tp",
+    "ses_cp",
+    "ses_dp",
 	"soc_tp",
-	"sec_cp",
-	"ses_cp",
 	"soc_cp",
-
-	"sec_dp",
+    "soc_dp",
 	"soc_ap",
 	"soc_mt",
 ]
@@ -33,7 +35,7 @@ for folder in rom.filenames.folders:
 	validfiles = 0
 	for file in folder[1].files:
 		name = file.lower()
-		if name.endswith(".bin"):
+		if re.match(r".*\.(bin|[0-9]{3})", name):
 			valid = False
 			for t in targets:
 				if name.startswith(t):
@@ -78,6 +80,6 @@ for bin in bins:
 		strcount += 1
 
 	jsonData = json.dumps(strings, indent=4, ensure_ascii=False)
-	open("ja/" + bin[0:len(bin)-4] + ".json", "wb").write(bytes(jsonData, "UTF-8"))
+	open("ja/" + bin + ".json", "wb").write(bytes(jsonData, "UTF-8"))
 
 print("Done! Extracted %d strings in total!" % strcount)
