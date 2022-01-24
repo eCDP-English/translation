@@ -8,25 +8,21 @@ import ndspy.code
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-r", "--romname", dest = "romName", default = "ecdp", help = "Name of ROM to create files from")
+parser.add_argument("file", type=argparse.FileType("rb"), help = "ROM to insert texts in")
+parser.add_argument("-l", "--language", dest = "lang", default = "en", help = "Language to load translations from")
 args = parser.parse_args()
 
-if args.romName:
-	ROM_NAME = args.romName
-
-LANG = "en"
-
-rom = ndspy.rom.NintendoDSRom.fromFile(ROM_NAME+".nds")
+rom = ndspy.rom.NintendoDSRom(args.file.read())
 
 def LEshort(num):
 	lower=num%256
 	higher=num//256
 	return bytes([lower,higher])
 
-for folder in os.listdir(LANG):
-	for file in os.listdir(LANG + "/" + folder):
+for folder in os.listdir(args.lang):
+	for file in os.listdir(args.lang + "/" + folder):
 		rom_filename = folder + "/" + file[0:len(file)-5]
-		strings = json.loads(open("%s/%s/%s" % (LANG, folder, file), "rb").read())
+		strings = json.loads(open("%s/%s/%s" % (args.lang, folder, file), "rb").read())
 
 		print("Compiling: %s (%d)" % (rom_filename, rom.filenames[rom_filename]))
 
@@ -48,4 +44,5 @@ for folder in os.listdir(LANG):
 		rom.setFileByName(rom_filename, t)
 
 print("Patches done. writing to file.")
-open(ROM_NAME + "_patched.nds", "wb").write(rom.save())
+fname = args.file.name
+open(fname[0:len(fname)-4] + "_patched.nds", "wb").write(rom.save())

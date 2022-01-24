@@ -8,13 +8,10 @@ import ndspy.rom
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-r", "--romname", dest = "romName", default = "ecdp", help = "Name of ROM to create files from")
+parser.add_argument("file", type=argparse.FileType("rb"), help = "ROM to extract texts from")
 args = parser.parse_args()
 
-if args.romName:
-	ROM_NAME = args.romName
-
-rom = ndspy.rom.NintendoDSRom.fromFile(ROM_NAME+".nds")
+rom = ndspy.rom.NintendoDSRom(args.file.read())
 
 folders = []
 bins = []

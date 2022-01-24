@@ -9,15 +9,11 @@ import argparse
 #import ndspy.code
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-r", "--romname", dest = "romName", default = "ecdp", help = "Name of ROM to create files from")
+parser.add_argument("file", type=argparse.FileType("rb"), help = "ROM to insert texts in")
+parser.add_argument("-l", "--language", dest = "lang", default = "en", help = "Language to load translations from")
 args = parser.parse_args()
 
-if args.romName:
-	ROM_NAME = args.romName
-
-LANG = "en"
-
-rom_data = bytearray(open(ROM_NAME+".nds", "rb").read())
+rom_data = bytearray(args.file.read())
 json_names = []
 json_datas = []
 
@@ -103,7 +99,7 @@ def find_free_area(section, size):
 
 def apply_mods(name):
 	section = json.loads(open("data/" + name, "rb").read())
-	text = json.loads(open(LANG + "/" + name, "rb").read())
+	text = json.loads(open(args.lang + "/" + name, "rb").read())
 
 	for string in section["strings"]:
 		old_text = string["str"]
@@ -148,11 +144,12 @@ def read_jsons(jsonname):
 		json_names.append(json_name)
 
 
-read_jsons(ROM_NAME + ".json")
+read_jsons("files.json")
 for name in json_names:
 	apply_mods(name)
 
 print("Patches done. writing to file.")
-open(ROM_NAME + "_patched.nds", "wb").write(rom_data)
+fname = args.file.name
+open(fname[0:len(fname)-4] + "_patched.nds", "wb").write(rom_data)
 
 #print(json_data)
