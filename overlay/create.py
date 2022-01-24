@@ -5,8 +5,14 @@ import struct
 import hashlib
 import ndspy.rom
 import ndspy.code
+import argparse
 
-ROM_NAME = "ecdp"
+parser = argparse.ArgumentParser()
+parser.add_argument("-r", "--romname", dest = "romName", default = "ecdp", help = "Name of ROM to create files from")
+args = parser.parse_args()
+
+if args.romName:
+	ROM_NAME = args.romName
 
 rom_bytes = open(ROM_NAME+".nds", "rb").read()
 master_strings = []

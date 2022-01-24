@@ -4,10 +4,17 @@ import json
 import struct
 import hashlib
 import random
+import argparse
 #import ndspy.rom
 #import ndspy.code
 
-ROM_NAME = "ecdp"
+parser = argparse.ArgumentParser()
+parser.add_argument("-r", "--romname", dest = "romName", default = "ecdp", help = "Name of ROM to create files from")
+args = parser.parse_args()
+
+if args.romName:
+	ROM_NAME = args.romName
+
 LANG = "en"
 
 rom_data = bytearray(open(ROM_NAME+".nds", "rb").read())

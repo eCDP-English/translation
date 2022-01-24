@@ -1,10 +1,13 @@
-# eCrew Development Program (eCDP) English Translation
-This is a repository to create a fan English translation patch of McDonald's [eCrew Development Program](https://en.wikipedia.org/wiki/ECrew_Development_Program).
+# Overlay Translation
+## How to apply the translations
+1. Place the original unmodified eCDP ROM in this folder, and rename it to `ecdp.nds` or use the command line argument `-r` or `--romname` to read the name of the rom.
+2. Run the python script `patch.py`.
+3. Wait for the patching process to complete.
+4. A file named `ecdp_patched.nds` should appear. You can now play the ROM in any DS emulator of your choice.
 
-## Repository Structure
-The repository has two sections:
-- Overlay Translation - Overlays contain codes and raw texts for the game's UI.
-- Bin Translation - Bins contain texts mainly for SOC Guides and Self Check.
+## Requirements
+- Python version must be higher than 3.8.10. (3.9.0 is recommended)
+- You must install `ndspy` package before running the script. (Type `pip install ndspy`)
 
-## Contribution
-Work in progress - Will be updated later
+## Additional Notes
+Original python scripts from [EliCrystal2001/nds-string-editor](https://github.com/EliCrystal2001/nds-string-editor). This repository uses a modified version of the script.
