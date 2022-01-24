@@ -1,3 +1,5 @@
 files:
-  - source: text_ja/*.json
-    translation: '%original_file_name%'
+  - source: /overlay/ja/*.json
+    translation: /overlay/%two_letters_code%/%original_file_name%
+  - source: /bin/ja/**/*.json
+    translation: /bin/%two_letters_code%/**/%original_file_name%
