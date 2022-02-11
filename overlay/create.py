@@ -8,13 +8,11 @@ import ndspy.code
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-r", "--romname", dest = "romName", default = "ecdp", help = "Name of ROM to create files from")
+parser.add_argument("file", type=argparse.FileType("rb"), help = "ROM to extract texts from")
 args = parser.parse_args()
 
-if args.romName:
-	ROM_NAME = args.romName
-
-rom_bytes = open(ROM_NAME+".nds", "rb").read()
+rom_bytes = args.file.read()
+rom = ndspy.rom.NintendoDSRom(rom_bytes)
 master_strings = []
 found_addresses = []
 json_files = []
@@ -203,8 +201,6 @@ def search_data(friendlyname, data, base_address):
 	
 	return [data_info, data_mod]
 		
-		
-rom = ndspy.rom.NintendoDSRom.fromFile(ROM_NAME+".nds")
 base_addr = rom.arm9RamAddress
 arm9 = rom.loadArm9()
 
@@ -244,6 +240,6 @@ for oid, overlay in overlays.items():
 	json_files.append(jsonName)
 
 jsonData = json.dumps(json_files, indent=4, ensure_ascii=False)
-open(ROM_NAME+".json", "wb").write(bytes(jsonData, "UTF-8"))
+open("files.json", "wb").write(bytes(jsonData, "UTF-8"))
 
 print("Done! Found "+str(total_strings)+" strings in total!")

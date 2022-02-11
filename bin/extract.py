@@ -5,11 +5,13 @@ import struct
 import hashlib
 import re
 import ndspy.rom
-import ndspy.code
+import argparse
 
-ROM_NAME = "ecdp"
+parser = argparse.ArgumentParser()
+parser.add_argument("file", type=argparse.FileType("rb"), help = "ROM to extract texts from")
+args = parser.parse_args()
 
-rom = ndspy.rom.NintendoDSRom.fromFile(ROM_NAME+".nds")
+rom = ndspy.rom.NintendoDSRom(args.file.read())
 
 folders = []
 bins = []
