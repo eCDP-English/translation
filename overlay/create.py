@@ -47,9 +47,18 @@ range_sjis = [
 exceptions_start = [
     "[テイクオフ]",
     "GoodJob!",
+	"Get Ready？",
 	"SOC",
+	"UHC",
+	"HLZ",
     "eCDP",
-	"「"
+	"「",
+	"（",
+	"○○円",
+	"DSカード",
+	" \\nさあ",
+	"　", #mcdonalds people why would you start a string with a space
+	"Wi-Fi"
 ]
 
 #always valid when a string ends with any of these

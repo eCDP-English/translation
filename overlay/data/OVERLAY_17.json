@@ -284,12 +284,39 @@
             ]
         },
         {
+            "str": "（目安）",
+            "blen": 8,
+            "memory_address": 35959388,
+            "rom_address": 1433980,
+            "xrefs": [
+                1442136
+            ]
+        },
+        {
             "str": "１３５℃",
             "blen": 8,
             "memory_address": 35959400,
             "rom_address": 1433992,
             "xrefs": [
                 1441608
+            ]
+        },
+        {
+            "str": "（目安）",
+            "blen": 8,
+            "memory_address": 35959436,
+            "rom_address": 1434028,
+            "xrefs": [
+                1441288
+            ]
+        },
+        {
+            "str": "（目安）",
+            "blen": 8,
+            "memory_address": 35959448,
+            "rom_address": 1434040,
+            "xrefs": [
+                1442984
             ]
         },
         {
@@ -1397,6 +1424,15 @@
             "rom_address": 1436132,
             "xrefs": [
                 1439012
+            ]
+        },
+        {
+            "str": "（フルバット使用時）",
+            "blen": 20,
+            "memory_address": 35961564,
+            "rom_address": 1436156,
+            "xrefs": [
+                1439116
             ]
         },
         {

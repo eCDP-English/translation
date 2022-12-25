@@ -50,6 +50,15 @@
             ]
         },
         {
+            "str": "UHCトレーを",
+            "blen": 11,
+            "memory_address": 35970332,
+            "rom_address": 1547836,
+            "xrefs": [
+                1548428
+            ]
+        },
+        {
             "str": "トースターに",
             "blen": 12,
             "memory_address": 35970344,

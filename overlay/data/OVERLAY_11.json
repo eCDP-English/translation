@@ -115,6 +115,15 @@
             ]
         },
         {
+            "str": "Get Ready？\n準備はいいですか？",
+            "blen": 30,
+            "memory_address": 35960396,
+            "rom_address": 1404268,
+            "xrefs": [
+                1403128
+            ]
+        },
+        {
             "str": "送信済",
             "blen": 6,
             "memory_address": 35960428,

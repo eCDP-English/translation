@@ -131,6 +131,42 @@
             ]
         },
         {
+            "str": "HLZ側にヒール",
+            "blen": 13,
+            "memory_address": 35997824,
+            "rom_address": 950688,
+            "xrefs": [
+                951832
+            ]
+        },
+        {
+            "str": "HLZ側にヒール",
+            "blen": 13,
+            "memory_address": 35997840,
+            "rom_address": 950704,
+            "xrefs": [
+                952120
+            ]
+        },
+        {
+            "str": "HLZ側にヒール",
+            "blen": 13,
+            "memory_address": 35997856,
+            "rom_address": 950720,
+            "xrefs": [
+                951928
+            ]
+        },
+        {
+            "str": "HLZ側にヒール",
+            "blen": 13,
+            "memory_address": 35997872,
+            "rom_address": 950736,
+            "xrefs": [
+                952024
+            ]
+        },
+        {
             "str": "バンズをトース",
             "blen": 14,
             "memory_address": 35997888,

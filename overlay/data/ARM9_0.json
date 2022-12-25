@@ -599,6 +599,42 @@
             ]
         },
         {
+            "str": "HLZ",
+            "blen": 3,
+            "memory_address": 34335368,
+            "rom_address": 797320,
+            "xrefs": [
+                800488
+            ]
+        },
+        {
+            "str": "HLZ",
+            "blen": 3,
+            "memory_address": 34335372,
+            "rom_address": 797324,
+            "xrefs": [
+                800476
+            ]
+        },
+        {
+            "str": "HLZ",
+            "blen": 3,
+            "memory_address": 34335376,
+            "rom_address": 797328,
+            "xrefs": [
+                800584
+            ]
+        },
+        {
+            "str": "HLZ",
+            "blen": 3,
+            "memory_address": 34335380,
+            "rom_address": 797332,
+            "xrefs": [
+                800596
+            ]
+        },
+        {
             "str": "バンカート",
             "blen": 10,
             "memory_address": 34335384,

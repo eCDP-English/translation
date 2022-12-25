@@ -401,6 +401,42 @@
             ]
         },
         {
+            "str": "HLZ側にヒール",
+            "blen": 13,
+            "memory_address": 36030976,
+            "rom_address": 1171232,
+            "xrefs": [
+                1173368
+            ]
+        },
+        {
+            "str": "HLZ側にヒール",
+            "blen": 13,
+            "memory_address": 36030992,
+            "rom_address": 1171248,
+            "xrefs": [
+                1172984
+            ]
+        },
+        {
+            "str": "HLZ側にヒール",
+            "blen": 13,
+            "memory_address": 36031008,
+            "rom_address": 1171264,
+            "xrefs": [
+                1173464
+            ]
+        },
+        {
+            "str": "HLZ側にヒール",
+            "blen": 13,
+            "memory_address": 36031024,
+            "rom_address": 1171280,
+            "xrefs": [
+                1173176
+            ]
+        },
+        {
             "str": "バンズをスチー",
             "blen": 14,
             "memory_address": 36031040,

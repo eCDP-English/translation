@@ -5,6 +5,15 @@
     "length": 24832,
     "strings": [
         {
+            "str": "HLZ",
+            "blen": 3,
+            "memory_address": 35973552,
+            "rom_address": 1377488,
+            "xrefs": [
+                1377044
+            ]
+        },
+        {
             "str": "バンカート",
             "blen": 10,
             "memory_address": 35973556,
@@ -74,6 +83,15 @@
             "rom_address": 1377608,
             "xrefs": [
                 1377080
+            ]
+        },
+        {
+            "str": "UHC（UHCテーブル）",
+            "blen": 18,
+            "memory_address": 35973692,
+            "rom_address": 1377628,
+            "xrefs": [
+                1376996
             ]
         },
         {
