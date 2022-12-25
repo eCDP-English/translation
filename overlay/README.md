@@ -1,4 +1,6 @@
 # Overlay Translation
+## Ooutdated Instructions - Will be updated later
+
 ## How to apply the translations
 1. Place the original unmodified eCDP ROM in this folder, and rename it to `ecdp.nds` or use the command line argument `-r` or `--romname` to read the name of the rom.
 2. Run the python script `patch.py`.
