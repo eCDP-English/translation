@@ -1,5 +1,5 @@
 # Bin Translation
-## Ooutdated Instructions - Will be updated later
+## Outdated Instructions - Will be updated later
 This is a contiunation of [user670/eCDP-translation](https://github.com/user670/eCDP-translation). `.bin` files in eCDP are files that contain texts mainly used in SOC Guides and Self Check.
 
 # Text files
