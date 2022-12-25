@@ -707,6 +707,78 @@
             ]
         },
         {
+            "str": "UHC（UHCテーブル）",
+            "blen": 18,
+            "memory_address": 34335584,
+            "rom_address": 797536,
+            "xrefs": [
+                800740
+            ]
+        },
+        {
+            "str": "UHC（UHCテーブル）",
+            "blen": 18,
+            "memory_address": 34335604,
+            "rom_address": 797556,
+            "xrefs": [
+                800752
+            ]
+        },
+        {
+            "str": "UHC（UHCテーブル）",
+            "blen": 18,
+            "memory_address": 34335624,
+            "rom_address": 797576,
+            "xrefs": [
+                800536
+            ]
+        },
+        {
+            "str": "UHC（UHCテーブル）",
+            "blen": 18,
+            "memory_address": 34335644,
+            "rom_address": 797596,
+            "xrefs": [
+                800452
+            ]
+        },
+        {
+            "str": "UHC（UHCテーブル）",
+            "blen": 18,
+            "memory_address": 34335664,
+            "rom_address": 797616,
+            "xrefs": [
+                800464
+            ]
+        },
+        {
+            "str": "UHC（UHCテーブル）",
+            "blen": 18,
+            "memory_address": 34335684,
+            "rom_address": 797636,
+            "xrefs": [
+                800560
+            ]
+        },
+        {
+            "str": "UHC（UHCテーブル）",
+            "blen": 18,
+            "memory_address": 34335704,
+            "rom_address": 797656,
+            "xrefs": [
+                800548
+            ]
+        },
+        {
+            "str": "UHC（UHCテーブル）",
+            "blen": 18,
+            "memory_address": 34335724,
+            "rom_address": 797676,
+            "xrefs": [
+                800572
+            ]
+        },
+        {
             "str": "バギングステーション",
             "blen": 20,
             "memory_address": 34335744,
@@ -1001,6 +1073,15 @@
             "rom_address": 801708,
             "xrefs": [
                 686980
+            ]
+        },
+        {
+            "str": "○○円、\n丁度いただきます。",
+            "blen": 27,
+            "memory_address": 34339784,
+            "rom_address": 801736,
+            "xrefs": [
+                687004
             ]
         },
         {
