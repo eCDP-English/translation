@@ -1,7 +1,7 @@
 [
-    "20〜25秒\n■オーダーテイク開始から、合計金額を\n　　伝えるまで",
-    "オーダーテイカー&キャッシャー\n①お客様の話をさえぎらない",
-    "オーダーテイカー&キャッシャー\n②オーダーが正確かどうかを判断する",
-    "オーダーテイカー&キャッシャー\n③サジェスティブセリングを行う",
-    "オーダーテイカー&キャッシャー\n④オーダーを確認する"
+    "Within 20-25s\n■It should take you under\n20-25s for you to complete\ntaking the customer's order.",
+    "Order Taker & Cashier\n1. Don't interrupt the\ncustomer while they are\nspeaking.",
+    "Order Taker & Cashier\n2. Make sure the order is\ncorrect.",
+    "Order Taker & Cashier\n3. Make suggestions.",
+    "Order Taker & Cashier\n4. Confirm the order again."
 ]

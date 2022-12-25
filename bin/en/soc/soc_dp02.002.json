@@ -1,7 +1,7 @@
 [
-    "食品の保管温度\n■細菌は、適正温度で保管されていな\n　　い原材料や、ウエストされた食品に繁\n　　殖する",
-    "熱は細菌を死滅させる\n■74℃　タマゴ\n■69℃　10:1パティ",
-    "熱は細菌を死滅させる\n■各パティ、ポーション、エッグ、レタス、\n　　オニオンなどの原材料を危険ゾーン\n　　(4℃〜60℃)の温度で保管すると、\n　　細菌が急激に増える可能性がある",
-    "冷蔵は細菌の増殖を遅らせる\n■冷蔵品は4℃以下で保管",
-    "冷凍状態では細菌は増殖しない\n■冷凍品は-18℃以下で保管"
+    "Food Storage Temperature\n■Bacteria breed in raw foods that\nare not stored at the proper\ntemperature and in foods that\nhave been thrown out.",
+    "Heat Kills Bacteria\n■Eggs: 74°C/165°F\n■1/10th Patty: 69°C/156°F",
+    "Heat Kills Bacteria\n■Storing raw ingredients, such\nas meat, eggs or vegetables,\nat temperatures in the danger\nzone (4-60°C/39-140°F) can\ncause rapid bacterial growth.",
+    "Refrigeration Slows Growth\n■Keep refrigerated items\nbelow 4°C/39°F.",
+    "Bacteria Don't Grow If Frozen\n■Keep frozen items at or\nbelow -18°C/0°F."
 ]

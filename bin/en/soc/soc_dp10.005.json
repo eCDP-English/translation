@@ -1,7 +1,7 @@
 [
-    "10〜15秒\n■車がキャッシングブースに着いてから、\n　　代金の授受が終わるまで",
-    "キャッシャー\n①合計金額を伝える",
-    "キャッシャー\n②お客様からお預かり\n　　した金額を伝える",
-    "キャッシャー\n③お釣りの金額を伝える",
-    "キャッシャー\n④お客様に感謝の言葉を述べ、レシート\n　　を渡す"
+    "Within 10-15s\n■From the time the customer\npulls up to the cashing\nbooth to the time you take\ntheir payment, it should\ntake under 10-15s.",
+    "Cashier\n1. Tell the customer the\ntotal price of the order.",
+    "Cashier\n2. Say back the\namount of money\nthey gave you.",
+    "Cashier\n3. Tell the customer how\nmuch change you will give\nthem back.",
+    "Cashier\n4. Say \"thank you\" to the\ncustomer afterwards."
 ]

@@ -1,7 +1,7 @@
 [
-    "調理\n■バスケットにポーションを入れる",
-    "調理\n■オイルがはねないように注意して、バ\n　　スケットをオイルの中に入れ、タイマー\n　　を押す",
-    "調理\n■タイマーが鳴ったらバスケットを引き\n　　上げ、オイルを切る",
-    "調理\n■バスケットからワイヤーラック付きの\n　　UHCトレーに移す",
-    "調理\n■UHCに入れて、タイマーを押す"
+    "Cooking\n■Put shrimp portions into the\nbasket.",
+    "Cooking\n■Don't splash the\noil! Put the\nbasket into the\noil and press\nthe timer.",
+    "Cooking\n■When the timer rings, pull\nup the basket and cut the\noil.",
+    "Cooking\n■Move portions\nfrom basket to\nUHC tray with\nwire rack.",
+    "Cooking\n■Put them in\nUHC and push\nthe timer."
 ]

@@ -1,4 +1,4 @@
 [
-    "■受け取った金額をPOSに入力する\n■紙幣は必ず広げて確認する\n■紙幣はPOSの横ではなく、札置きに置\n　　くことで盗難を防止する",
-    "■金額をPOSレジに打ち込み、つり銭を\n　　渡してから紙幣をドロアにしまう。こう\n　　すると、つり銭ミスが防ぎやすくなり、\n　　お客様の誤解を防ぐことにもなる"
+    "■Enter the amount of money\nreceived into the POS.\n■Be sure to unfold and examine\nthe banknotes.\n■Put bills in the bill holder to\nprevent people from stealing it.",
+    "■Put the money into the POS\nregister and hand over any change.\nPut the banknotes into the drawer.\nThis more easily prevents mistakes\nwhen making change or any\nmisunderstandings by the customers."
 ]

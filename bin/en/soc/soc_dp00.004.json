@@ -1,8 +1,8 @@
 [
-    "ローボリューム時間帯\n■①のバスケットをオ\n　　イルに入れる",
-    "ローボリューム時間帯\n■リムーブのタイマー\n　　が鳴ったらバスケッ\n　　トを引き上げオイル\n　　を切り、HTタイマー\n　　を押す",
-    "ローボリューム時間帯\n■②のバスケットを入\n　　れたら、すぐに1番目\n　　のバスケットをバギ\n　　ングトレーに移す",
-    "ピーク時間帯\n■バスケット①を入れ、\n　　30秒後にオイルか\n　　ら出して振った後、\n　　②を入れる",
-    "ピーク時間帯\n■②の30秒後に③を\n　　入れ、③の30秒後\n　　に④を入れる",
-    "ピーク時間帯\n■タイマーが鳴ったら、\n　　バスケット①から順\n　　番に引き出す"
+    "Low Volume Sales\n■Put Basket 1 in\nthe cooking oil.",
+    "Low Volume Sales\n■When the timer\nrings, pull up\nthe basket to\nturn off the oil\nand press the HT\ntimer.",
+    "Low Volume Sales\n■After putting in\nBasket 2, take\nBasket 1 to the\nbagging tray.",
+    "Peak Time\n■Put in Basket 1.\nAfter 30s, lift\nit up and shake\nit. Then put in\nBasket 2.",
+    "Peak Time\n■Put Basket 3 in\n30s after Basket\n2 and Basket 4\n30s after Basket\n3.",
+    "Peak Time\n■When the timer\nrings, pull out\nthe baskets in\norder from 1."
 ]

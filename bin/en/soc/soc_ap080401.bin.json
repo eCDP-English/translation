@@ -1,4 +1,4 @@
 [
-    "■チキンバット内でフィッシュプロダク\n　　トを調理しない\n■1つのバット内で同時に2つのバスケッ\n　　トを調理しない",
-    "■同じバット内でもう1つのバスケット\n　　を調理する場合は30秒以上経過して\n　　から、次のバスケットを入れる\n■完全にオイルに入らなかったポーショ\n　　ンは廃棄する"
+    "■Don't cook chicken products in\nthe fish vat.\n■Don't cook two baskets in one\nvat at the same time.",
+    "■Wait at least 30s in between\nputting another basket in the\nsame vat as the first one.\n■Throw out any portions which\ndid not completely enter the\nfrying oil."
 ]

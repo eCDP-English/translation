@@ -1,7 +1,7 @@
 [
-    "■10:1パティはクッキングサイクルが終\n　　了したらすぐにリムーブする。すぐに\n　　取り出さないと、加熱し過ぎになって\n　　乾燥し、風味が損なわれる",
-    "■10:1パティはミートスパチュラとグレー\n　　ハツラースパチュラを使い、1回に1枚\n　　ずつリムーブして4枚重ねる",
-    "■肉汁は切らない\n■スパチュラは水分を含んだドライワイ\n　　パーで肉汁をふき取ってから戻す",
-    "■10:1パティはリムーブに使用できる\n　　最大時間内にリムーブする。リムーブ\n　　に使用できる時間とは、プラテンが開\n　　いてから最後のパティをUHCトレーに\n　　移動するまでの時間",
-    "■リムーブに使用できる最大時間18秒\n■UHCトレーに並べられる最大枚数\n　　16枚(4段4列)"
+    "■1/10th patties are removed as\nsoon as the cooking cycle is\nfinished. Overcooking results\nin the patties drying out and\nlosing flavour.",
+    "■Use the meat spatula and the\ngrey Hutzler spatula for 1/10th\npatties. Remove one at a time\nand stack four on top of one\nanother.",
+    "■Do not cut meat juice.\n■Use a wet wipe to get rid of\nmeat juice on the spatula\nbefore using it again.",
+    "■Be sure to remove 1/10th\npatties within the time slated\nfor their removal. The removal\ntime starts when the platen\nopens and ends when the last\npatty moves to the UHC tray.",
+    "■The maximum removal time is\n18s.\n■The maximum number of patties\nthat can go on the UHC tray\nis 16 (4 columns, 4 rows)."
 ]
