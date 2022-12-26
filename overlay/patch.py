@@ -8,6 +8,10 @@ import argparse
 #import ndspy.rom
 #import ndspy.code
 
+#this section of the rom contains strings for challenge the mcdonalds
+#which this script should not touch at all
+cmcd_range = [0x001059E0, 0x0010A47F]
+
 def main(lang, rom_data, working_dir):
 
 	json_names = []
@@ -44,7 +48,8 @@ def main(lang, rom_data, working_dir):
 		total_zeros = 0
 		offset = 0
 		for b in block:
-			if b == 0:
+			rom_address = (offset-total_zeros)+1
+			if b == 0 and (rom_address < cmcd_range[0] or rom_address > cmcd_range[1]):
 				total_zeros += 1
 			else:
 				if not total_zeros <= 0:

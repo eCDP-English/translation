@@ -74,6 +74,10 @@ exceptions_single = [
 	"位"
 ]
 
+#this section of the rom contains strings for challenge the mcdonalds
+#which this script should not touch at all
+cmcd_range = [0x001059E0, 0x0010A47F]
+
 #you probably don't want to edit this
 control_chars = [
 	[0x00, 0x09],
@@ -194,6 +198,9 @@ def search_data(friendlyname, data, base_address):
 									ptr_to_ptrs.append(ptr_to_ptr_loc)
 								if len(ptr_to_ptrs) > 0: # No real address ptr found?
 									rom_address = (mloc - base_address)+real_location
+									if rom_address >= cmcd_range[0] and rom_address <= cmcd_range[1]:
+										print("QUIZ")
+										continue
 									if rom_bytes[rom_address:rom_address+len(obytes)] == obytes:
 										strings.append({"str":strs, "blen": len(obytes), "memory_address": mloc, "rom_address":rom_address, "xrefs":ptr_to_ptrs})
 										data_mod[str(rom_address)] = strs
