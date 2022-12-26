@@ -199,7 +199,6 @@ def search_data(friendlyname, data, base_address):
 								if len(ptr_to_ptrs) > 0: # No real address ptr found?
 									rom_address = (mloc - base_address)+real_location
 									if rom_address >= cmcd_range[0] and rom_address <= cmcd_range[1]:
-										print("QUIZ")
 										continue
 									if rom_bytes[rom_address:rom_address+len(obytes)] == obytes:
 										strings.append({"str":strs, "blen": len(obytes), "memory_address": mloc, "rom_address":rom_address, "xrefs":ptr_to_ptrs})
