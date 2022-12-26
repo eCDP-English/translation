@@ -13,7 +13,7 @@ args = parser.parse_args()
 data = bytearray(args.file.read())
 
 data = bin.patch.main(args.lang, data, "bin")
-data = font.fixfont.main(data)
+data = font.fixfont.main(data, "font")
 data = overlay.patch.main(args.lang, data, "overlay")
 
 print("Patches done. writing to file.")
