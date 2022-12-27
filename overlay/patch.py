@@ -1,9 +1,7 @@
 #!/bin/python3
-import os
 import json
 import struct
-import hashlib
-import random
+import re
 import argparse
 #import ndspy.rom
 #import ndspy.code
@@ -20,6 +18,13 @@ def main(lang, rom_data, working_dir):
 
 	json_names = []
 	json_datas = []
+
+	def read_jsonc(filepath:str):
+		with open(filepath, 'r', encoding='utf-8') as f:
+			text = f.read()
+		re_text = re.sub(r'/\*[\s\S]*?\*/|//.*', '', text)
+		json_obj = json.loads(re_text)
+		return json_obj   
 
 	def find_all(data, to_find):
 		addresses = []
@@ -106,8 +111,8 @@ def main(lang, rom_data, working_dir):
 		return None
 
 	def apply_mods(name):
-		section = json.loads(open(working_dir + "/data/" + name, "rb").read())
-		text = json.loads(open(working_dir + "/" + lang + "/" + name, "rb").read())
+		section = read_jsonc(working_dir + "/data/" + name)
+		text = read_jsonc(working_dir + "/" + lang + "/" + name)
 
 		for string in section["strings"]:
 			old_text = string["str"]
@@ -146,9 +151,9 @@ def main(lang, rom_data, working_dir):
 				print(old_text + " (" + str(rom_addr) + ") is missing from translation!")
 					
 	def read_jsons(jsonname):
-		json_list = json.loads(open(jsonname, "rb").read())	
+		json_list = read_jsonc(jsonname)
 		for json_name in json_list:
-			json_datas.append(json.loads(open(working_dir + "/data/" + json_name, "rb").read()))
+			json_datas.append(read_jsonc(working_dir + "/data/" + json_name))
 			json_names.append(json_name)
 
 
