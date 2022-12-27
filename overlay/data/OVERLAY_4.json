@@ -5,15 +5,6 @@
     "length": 134816,
     "strings": [
         {
-            "str": "うーん残念…マックシェイクを",
-            "blen": 28,
-            "memory_address": 36061440,
-            "rom_address": 1066528,
-            "xrefs": [
-                1056672
-            ]
-        },
-        {
             "str": "１０問のクイズに挑戦！",
             "blen": 22,
             "memory_address": 36063492,

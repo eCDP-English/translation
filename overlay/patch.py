@@ -10,7 +10,11 @@ import argparse
 
 #this section of the rom contains strings for challenge the mcdonalds
 #which this script should not touch at all
-cmcd_range = [0x001059E0, 0x0010A47F]
+cmcd_ranges = [
+	[0x00104620, 0x00104ACF],
+	[0x001059E0, 0x0010A47F]
+]
+
 
 def main(lang, rom_data, working_dir):
 
@@ -49,7 +53,12 @@ def main(lang, rom_data, working_dir):
 		offset = 0
 		for b in block:
 			rom_address = (offset-total_zeros)+1
-			if b == 0 and (rom_address < cmcd_range[0] or rom_address > cmcd_range[1]):
+			valid = False
+			if b == 0:
+				for range in cmcd_ranges:
+					if rom_address < range[0] or rom_address > range[1]:
+						valid = True
+			if valid:
 				total_zeros += 1
 			else:
 				if not total_zeros <= 0:
