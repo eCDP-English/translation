@@ -38,6 +38,12 @@ def main(lang, rom_data, working_dir):
 			buffer[i+offset] = new[i]
 		buffer[offset+len(new)] = 0 # write null-byte
 
+	#fills the specified area with null-bytes
+	def fill(buffer, start, end):
+		len = end - start + 1
+		for i in range(0, len):
+			buffer[start+i] = 0 
+
 	def memcpy(new, buffer, offset):
 		for i in range(0, len(new)):
 			buffer[i+offset] = new[i]
@@ -128,9 +134,11 @@ def main(lang, rom_data, working_dir):
 					if new_blen <= old_blen:
 						print(new_text + " is smaller than "+ old_text+". changing in-place")
 						strcpy(text_sjis, rom_data, rom_addr)
+						fill(rom_data, rom_addr+len(text_sjis)+1, rom_addr+old_blen)
 					else:
 						print(new_text + " is larger than "+old_text+" reallocating")
 						print("Locating new area for text")
+						fill(rom_data, rom_addr, rom_addr+old_blen)
 						new_file_addr, new_mem_addr = find_free_area(section, new_blen)
 						print("Found : "+hex(new_file_addr)+", "+hex(new_mem_addr))
 						strcpy(text_sjis, rom_data, new_file_addr)
