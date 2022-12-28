@@ -1,23 +1,40 @@
 {
-    "1606464": "Store it",
-    "1606476": "5-10s, ",
-    "1606492": "Remove it",
-    "1606508": "Move to the tray",
-    "1606524": "Take out of vat",
-    "1606540": "Be careful.",
-    "1606556": "Push the switch",
-    "1606572": "On top of vat",
-    "1606588": "Use the tongs",
-    "1606604": "Don't do that",
-    "1606620": "Holding",
-    "1606636": "Time is 30m",
-    "1606652": "Press the timer",
-    "1606668": "Put on guards",
-    "1606684": "Take out basket",
-    "1606704": "Don't splash oil",
-    "1606724": "When buzzer sounds",
-    "1606744": "Arrange on tray.",
-    "1606764": "Drain the oil.",
+    //--- Fish Portion ---
+    //Title
+    "1606684": "バスケットに入れ",
+    "1606668": "ガードをかける",
+    //Comment
+    "1606572": "バットの上では",
+    "1606604": "行わないように",
+
+    //Title
+    "1606524": "バットに入れ",
+    "1606556": "スイッチを押す",
+    //Comment
+    "1606704": "オイルがはねない",
+    "1606540": "ように注意して",
+
+    //Title
+    "1606724": "ブザーが鳴ったら",
+    "1606492": "リムーブする",
+    //Comment
+    "1606476": "５〜１０秒、",
+    "1606764": "油をきってください",
+
+    //Title
+    "1606508": "トレーに移す",
+    //Comment
+    "1606588": "トングを使って",
+    "1606744": "トレーに並べます",
+
+    //Title
+    "1606652": "タイマーを押し",
+    "1606464": "保管する",
+    //Comment
+    "1606620": "ホールディング",
+    "1606636": "タイムは３０分",
+
+    //Control instructions
     "1606880": "Press 「早送り」 (Fast Forward)",
     "1606908": "Press the left cross button.",
     "1606940": "Press the right cross button.",

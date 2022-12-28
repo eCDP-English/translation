@@ -1,56 +1,100 @@
 {
-    "1480480": "Swap",
-    "1480488": "Do",
-    "1480496": "Do",
-    "1480504": "Put In",
-    "1480512": "Put In",
-    "1480520": "Put In",
-    "1480528": "Button",
-    "1480540": "Drain the Oil",
-    "1480552": "Drain the Oil",
-    "1480564": "Will Do",
-    "1480576": "Timer",
-    "1480588": "Please press",
-    "1480604": "Please press",
-    "1480620": "Remove",
-    "1480636": "Full Bag",
-    "1480652": "Basket",
-    "1480668": "Put in Vat",
-    "1480684": "Please Cut",
-    "1480700": "It's not here？",
-    "1480716": "Check",
-    "1480732": "Basket",
-    "1480748": "Put in Vat",
-    "1480764": "Press The Timer",
-    "1480780": "Press The Switch",
-    "1480796": "Press The Switch",
-    "1480812": "Be Careful",
-    "1480832": "Sprinkle with Salt & Mix",
-    "1480852": "Please Stop the Oil",
-    "1480872": "Basketing",
-    "1480892": "Rotation",
-    "1480912": "Serve Within 7m",
-    "1480932": "Rotation",
-    "1480952": "Bagging Tray",
+    //--- Fries ---
+    //Title
     "1480972": "Basketing",
-    "1480992": "Basket Oil",
-    "1481012": "When the buzzer sounds",
-    "1481032": "At the 2nd buzzer",
-    "1481052": "Basketing",
-    "1481072": "Divide in half",
-    "1481092": "Freshly Fried Potaoes",
-    "1481112": "In the same vat at once",
-    "1481132": "Please spread around",
-    "1481152": "In the same vat at once",
-    "1481172": "Potatoes stick together",
-    "1481192": "Potatoes for 5-20s",
-    "1481216": "Keep and place",
-    "1481240": "Keep and place",
-    "1481264": "Don't put in two.",
-    "1481288": "Don't put in two.",
-    "1481312": "Don't put it in the vat.",
-    "1481336": "Potatoes should be crispy.",
-    "1481360": "Isn't it oily?",
+    "1480496": "",
+    //Comment
+    "1481052": "Potatoes into each",
+    "1481072": "basket in two batches.",
+
+    //Title
+    "1480872": "Basketing",
+    "1480488": "",
+    //Comment
+    "1480528": "Press the button on",
+    "1480588": "the dispenser.",
+
+    //Title
+    "1480652": "Put the baskets",
+    "1480520": "",
+    //Comment
+    "1480932": "Place the baskets in",
+    "1481240": "the correct order.",
+
+    //Title
+    "1480732": "Put the baskets",
+    "1480504": "",
+    //Comment
+    "1480892": "Place the baskets in",
+    "1481216": "the correct order.",
+
+    //Title
+    "1480668": "Put in the vat &",
+    "1480796": "press the button",
+    //Comment
+    "1481152": "Do not put two baskets",
+    "1481288": "in the same vat.",
+
+    //Title
+    "1480748": "Put in the vat &",
+    "1480780": "press the button",
+    //Comment
+    "1481112": "Do not put two baskets",
+    "1481264": "in the same vat.",
+
+    //Title
+    "1481012": "Shake the basket",
+    "1480716": "after the beep",
+    //Comment
+    "1481172": "Make sure the potatoes",
+    "1480700": "aren't stuck together.",
+
+    //Title
+    "1481032": "Remove after",
+    "1480620": "the second beep",
+    //Comment
+    "1481336": "Make sure the fries are",
+    "1481360": "crispy and not oily.",
+
+    //Title
+    "1480552": "Take the oil off",
+    //Comment
+    "1481192": "Let oil drop from the",
+    "1480852": "potatoes for 5-10s.",
+
+    //Title
+    "1480540": "Take the oil off",
+    //Comment
+    "1480992": "Let oil drop from the",
+    "1480684": "potatoes for 5-10s.",
+
+    //Title
+    "1480764": "Turn on the timer",
+    //Comment
+    "1480576": "Press the button on",
+    "1480604": "the timer.",
+
+    //Title
+    "1480952": "Move the fries to",
+    "1480480": "the bagging tray",
+    //Comment
+    "1481092": "Spread the freshly",
+    "1481132": "fried potatoes.",
+
+    //Title
+    "1480832": "Sprinkle the salt",
+    //Comment
+    "1481312": "Do not let the salt",
+    "1480812": "get into the vat.",
+
+    //Title
+    "1480636": "Put the fries",
+    "1480512": "in full bag",
+    //Comment
+    "1480912": "Serve within 7 minutes.",
+    "1480564": "",
+
+    //Control instructions
     "1481408": "Press「早送り」 (Fast Forward).",
     "1481436": "Press the left cross button.",
     "1481468": "Press the right cross button.",
