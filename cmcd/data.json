@@ -1,0 +1,2522 @@
+[
+    {
+        "str": "うーん残念…マックシェイクを",
+        "blen": 28,
+        "freelen": 49,
+        "address": 1066528
+    },
+    {
+        "str": "飲んで、リフレッシュしよう！",
+        "blen": 28,
+        "freelen": 99,
+        "address": 1066578
+    },
+    {
+        "str": "あらら・・マックフライポテトを食べて",
+        "blen": 36,
+        "freelen": 49,
+        "address": 1066678
+    },
+    {
+        "str": "もう一度チャレンジしよう！",
+        "blen": 26,
+        "freelen": 99,
+        "address": 1066728
+    },
+    {
+        "str": "もう一息！",
+        "blen": 10,
+        "freelen": 49,
+        "address": 1066828
+    },
+    {
+        "str": "ダブルチーズバーガーを",
+        "blen": 22,
+        "freelen": 49,
+        "address": 1066878
+    },
+    {
+        "str": "食べてパワーアップだ！",
+        "blen": 22,
+        "freelen": 49,
+        "address": 1066928
+    },
+    {
+        "str": "やったね！",
+        "blen": 10,
+        "freelen": 49,
+        "address": 1066978
+    },
+    {
+        "str": "１００点満点のお祝いは",
+        "blen": 22,
+        "freelen": 49,
+        "address": 1067028
+    },
+    {
+        "str": "ビッグマックで決まり！",
+        "blen": 22,
+        "freelen": 49,
+        "address": 1067078
+    },
+    {
+        "str": "なんてこった…冷たいコーラを飲んで",
+        "blen": 34,
+        "freelen": 49,
+        "address": 1067128
+    },
+    {
+        "str": "気分をリフレッシュしよう！",
+        "blen": 26,
+        "freelen": 99,
+        "address": 1067178
+    },
+    {
+        "str": "まだまだ・・アップルパイを食べて",
+        "blen": 32,
+        "freelen": 49,
+        "address": 1067278
+    },
+    {
+        "str": "もう一度チャレンジだ！",
+        "blen": 22,
+        "freelen": 99,
+        "address": 1067328
+    },
+    {
+        "str": "惜しい！",
+        "blen": 8,
+        "freelen": 49,
+        "address": 1067428
+    },
+    {
+        "str": "チキンマックナゲットを食べて",
+        "blen": 28,
+        "freelen": 49,
+        "address": 1067478
+    },
+    {
+        "str": "次こそリベンジだ！",
+        "blen": 18,
+        "freelen": 49,
+        "address": 1067528
+    },
+    {
+        "str": "Ｐｅｒｆｅｃｔ！",
+        "blen": 16,
+        "freelen": 49,
+        "address": 1067578
+    },
+    {
+        "str": "今日はクォーターパウンダー",
+        "blen": 26,
+        "freelen": 49,
+        "address": 1067628
+    },
+    {
+        "str": "チーズでお祝いだ！",
+        "blen": 18,
+        "freelen": 48,
+        "address": 1067678
+    },
+    {
+        "str": "安全",
+        "blen": 4,
+        "freelen": 21,
+        "address": 1071592
+    },
+    {
+        "str": "政令",
+        "blen": 4,
+        "freelen": 21,
+        "address": 1071614
+    },
+    {
+        "str": "従業員の採用",
+        "blen": 12,
+        "freelen": 21,
+        "address": 1071636
+    },
+    {
+        "str": "営業実績の調査",
+        "blen": 14,
+        "freelen": 21,
+        "address": 1071658
+    },
+    {
+        "str": "調理師法",
+        "blen": 8,
+        "freelen": 21,
+        "address": 1071680
+    },
+    {
+        "str": "時間",
+        "blen": 4,
+        "freelen": 21,
+        "address": 1071702
+    },
+    {
+        "str": "指先や手首",
+        "blen": 10,
+        "freelen": 21,
+        "address": 1071724
+    },
+    {
+        "str": "アブ",
+        "blen": 4,
+        "freelen": 21,
+        "address": 1071746
+    },
+    {
+        "str": "コミュニケーション",
+        "blen": 18,
+        "freelen": 21,
+        "address": 1071768
+    },
+    {
+        "str": "夏季は発生が増える",
+        "blen": 18,
+        "freelen": 21,
+        "address": 1071790
+    },
+    {
+        "str": "鮮魚介類",
+        "blen": 8,
+        "freelen": 21,
+        "address": 1071812
+    },
+    {
+        "str": "潜伏期間は短い",
+        "blen": 14,
+        "freelen": 21,
+        "address": 1071834
+    },
+    {
+        "str": "加熱すれば発生しない",
+        "blen": 20,
+        "freelen": 21,
+        "address": 1071856
+    },
+    {
+        "str": "毎日",
+        "blen": 4,
+        "freelen": 21,
+        "address": 1071878
+    },
+    {
+        "str": "蚊やハエ",
+        "blen": 8,
+        "freelen": 21,
+        "address": 1071900
+    },
+    {
+        "str": "施設の整理整頓",
+        "blen": 14,
+        "freelen": 21,
+        "address": 1071922
+    },
+    {
+        "str": "細菌を増やさない",
+        "blen": 16,
+        "freelen": 21,
+        "address": 1071944
+    },
+    {
+        "str": "６ヶ月",
+        "blen": 6,
+        "freelen": 21,
+        "address": 1071966
+    },
+    {
+        "str": "栄養・水分",
+        "blen": 10,
+        "freelen": 21,
+        "address": 1071988
+    },
+    {
+        "str": "資材を詰め込む",
+        "blen": 14,
+        "freelen": 21,
+        "address": 1072010
+    },
+    {
+        "str": "紫外線殺菌",
+        "blen": 10,
+        "freelen": 21,
+        "address": 1072032
+    },
+    {
+        "str": "絶対に付着しない",
+        "blen": 16,
+        "freelen": 21,
+        "address": 1072054
+    },
+    {
+        "str": "１時間に１回",
+        "blen": 12,
+        "freelen": 21,
+        "address": 1072076
+    },
+    {
+        "str": "１０℃",
+        "blen": 6,
+        "freelen": 21,
+        "address": 1072098
+    },
+    {
+        "str": "グリルクリーナー",
+        "blen": 16,
+        "freelen": 21,
+        "address": 1072120
+    },
+    {
+        "str": "１００万個以上",
+        "blen": 14,
+        "freelen": 21,
+        "address": 1072142
+    },
+    {
+        "str": "微生物の作用で起こる",
+        "blen": 20,
+        "freelen": 21,
+        "address": 1072164
+    },
+    {
+        "str": "手洗いは不要",
+        "blen": 12,
+        "freelen": 21,
+        "address": 1072186
+    },
+    {
+        "str": "３，０００個",
+        "blen": 12,
+        "freelen": 21,
+        "address": 1072208
+    },
+    {
+        "str": "２倍",
+        "blen": 4,
+        "freelen": 21,
+        "address": 1072230
+    },
+    {
+        "str": "洗浄剤や殺菌剤の能力",
+        "blen": 20,
+        "freelen": 21,
+        "address": 1072252
+    },
+    {
+        "str": "すべての微生物を殺す",
+        "blen": 20,
+        "freelen": 21,
+        "address": 1072274
+    },
+    {
+        "str": "乾燥→洗浄→殺菌",
+        "blen": 16,
+        "freelen": 21,
+        "address": 1072296
+    },
+    {
+        "str": "６９℃〜７２℃",
+        "blen": 14,
+        "freelen": 21,
+        "address": 1072318
+    },
+    {
+        "str": "月に１回、清掃",
+        "blen": 14,
+        "freelen": 21,
+        "address": 1072340
+    },
+    {
+        "str": "シンクの水は月に１回",
+        "blen": 20,
+        "freelen": 21,
+        "address": 1072362
+    },
+    {
+        "str": "１４オンスカップ",
+        "blen": 16,
+        "freelen": 21,
+        "address": 1072384
+    },
+    {
+        "str": "４種類",
+        "blen": 6,
+        "freelen": 21,
+        "address": 1072406
+    },
+    {
+        "str": "保存期限",
+        "blen": 8,
+        "freelen": 21,
+        "address": 1072428
+    },
+    {
+        "str": "自動水栓付",
+        "blen": 10,
+        "freelen": 21,
+        "address": 1072450
+    },
+    {
+        "str": "衛生的",
+        "blen": 6,
+        "freelen": 21,
+        "address": 1072472
+    },
+    {
+        "str": "手指の洗浄、消毒",
+        "blen": 16,
+        "freelen": 21,
+        "address": 1072494
+    },
+    {
+        "str": "温度",
+        "blen": 4,
+        "freelen": 21,
+        "address": 1072516
+    },
+    {
+        "str": "ＰＬ法",
+        "blen": 6,
+        "freelen": 21,
+        "address": 1072538
+    },
+    {
+        "str": "消費期限",
+        "blen": 8,
+        "freelen": 21,
+        "address": 1072560
+    },
+    {
+        "str": "ハウスダスト",
+        "blen": 12,
+        "freelen": 21,
+        "address": 1072582
+    },
+    {
+        "str": "そば",
+        "blen": 4,
+        "freelen": 21,
+        "address": 1072604
+    },
+    {
+        "str": "サルモネラ食中毒",
+        "blen": 16,
+        "freelen": 21,
+        "address": 1072626
+    },
+    {
+        "str": "９０℃で９０分",
+        "blen": 14,
+        "freelen": 21,
+        "address": 1072648
+    },
+    {
+        "str": "０℃〜４℃",
+        "blen": 10,
+        "freelen": 21,
+        "address": 1072670
+    },
+    {
+        "str": "衛生",
+        "blen": 4,
+        "freelen": 25,
+        "address": 1072692
+    },
+    {
+        "str": "条例",
+        "blen": 4,
+        "freelen": 25,
+        "address": 1072718
+    },
+    {
+        "str": "従業員の衛生教育",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1072744
+    },
+    {
+        "str": "食品などの検査",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1072770
+    },
+    {
+        "str": "製造物責任法",
+        "blen": 12,
+        "freelen": 25,
+        "address": 1072796
+    },
+    {
+        "str": "方法",
+        "blen": 4,
+        "freelen": 25,
+        "address": 1072822
+    },
+    {
+        "str": "親指や手の甲",
+        "blen": 12,
+        "freelen": 25,
+        "address": 1072848
+    },
+    {
+        "str": "ハエ",
+        "blen": 4,
+        "freelen": 25,
+        "address": 1072874
+    },
+    {
+        "str": "下痢や腹痛、咳など",
+        "blen": 18,
+        "freelen": 25,
+        "address": 1072900
+    },
+    {
+        "str": "冬季は発生しない",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1072926
+    },
+    {
+        "str": "食肉や鶏卵",
+        "blen": 10,
+        "freelen": 25,
+        "address": 1072952
+    },
+    {
+        "str": "鶏肉の加熱不足が原因",
+        "blen": 20,
+        "freelen": 25,
+        "address": 1072978
+    },
+    {
+        "str": "手指の化膿が原因",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1073004
+    },
+    {
+        "str": "週に１回",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1073030
+    },
+    {
+        "str": "細菌やウイルス",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1073056
+    },
+    {
+        "str": "手指や調理器具の洗浄消毒",
+        "blen": 24,
+        "freelen": 25,
+        "address": 1073082
+    },
+    {
+        "str": "水分を取り除く",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1073108
+    },
+    {
+        "str": "３ヶ月",
+        "blen": 6,
+        "freelen": 25,
+        "address": 1073134
+    },
+    {
+        "str": "加熱温度・加熱時間",
+        "blen": 18,
+        "freelen": 25,
+        "address": 1073160
+    },
+    {
+        "str": "保管する量は７０％位",
+        "blen": 20,
+        "freelen": 25,
+        "address": 1073186
+    },
+    {
+        "str": "高温で殺菌",
+        "blen": 10,
+        "freelen": 25,
+        "address": 1073212
+    },
+    {
+        "str": "付着する場合がある",
+        "blen": 18,
+        "freelen": 25,
+        "address": 1073238
+    },
+    {
+        "str": "３０分に１回",
+        "blen": 12,
+        "freelen": 25,
+        "address": 1073264
+    },
+    {
+        "str": "８℃",
+        "blen": 4,
+        "freelen": 25,
+        "address": 1073290
+    },
+    {
+        "str": "ＭｃＤハンドソープ",
+        "blen": 18,
+        "freelen": 25,
+        "address": 1073316
+    },
+    {
+        "str": "１０００万個以上",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1073342
+    },
+    {
+        "str": "微生物とは関係ない",
+        "blen": 18,
+        "freelen": 25,
+        "address": 1073368
+    },
+    {
+        "str": "使用後は手を洗う",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1073394
+    },
+    {
+        "str": "３００個",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1073420
+    },
+    {
+        "str": "原液",
+        "blen": 4,
+        "freelen": 25,
+        "address": 1073446
+    },
+    {
+        "str": "作業する人間の実施方法",
+        "blen": 22,
+        "freelen": 25,
+        "address": 1073472
+    },
+    {
+        "str": "有害微生物を殺す",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1073498
+    },
+    {
+        "str": "洗浄→乾燥→殺菌",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1073524
+    },
+    {
+        "str": "６９℃〜７４℃",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1073550
+    },
+    {
+        "str": "週に１回、清掃",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1073576
+    },
+    {
+        "str": "シンクの水は毎日",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1073602
+    },
+    {
+        "str": "１８オンスカップ",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1073628
+    },
+    {
+        "str": "３種類",
+        "blen": 6,
+        "freelen": 25,
+        "address": 1073654
+    },
+    {
+        "str": "消費期限",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1073680
+    },
+    {
+        "str": "シンクと共用",
+        "blen": 12,
+        "freelen": 25,
+        "address": 1073706
+    },
+    {
+        "str": "微生物的",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1073732
+    },
+    {
+        "str": "ビーフパティの内部温度",
+        "blen": 22,
+        "freelen": 25,
+        "address": 1073758
+    },
+    {
+        "str": "酸素",
+        "blen": 4,
+        "freelen": 25,
+        "address": 1073784
+    },
+    {
+        "str": "ＪＡＳ法",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1073810
+    },
+    {
+        "str": "賞味期限",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1073836
+    },
+    {
+        "str": "食物アレルギー",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1073862
+    },
+    {
+        "str": "大豆",
+        "blen": 4,
+        "freelen": 25,
+        "address": 1073888
+    },
+    {
+        "str": "腸炎ビブリオ食中毒",
+        "blen": 18,
+        "freelen": 25,
+        "address": 1073914
+    },
+    {
+        "str": "８０℃で８０分",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1073940
+    },
+    {
+        "str": "１℃〜４℃",
+        "blen": 10,
+        "freelen": 25,
+        "address": 1073966
+    },
+    {
+        "str": "食中毒",
+        "blen": 6,
+        "freelen": 25,
+        "address": 1073992
+    },
+    {
+        "str": "憲法",
+        "blen": 4,
+        "freelen": 25,
+        "address": 1074018
+    },
+    {
+        "str": "経営方針の決定",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1074044
+    },
+    {
+        "str": "勤務実績の調査",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1074070
+    },
+    {
+        "str": "食品安全基本法",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1074096
+    },
+    {
+        "str": "水温",
+        "blen": 4,
+        "freelen": 25,
+        "address": 1074122
+    },
+    {
+        "str": "中指や小指",
+        "blen": 10,
+        "freelen": 25,
+        "address": 1074148
+    },
+    {
+        "str": "カメムシ",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1074174
+    },
+    {
+        "str": "適度な運動",
+        "blen": 10,
+        "freelen": 25,
+        "address": 1074200
+    },
+    {
+        "str": "冬季はノロウィルスが多い",
+        "blen": 24,
+        "freelen": 25,
+        "address": 1074226
+    },
+    {
+        "str": "野菜類、果物",
+        "blen": 12,
+        "freelen": 25,
+        "address": 1074252
+    },
+    {
+        "str": "神経が麻痺する",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1074278
+    },
+    {
+        "str": "体に害はない",
+        "blen": 12,
+        "freelen": 25,
+        "address": 1074304
+    },
+    {
+        "str": "月に１回",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1074330
+    },
+    {
+        "str": "ダニや寄生虫",
+        "blen": 12,
+        "freelen": 25,
+        "address": 1074356
+    },
+    {
+        "str": "清潔な身だしなみ",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1074382
+    },
+    {
+        "str": "細菌を殺してしまう",
+        "blen": 18,
+        "freelen": 25,
+        "address": 1074408
+    },
+    {
+        "str": "１２ヶ月",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1074434
+    },
+    {
+        "str": "養分・湿度",
+        "blen": 10,
+        "freelen": 25,
+        "address": 1074460
+    },
+    {
+        "str": "夜間は通電しない",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1074486
+    },
+    {
+        "str": "放射線殺菌",
+        "blen": 10,
+        "freelen": 25,
+        "address": 1074512
+    },
+    {
+        "str": "冷凍では菌そのものがない",
+        "blen": 24,
+        "freelen": 25,
+        "address": 1074538
+    },
+    {
+        "str": "２時間に１回",
+        "blen": 12,
+        "freelen": 25,
+        "address": 1074564
+    },
+    {
+        "str": "１５℃",
+        "blen": 6,
+        "freelen": 25,
+        "address": 1074590
+    },
+    {
+        "str": "カレンダー",
+        "blen": 10,
+        "freelen": 25,
+        "address": 1074616
+    },
+    {
+        "str": "１０万個以上",
+        "blen": 12,
+        "freelen": 25,
+        "address": 1074642
+    },
+    {
+        "str": "細菌の数で進行が変わる",
+        "blen": 22,
+        "freelen": 25,
+        "address": 1074668
+    },
+    {
+        "str": "気が向いたら手を洗う",
+        "blen": 20,
+        "freelen": 25,
+        "address": 1074694
+    },
+    {
+        "str": "３０，０００個",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1074720
+    },
+    {
+        "str": "５倍",
+        "blen": 4,
+        "freelen": 25,
+        "address": 1074746
+    },
+    {
+        "str": "使用する道具の性能",
+        "blen": 18,
+        "freelen": 25,
+        "address": 1074772
+    },
+    {
+        "str": "微生物の数を減らす",
+        "blen": 18,
+        "freelen": 25,
+        "address": 1074798
+    },
+    {
+        "str": "洗浄→殺菌→乾燥",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1074824
+    },
+    {
+        "str": "６８℃〜７４℃",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1074850
+    },
+    {
+        "str": "店舗では清掃しない",
+        "blen": 18,
+        "freelen": 25,
+        "address": 1074876
+    },
+    {
+        "str": "シンクの水は６ヶ月に１回",
+        "blen": 24,
+        "freelen": 25,
+        "address": 1074902
+    },
+    {
+        "str": "１０オンスカップ",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1074928
+    },
+    {
+        "str": "５種類",
+        "blen": 6,
+        "freelen": 25,
+        "address": 1074954
+    },
+    {
+        "str": "品質期限",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1074980
+    },
+    {
+        "str": "厨房専用",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1075006
+    },
+    {
+        "str": "精神的",
+        "blen": 6,
+        "freelen": 25,
+        "address": 1075032
+    },
+    {
+        "str": "原材料の保管温度",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1075058
+    },
+    {
+        "str": "栄養素",
+        "blen": 6,
+        "freelen": 25,
+        "address": 1075084
+    },
+    {
+        "str": "調理師法",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1075110
+    },
+    {
+        "str": "販売期限",
+        "blen": 8,
+        "freelen": 25,
+        "address": 1075136
+    },
+    {
+        "str": "金属アレルギー",
+        "blen": 14,
+        "freelen": 25,
+        "address": 1075162
+    },
+    {
+        "str": "乳製品",
+        "blen": 6,
+        "freelen": 25,
+        "address": 1075188
+    },
+    {
+        "str": "セレウス菌食中毒",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1075214
+    },
+    {
+        "str": "８０℃で１２０分",
+        "blen": 16,
+        "freelen": 25,
+        "address": 1075240
+    },
+    {
+        "str": "１℃〜５℃",
+        "blen": 10,
+        "freelen": 25,
+        "address": 1075266
+    },
+    {
+        "str": "市販されているチーズ",
+        "blen": 20,
+        "freelen": 31,
+        "address": 1075292
+    },
+    {
+        "str": "水に浮かべる",
+        "blen": 12,
+        "freelen": 31,
+        "address": 1075324
+    },
+    {
+        "str": "３日に１回",
+        "blen": 10,
+        "freelen": 31,
+        "address": 1075356
+    },
+    {
+        "str": "ダブルチーズバーガー",
+        "blen": 20,
+        "freelen": 31,
+        "address": 1075388
+    },
+    {
+        "str": "８０％",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1075420
+    },
+    {
+        "str": "アイダホ州・ミネソタ州",
+        "blen": 22,
+        "freelen": 31,
+        "address": 1075452
+    },
+    {
+        "str": "米国",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1075484
+    },
+    {
+        "str": "アメリカ産・カナダ産",
+        "blen": 20,
+        "freelen": 31,
+        "address": 1075516
+    },
+    {
+        "str": "すべて機械で除去",
+        "blen": 16,
+        "freelen": 31,
+        "address": 1075548
+    },
+    {
+        "str": "血行をよくする成分",
+        "blen": 18,
+        "freelen": 31,
+        "address": 1075580
+    },
+    {
+        "str": "午前、午後で分ける",
+        "blen": 18,
+        "freelen": 31,
+        "address": 1075612
+    },
+    {
+        "str": "奇数日、偶数日で分ける",
+        "blen": 22,
+        "freelen": 31,
+        "address": 1075644
+    },
+    {
+        "str": "学力向上",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1075676
+    },
+    {
+        "str": "ビッグマック大学",
+        "blen": 16,
+        "freelen": 31,
+        "address": 1075708
+    },
+    {
+        "str": "Ｐｒｅｓｅｎｔ　Ｆｏｒ　Ｙｏｕ",
+        "blen": 30,
+        "freelen": 31,
+        "address": 1075740
+    },
+    {
+        "str": "焼く",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1075772
+    },
+    {
+        "str": "２個分",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1075804
+    },
+    {
+        "str": "マック",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1075836
+    },
+    {
+        "str": "大阪",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1075868
+    },
+    {
+        "str": "３日間",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1075900
+    },
+    {
+        "str": "東京都　新宿",
+        "blen": 12,
+        "freelen": 31,
+        "address": 1075932
+    },
+    {
+        "str": "ダブルチーズバーガー",
+        "blen": 20,
+        "freelen": 31,
+        "address": 1075964
+    },
+    {
+        "str": "アメリカのピクルスが基準",
+        "blen": 24,
+        "freelen": 31,
+        "address": 1075996
+    },
+    {
+        "str": "鼻",
+        "blen": 2,
+        "freelen": 31,
+        "address": 1076028
+    },
+    {
+        "str": "シェイクの温度",
+        "blen": 14,
+        "freelen": 31,
+        "address": 1076060
+    },
+    {
+        "str": "トイレ",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1076092
+    },
+    {
+        "str": "約３０秒",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1076124
+    },
+    {
+        "str": "６ケース",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1076156
+    },
+    {
+        "str": "ビーフパティ",
+        "blen": 12,
+        "freelen": 31,
+        "address": 1076188
+    },
+    {
+        "str": "約３０秒",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1076220
+    },
+    {
+        "str": "長袖より安いため",
+        "blen": 16,
+        "freelen": 31,
+        "address": 1076252
+    },
+    {
+        "str": "ヘラの消耗を防ぐため",
+        "blen": 20,
+        "freelen": 31,
+        "address": 1076284
+    },
+    {
+        "str": "埼玉県　大宮市",
+        "blen": 14,
+        "freelen": 31,
+        "address": 1076316
+    },
+    {
+        "str": "注文品の取り揃え",
+        "blen": 16,
+        "freelen": 31,
+        "address": 1076348
+    },
+    {
+        "str": "冷蔵庫",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1076380
+    },
+    {
+        "str": "パティ",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1076412
+    },
+    {
+        "str": "日本",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1076444
+    },
+    {
+        "str": "オホーツク海",
+        "blen": 12,
+        "freelen": 31,
+        "address": 1076476
+    },
+    {
+        "str": "ミステリーサークル",
+        "blen": 18,
+        "freelen": 31,
+        "address": 1076508
+    },
+    {
+        "str": "３枚",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1076540
+    },
+    {
+        "str": "１枚",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1076572
+    },
+    {
+        "str": "ホットケーキ（３００ｋｃａｌ）",
+        "blen": 30,
+        "freelen": 31,
+        "address": 1076604
+    },
+    {
+        "str": "鉄",
+        "blen": 2,
+        "freelen": 31,
+        "address": 1076636
+    },
+    {
+        "str": "ビタミンＣ",
+        "blen": 10,
+        "freelen": 31,
+        "address": 1076668
+    },
+    {
+        "str": "アメリカ",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1076700
+    },
+    {
+        "str": "１９６５年",
+        "blen": 10,
+        "freelen": 31,
+        "address": 1076732
+    },
+    {
+        "str": "パティだけが２枚",
+        "blen": 16,
+        "freelen": 31,
+        "address": 1076764
+    },
+    {
+        "str": "ゲスト",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1076796
+    },
+    {
+        "str": "ラッキーセット",
+        "blen": 14,
+        "freelen": 31,
+        "address": 1076828
+    },
+    {
+        "str": "ドライブイン",
+        "blen": 12,
+        "freelen": 31,
+        "address": 1076860
+    },
+    {
+        "str": "ＭｃＤ　オリジナルチーズ",
+        "blen": 24,
+        "freelen": 31,
+        "address": 1076892
+    },
+    {
+        "str": "光をあてる",
+        "blen": 10,
+        "freelen": 31,
+        "address": 1076924
+    },
+    {
+        "str": "毎日",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1076956
+    },
+    {
+        "str": "ビッグマック",
+        "blen": 12,
+        "freelen": 31,
+        "address": 1076988
+    },
+    {
+        "str": "１００％",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1077020
+    },
+    {
+        "str": "ワシントン州・オレゴン州",
+        "blen": 24,
+        "freelen": 31,
+        "address": 1077052
+    },
+    {
+        "str": "国産",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1077084
+    },
+    {
+        "str": "オーストラリア産・ＮＺ産",
+        "blen": 24,
+        "freelen": 31,
+        "address": 1077116
+    },
+    {
+        "str": "ピンセットで除去",
+        "blen": 16,
+        "freelen": 31,
+        "address": 1077148
+    },
+    {
+        "str": "手あれ防止の成分",
+        "blen": 16,
+        "freelen": 31,
+        "address": 1077180
+    },
+    {
+        "str": "奇数日、偶数日で分ける",
+        "blen": 22,
+        "freelen": 31,
+        "address": 1077212
+    },
+    {
+        "str": "エリアごとで使い分ける",
+        "blen": 22,
+        "freelen": 31,
+        "address": 1077244
+    },
+    {
+        "str": "技能向上",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1077276
+    },
+    {
+        "str": "ハンバーガー大学",
+        "blen": 16,
+        "freelen": 31,
+        "address": 1077308
+    },
+    {
+        "str": "Ｍａｄｅ　Ｆｏｒ　Ｙｏｕ",
+        "blen": 24,
+        "freelen": 31,
+        "address": 1077340
+    },
+    {
+        "str": "蒸す",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1077372
+    },
+    {
+        "str": "４個分",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1077404
+    },
+    {
+        "str": "ドナルド",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1077436
+    },
+    {
+        "str": "東京",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1077468
+    },
+    {
+        "str": "３９時間",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1077500
+    },
+    {
+        "str": "神奈川県　江ノ島",
+        "blen": 16,
+        "freelen": 31,
+        "address": 1077532
+    },
+    {
+        "str": "てりやきマックバーガー",
+        "blen": 22,
+        "freelen": 31,
+        "address": 1077564
+    },
+    {
+        "str": "本当の話",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1077596
+    },
+    {
+        "str": "耳",
+        "blen": 2,
+        "freelen": 31,
+        "address": 1077628
+    },
+    {
+        "str": "ポテトのサイズ",
+        "blen": 14,
+        "freelen": 31,
+        "address": 1077660
+    },
+    {
+        "str": "シェイクマシーン",
+        "blen": 16,
+        "freelen": 31,
+        "address": 1077692
+    },
+    {
+        "str": "１５秒以内",
+        "blen": 10,
+        "freelen": 31,
+        "address": 1077724
+    },
+    {
+        "str": "９ケース",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1077756
+    },
+    {
+        "str": "野菜類",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1077788
+    },
+    {
+        "str": "約８秒",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1077820
+    },
+    {
+        "str": "肘までしっかり洗うため",
+        "blen": 22,
+        "freelen": 31,
+        "address": 1077852
+    },
+    {
+        "str": "二次汚染防止のため",
+        "blen": 18,
+        "freelen": 31,
+        "address": 1077884
+    },
+    {
+        "str": "東京都　杉並区",
+        "blen": 14,
+        "freelen": 31,
+        "address": 1077916
+    },
+    {
+        "str": "あいさつ",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1077948
+    },
+    {
+        "str": "冷凍庫",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1077980
+    },
+    {
+        "str": "チーズ",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1078012
+    },
+    {
+        "str": "アメリカ",
+        "blen": 8,
+        "freelen": 31,
+        "address": 1078044
+    },
+    {
+        "str": "ベーリング海",
+        "blen": 12,
+        "freelen": 31,
+        "address": 1078076
+    },
+    {
+        "str": "ミステリーショッパー",
+        "blen": 20,
+        "freelen": 31,
+        "address": 1078108
+    },
+    {
+        "str": "２枚",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1078140
+    },
+    {
+        "str": "２枚",
+        "blen": 4,
+        "freelen": 31,
+        "address": 1078172
+    },
+    {
+        "str": "ハンバーガー（２５０ｋｃａｌ）",
+        "blen": 30,
+        "freelen": 31,
+        "address": 1078204
+    },
+    {
+        "str": "カルシウム",
+        "blen": 10,
+        "freelen": 31,
+        "address": 1078236
+    },
+    {
+        "str": "ビタミンＡ",
+        "blen": 10,
+        "freelen": 31,
+        "address": 1078268
+    },
+    {
+        "str": "大きさは同じ",
+        "blen": 12,
+        "freelen": 31,
+        "address": 1078300
+    },
+    {
+        "str": "１９７１年",
+        "blen": 10,
+        "freelen": 31,
+        "address": 1078332
+    },
+    {
+        "str": "パティとチーズが２枚ずつ",
+        "blen": 24,
+        "freelen": 31,
+        "address": 1078364
+    },
+    {
+        "str": "クルー",
+        "blen": 6,
+        "freelen": 31,
+        "address": 1078396
+    },
+    {
+        "str": "ハッピーセット",
+        "blen": 14,
+        "freelen": 31,
+        "address": 1078428
+    },
+    {
+        "str": "ドライブスルー",
+        "blen": 14,
+        "freelen": 31,
+        "address": 1078460
+    },
+    {
+        "str": "専用牧場で製造したチーズ",
+        "blen": 24,
+        "freelen": 33,
+        "address": 1078492
+    },
+    {
+        "str": "お湯をかける",
+        "blen": 12,
+        "freelen": 33,
+        "address": 1078526
+    },
+    {
+        "str": "週に１回",
+        "blen": 8,
+        "freelen": 33,
+        "address": 1078560
+    },
+    {
+        "str": "フィレオフィッシュ",
+        "blen": 18,
+        "freelen": 33,
+        "address": 1078594
+    },
+    {
+        "str": "決まりはない",
+        "blen": 12,
+        "freelen": 33,
+        "address": 1078628
+    },
+    {
+        "str": "北海道・宮崎県",
+        "blen": 14,
+        "freelen": 33,
+        "address": 1078662
+    },
+    {
+        "str": "中国",
+        "blen": 4,
+        "freelen": 33,
+        "address": 1078696
+    },
+    {
+        "str": "松阪産・岩手産",
+        "blen": 14,
+        "freelen": 33,
+        "address": 1078730
+    },
+    {
+        "str": "薬品で溶かす",
+        "blen": 12,
+        "freelen": 33,
+        "address": 1078764
+    },
+    {
+        "str": "美白効果の成分",
+        "blen": 14,
+        "freelen": 33,
+        "address": 1078798
+    },
+    {
+        "str": "その日の気分",
+        "blen": 12,
+        "freelen": 33,
+        "address": 1078832
+    },
+    {
+        "str": "好きな色のモップを使う",
+        "blen": 22,
+        "freelen": 33,
+        "address": 1078866
+    },
+    {
+        "str": "体力向上",
+        "blen": 8,
+        "freelen": 33,
+        "address": 1078900
+    },
+    {
+        "str": "ドナルド大学",
+        "blen": 12,
+        "freelen": 33,
+        "address": 1078934
+    },
+    {
+        "str": "Ｍａｋｅ　ａ　Ｃｈａｎｃｅ",
+        "blen": 26,
+        "freelen": 33,
+        "address": 1078968
+    },
+    {
+        "str": "揚げる",
+        "blen": 6,
+        "freelen": 33,
+        "address": 1079002
+    },
+    {
+        "str": "６個分",
+        "blen": 6,
+        "freelen": 33,
+        "address": 1079036
+    },
+    {
+        "str": "マクド",
+        "blen": 6,
+        "freelen": 33,
+        "address": 1079070
+    },
+    {
+        "str": "福岡",
+        "blen": 4,
+        "freelen": 33,
+        "address": 1079104
+    },
+    {
+        "str": "１週間",
+        "blen": 6,
+        "freelen": 33,
+        "address": 1079138
+    },
+    {
+        "str": "愛知県　名古屋",
+        "blen": 14,
+        "freelen": 33,
+        "address": 1079172
+    },
+    {
+        "str": "エッグマックマフィン",
+        "blen": 20,
+        "freelen": 33,
+        "address": 1079206
+    },
+    {
+        "str": "ピクルスに基準はない",
+        "blen": 20,
+        "freelen": 33,
+        "address": 1079240
+    },
+    {
+        "str": "尻尾",
+        "blen": 4,
+        "freelen": 33,
+        "address": 1079274
+    },
+    {
+        "str": "バンズの柔らかさ",
+        "blen": 16,
+        "freelen": 33,
+        "address": 1079308
+    },
+    {
+        "str": "ユニフォーム",
+        "blen": 12,
+        "freelen": 33,
+        "address": 1079342
+    },
+    {
+        "str": "約１分",
+        "blen": 6,
+        "freelen": 33,
+        "address": 1079376
+    },
+    {
+        "str": "倒れなければよい",
+        "blen": 16,
+        "freelen": 33,
+        "address": 1079410
+    },
+    {
+        "str": "ポテト",
+        "blen": 6,
+        "freelen": 33,
+        "address": 1079444
+    },
+    {
+        "str": "約１分",
+        "blen": 6,
+        "freelen": 33,
+        "address": 1079478
+    },
+    {
+        "str": "暑がりの人が多いため",
+        "blen": 20,
+        "freelen": 33,
+        "address": 1079512
+    },
+    {
+        "str": "２個あるとカッコいいから",
+        "blen": 24,
+        "freelen": 33,
+        "address": 1079546
+    },
+    {
+        "str": "神奈川県　横浜市",
+        "blen": 16,
+        "freelen": 33,
+        "address": 1079580
+    },
+    {
+        "str": "エリアの清掃",
+        "blen": 12,
+        "freelen": 33,
+        "address": 1079614
+    },
+    {
+        "str": "常温保管",
+        "blen": 8,
+        "freelen": 33,
+        "address": 1079648
+    },
+    {
+        "str": "決まりはない",
+        "blen": 12,
+        "freelen": 33,
+        "address": 1079682
+    },
+    {
+        "str": "イギリス",
+        "blen": 8,
+        "freelen": 33,
+        "address": 1079716
+    },
+    {
+        "str": "インド洋",
+        "blen": 8,
+        "freelen": 33,
+        "address": 1079750
+    },
+    {
+        "str": "ミステリーツアー",
+        "blen": 16,
+        "freelen": 33,
+        "address": 1079784
+    },
+    {
+        "str": "４枚",
+        "blen": 4,
+        "freelen": 33,
+        "address": 1079818
+    },
+    {
+        "str": "３枚",
+        "blen": 4,
+        "freelen": 33,
+        "address": 1079852
+    },
+    {
+        "str": "ソフトツイスト（１５０ｋｃａｌ）",
+        "blen": 32,
+        "freelen": 33,
+        "address": 1079886
+    },
+    {
+        "str": "ビタミンＡ",
+        "blen": 10,
+        "freelen": 33,
+        "address": 1079920
+    },
+    {
+        "str": "脂質",
+        "blen": 4,
+        "freelen": 33,
+        "address": 1079954
+    },
+    {
+        "str": "日本",
+        "blen": 4,
+        "freelen": 33,
+        "address": 1079988
+    },
+    {
+        "str": "１９７６年",
+        "blen": 10,
+        "freelen": 33,
+        "address": 1080022
+    },
+    {
+        "str": "チーズだけが２枚",
+        "blen": 16,
+        "freelen": 33,
+        "address": 1080056
+    },
+    {
+        "str": "スタッフ",
+        "blen": 8,
+        "freelen": 33,
+        "address": 1080090
+    },
+    {
+        "str": "キッズセット",
+        "blen": 12,
+        "freelen": 33,
+        "address": 1080124
+    },
+    {
+        "str": "テイクアウト",
+        "blen": 12,
+        "freelen": 33,
+        "address": 1080158
+    },
+    {
+        "str": "マクドナルドでは、どんなチーズを使っているか？",
+        "blen": 46,
+        "freelen": 85,
+        "address": 1080192
+    },
+    {
+        "str": "卵の品質を調べるために、マクドナルドの専用工場でおこなっていることは？",
+        "blen": 70,
+        "freelen": 85,
+        "address": 1080278
+    },
+    {
+        "str": "フードセーフティのためにパティの焼成温度を測りますが、その頻度は？",
+        "blen": 66,
+        "freelen": 85,
+        "address": 1080364
+    },
+    {
+        "str": "レタスが入っているサンドイッチはどれか？",
+        "blen": 40,
+        "freelen": 85,
+        "address": 1080450
+    },
+    {
+        "str": "マクドナルドのビーフパティは、何％ビーフを使っているか？",
+        "blen": 56,
+        "freelen": 85,
+        "address": 1080536
+    },
+    {
+        "str": "日本のマックフライポテトは主にどこで栽培されたポテトを使っているか？",
+        "blen": 68,
+        "freelen": 85,
+        "address": 1080622
+    },
+    {
+        "str": "マクドナルドのレタスは、主にどの産地のレタスを使っているか？",
+        "blen": 60,
+        "freelen": 85,
+        "address": 1080708
+    },
+    {
+        "str": "マクドナルドのビーフパティは、どこで飼育された牛肉を使っているか？",
+        "blen": 66,
+        "freelen": 85,
+        "address": 1080794
+    },
+    {
+        "str": "フィレオフィッシュの白身魚の小骨はどうやって除去しているか？",
+        "blen": 60,
+        "freelen": 85,
+        "address": 1080880
+    },
+    {
+        "str": "手洗い用のハンドソープに入っている、洗浄と殺菌の目的以外の成分は何か？",
+        "blen": 70,
+        "freelen": 85,
+        "address": 1080966
+    },
+    {
+        "str": "手洗いで使う爪ブラシは、どのように使い分けているか？",
+        "blen": 52,
+        "freelen": 85,
+        "address": 1081052
+    },
+    {
+        "str": "マクドナルドで使うモップは衛生面を考えて、どのように使い分けているか？",
+        "blen": 70,
+        "freelen": 85,
+        "address": 1081138
+    },
+    {
+        "str": "マクドナルドでは、あることを目的としたコンテストを開催しています。さて、その目的は？",
+        "blen": 84,
+        "freelen": 85,
+        "address": 1081224
+    },
+    {
+        "str": "マクドナルドには人材育成の学校があります。この学校の名前はどれ？",
+        "blen": 64,
+        "freelen": 85,
+        "address": 1081310
+    },
+    {
+        "str": "できたてのバーガー類をご提供するための、マクドナルドの製造システムは？",
+        "blen": 70,
+        "freelen": 85,
+        "address": 1081396
+    },
+    {
+        "str": "フィレオフィッシュのバンズの調理方法は？",
+        "blen": 40,
+        "freelen": 85,
+        "address": 1081482
+    },
+    {
+        "str": "ドナルド・マクドナルドの足は、ハンバーガー何個分の大きさがあるか？",
+        "blen": 66,
+        "freelen": 85,
+        "address": 1081568
+    },
+    {
+        "str": "ぼくは、ドナルド・マクドナルド。みんなには何と呼ばれてるでしょうか？",
+        "blen": 68,
+        "freelen": 85,
+        "address": 1081654
+    },
+    {
+        "str": "日本で最初にできたマクドナルドは、どこの都市？",
+        "blen": 46,
+        "freelen": 85,
+        "address": 1081740
+    },
+    {
+        "str": "日本のマクドナルド１号店は、どのくらいの期間で作られたか？",
+        "blen": 58,
+        "freelen": 85,
+        "address": 1081826
+    },
+    {
+        "str": "マクドナルドの世界５０００号店は、どこにできたか？",
+        "blen": 50,
+        "freelen": 85,
+        "address": 1081912
+    },
+    {
+        "str": "バンズにゴマのついているサンドイッチはどれか？",
+        "blen": 46,
+        "freelen": 85,
+        "address": 1081998
+    },
+    {
+        "str": "日本のピクルスが「世界のマクドナルド」の基準になっているって本当？",
+        "blen": 66,
+        "freelen": 85,
+        "address": 1082084
+    },
+    {
+        "str": "牛肉用の牛の飼育履歴を管理するタグは牛のどこにつけるか？",
+        "blen": 56,
+        "freelen": 85,
+        "address": 1082170
+    },
+    {
+        "str": "マクドナルドではこれは、何を計るスケールか？",
+        "blen": 44,
+        "freelen": 85,
+        "address": 1082256
+    },
+    {
+        "str": "これは、何を洗浄する専用ブラシか？",
+        "blen": 34,
+        "freelen": 85,
+        "address": 1082342
+    },
+    {
+        "str": "マクドナルドのバンズはどのくらいで焼きあがるか？",
+        "blen": 48,
+        "freelen": 85,
+        "address": 1082428
+    },
+    {
+        "str": "ビーフパティは冷凍庫で何段まで積み重ねてもよいか？",
+        "blen": 50,
+        "freelen": 85,
+        "address": 1082514
+    },
+    {
+        "str": "マクドナルドの資材搬入で、一番始めに搬入するべきものは何か？",
+        "blen": 60,
+        "freelen": 85,
+        "address": 1082600
+    },
+    {
+        "str": "フィレオフィッシュのバンズのスチーム時間はどのくらいか？",
+        "blen": 56,
+        "freelen": 85,
+        "address": 1082686
+    },
+    {
+        "str": "クルーのユニフォームは１年中、半袖ですがなぜ？",
+        "blen": 46,
+        "freelen": 85,
+        "address": 1082772
+    },
+    {
+        "str": "マクドナルドでは卵の調理に２種類のヘラを使い分けていますが、なぜ？",
+        "blen": 66,
+        "freelen": 85,
+        "address": 1082858
+    },
+    {
+        "str": "マクドナルドのドライブスルー１号店はどこにできたか？",
+        "blen": 52,
+        "freelen": 85,
+        "address": 1082944
+    },
+    {
+        "str": "接客の第一ステップは何？",
+        "blen": 24,
+        "freelen": 85,
+        "address": 1083030
+    },
+    {
+        "str": "ビーフパティはどこで保管されているか？",
+        "blen": 38,
+        "freelen": 85,
+        "address": 1083116
+    },
+    {
+        "str": "チーズバーガーのチーズとパティさてどっちが上にはさんである？",
+        "blen": 60,
+        "freelen": 85,
+        "address": 1083202
+    },
+    {
+        "str": "マクドナルドの世界１号店は、どこ？",
+        "blen": 34,
+        "freelen": 85,
+        "address": 1083288
+    },
+    {
+        "str": "日本で販売しているフィレオフィッシュの魚は主にどこで獲れる？",
+        "blen": 60,
+        "freelen": 85,
+        "address": 1083374
+    },
+    {
+        "str": "マクドナルドの店舗を調査する謎の調査員を何と呼ぶ？",
+        "blen": 50,
+        "freelen": 85,
+        "address": 1083460
+    },
+    {
+        "str": "ビッグマックにはビーフパティが何枚入っているか？",
+        "blen": 48,
+        "freelen": 85,
+        "address": 1083546
+    },
+    {
+        "str": "ダブルチーズバーガーにピクルスは何枚入っているか？",
+        "blen": 50,
+        "freelen": 85,
+        "address": 1083632
+    },
+    {
+        "str": "ご飯１杯（１５０ｇ）と同じくらいのエネルギーの商品は？",
+        "blen": 54,
+        "freelen": 85,
+        "address": 1083718
+    },
+    {
+        "str": "次の中で牛乳に一番多く含まれている栄養素は何か？",
+        "blen": 48,
+        "freelen": 85,
+        "address": 1083804
+    },
+    {
+        "str": "次の中でトマトに一番多く含まれている栄養素は何か？",
+        "blen": 50,
+        "freelen": 85,
+        "address": 1083890
+    },
+    {
+        "str": "日本とアメリカのハンバーガー、どちらが大きいか？",
+        "blen": 48,
+        "freelen": 85,
+        "address": 1083976
+    },
+    {
+        "str": "日本マクドナルド１号店がオープンしたのはいつ？",
+        "blen": 46,
+        "freelen": 85,
+        "address": 1084062
+    },
+    {
+        "str": "正しいダブルチーズバーガーはどれか？",
+        "blen": 36,
+        "freelen": 85,
+        "address": 1084148
+    },
+    {
+        "str": "マクドナルドではアルバイトの方を何と呼んでいるか？",
+        "blen": 50,
+        "freelen": 85,
+        "address": 1084234
+    },
+    {
+        "str": "お子様向けのセットメニューを何と呼ぶか？",
+        "blen": 40,
+        "freelen": 85,
+        "address": 1084320
+    },
+    {
+        "str": "車を降りずに商品を買えるシステムを何という？",
+        "blen": 44,
+        "freelen": 85,
+        "address": 1084406
+    },
+    {
+        "str": "食品を取り扱うときには、清潔と何に注意する必要があるか？",
+        "blen": 56,
+        "freelen": 123,
+        "address": 1084492
+    },
+    {
+        "str": "食品衛生責任者の設置を義務づけているものはどれか？",
+        "blen": 50,
+        "freelen": 123,
+        "address": 1084616
+    },
+    {
+        "str": "食品衛生責任者の主な役割はどれか？",
+        "blen": 34,
+        "freelen": 123,
+        "address": 1084740
+    },
+    {
+        "str": "食品衛生監視員の主な役割はどれか？",
+        "blen": 34,
+        "freelen": 123,
+        "address": 1084864
+    },
+    {
+        "str": "ＰＬ法とは次のうちどれか？",
+        "blen": 26,
+        "freelen": 123,
+        "address": 1084988
+    },
+    {
+        "str": "手洗いで最も注意する必要があるのはどれか？",
+        "blen": 42,
+        "freelen": 123,
+        "address": 1085112
+    },
+    {
+        "str": "手洗いのとき、洗い忘れしやすい手の部分はどこか？",
+        "blen": 48,
+        "freelen": 123,
+        "address": 1085236
+    },
+    {
+        "str": "感染症等を媒介する衛生害虫は次のうちどれか？",
+        "blen": 44,
+        "freelen": 123,
+        "address": 1085360
+    },
+    {
+        "str": "店舗にＩＮするときの健康チェックポイントは次のうちどれか？",
+        "blen": 58,
+        "freelen": 123,
+        "address": 1085484
+    },
+    {
+        "str": "食中毒の発生について、誤っているものはどれか？",
+        "blen": 46,
+        "freelen": 123,
+        "address": 1085608
+    },
+    {
+        "str": "サルモネラ食中毒の原因食品として、多いものはどれか？",
+        "blen": 52,
+        "freelen": 123,
+        "address": 1085732
+    },
+    {
+        "str": "カンピロバクターによる食中毒について、正しい説明はどれか？",
+        "blen": 58,
+        "freelen": 123,
+        "address": 1085856
+    },
+    {
+        "str": "黄色ブドウ球菌による食中毒について正しい説明はどれか？",
+        "blen": 54,
+        "freelen": 123,
+        "address": 1085980
+    },
+    {
+        "str": "デジタル温度計のカリブレーション（０℃調整）の頻度は？",
+        "blen": 54,
+        "freelen": 123,
+        "address": 1086104
+    },
+    {
+        "str": "食中毒の原因として最も適切なのは次のうちどれか？",
+        "blen": 48,
+        "freelen": 123,
+        "address": 1086228
+    },
+    {
+        "str": "感染症や食中毒の予防で最も重要なことは次のうちどれか？",
+        "blen": 54,
+        "freelen": 123,
+        "address": 1086352
+    },
+    {
+        "str": "食中毒予防の三原則でないものはどれか？",
+        "blen": 38,
+        "freelen": 123,
+        "address": 1086476
+    },
+    {
+        "str": "「健康＆手洗い記録表」は何ヶ月保管すればよいか？",
+        "blen": 48,
+        "freelen": 123,
+        "address": 1086600
+    },
+    {
+        "str": "「細菌を殺してしまう」ために必要なことは？",
+        "blen": 42,
+        "freelen": 123,
+        "address": 1086724
+    },
+    {
+        "str": "冷蔵庫での保存方法で、正しいものはどれか？",
+        "blen": 42,
+        "freelen": 123,
+        "address": 1086848
+    },
+    {
+        "str": "牛乳の殺菌に使われる方法は？",
+        "blen": 28,
+        "freelen": 123,
+        "address": 1086972
+    },
+    {
+        "str": "冷凍食品には食中毒菌が付着するか？",
+        "blen": 34,
+        "freelen": 123,
+        "address": 1087096
+    },
+    {
+        "str": "角パンに氷を入れて原材料を冷却保管する場合、氷の確認頻度は？",
+        "blen": 60,
+        "freelen": 123,
+        "address": 1087220
+    },
+    {
+        "str": "何℃以下になると細菌の活動力は衰えはじめるか？",
+        "blen": 46,
+        "freelen": 123,
+        "address": 1087344
+    },
+    {
+        "str": "手洗い設備に常備されていなければならないものはどれか？",
+        "blen": 54,
+        "freelen": 123,
+        "address": 1087468
+    },
+    {
+        "str": "食品が腐敗するときの細菌の数はどのくらいか？",
+        "blen": 44,
+        "freelen": 123,
+        "address": 1087592
+    },
+    {
+        "str": "食品の腐敗について、誤っているものはどれか？",
+        "blen": 44,
+        "freelen": 123,
+        "address": 1087716
+    },
+    {
+        "str": "厨房用のほうき、ちりとりの使用方法として正しい記述は？",
+        "blen": 54,
+        "freelen": 123,
+        "address": 1087840
+    },
+    {
+        "str": "マクドナルドの野菜を使わない　サンドイッチの一般生菌の基準は１ｇ当たり何個以下か？",
+        "blen": 82,
+        "freelen": 123,
+        "address": 1087964
+    },
+    {
+        "str": "ＭｃＤハンドソープは何倍に希釈するか？",
+        "blen": 38,
+        "freelen": 123,
+        "address": 1088088
+    },
+    {
+        "str": "洗浄や殺菌の効果を決定する最も重要な要素は何か？",
+        "blen": 48,
+        "freelen": 123,
+        "address": 1088212
+    },
+    {
+        "str": "殺菌とは次のうちどれか？",
+        "blen": 24,
+        "freelen": 123,
+        "address": 1088336
+    },
+    {
+        "str": "アルコール製剤で殺菌する方法は次のどの流れにそって実施すべきか？",
+        "blen": 64,
+        "freelen": 123,
+        "address": 1088460
+    },
+    {
+        "str": "ビーフパティのクォリティスタンダードで正しい温度は？",
+        "blen": 52,
+        "freelen": 123,
+        "address": 1088584
+    },
+    {
+        "str": "グリストラップの清掃で正しい記述はどれか？",
+        "blen": 42,
+        "freelen": 123,
+        "address": 1088708
+    },
+    {
+        "str": "残留塩素検査で正しい記述はどれか？",
+        "blen": 34,
+        "freelen": 123,
+        "address": 1088832
+    },
+    {
+        "str": "手洗いの水量は、５秒ですり切れ一杯から８分目だが、使用するカップはどれ？",
+        "blen": 72,
+        "freelen": 123,
+        "address": 1088956
+    },
+    {
+        "str": "コーラノズル用ブラシは、何種類使用しているか？",
+        "blen": 46,
+        "freelen": 123,
+        "address": 1089080
+    },
+    {
+        "str": "期限表示の用語で正しいのはどれか？",
+        "blen": 34,
+        "freelen": 123,
+        "address": 1089204
+    },
+    {
+        "str": "手洗い設備として不適切なものはどれか？",
+        "blen": 38,
+        "freelen": 123,
+        "address": 1089328
+    },
+    {
+        "str": "危害の発生を予測（ＨＡ）する科学的根拠となるものはどれか？　　ＨＡ：Ｈａｚａｒｄ　Ａｎａｌｙｓｉｓ",
+        "blen": 98,
+        "freelen": 123,
+        "address": 1089452
+    },
+    {
+        "str": "ハンバーガーを作る時の最重要管理点（ＣＣＰ）とは、次のうちどれか？　　ＣＣＰ：Ｃｒｉｔｉｃａｌ　Ｃｏｎｔｒｏｌ　Ｐｏｉｎｔ",
+        "blen": 122,
+        "freelen": 123,
+        "address": 1089576
+    },
+    {
+        "str": "細菌が発育するための条件に入っていないものはどれか？",
+        "blen": 52,
+        "freelen": 123,
+        "address": 1089700
+    },
+    {
+        "str": "農林水産物資の規格及び品質表示の適正化に関する法律を何というか？",
+        "blen": 64,
+        "freelen": 123,
+        "address": 1089824
+    },
+    {
+        "str": "定められた方法で保存した場合、品質保持が十分可能と認められる期限を何というか？",
+        "blen": 78,
+        "freelen": 123,
+        "address": 1089948
+    },
+    {
+        "str": "タンパク成分が原因となって、じんましんなどの症状がおこることを何というか？",
+        "blen": 74,
+        "freelen": 123,
+        "address": 1090072
+    },
+    {
+        "str": "法令で規定する特定原材料（アレルゲン）７品目でないものはどれか？",
+        "blen": 64,
+        "freelen": 123,
+        "address": 1090196
+    },
+    {
+        "str": "魚介類の摂取により、発症しやすい恐れのある食中毒は何か？",
+        "blen": 56,
+        "freelen": 123,
+        "address": 1090320
+    },
+    {
+        "str": "マクドナルドの消毒保管庫の殺菌設定でないものはどれか？",
+        "blen": 54,
+        "freelen": 123,
+        "address": 1090444
+    },
+    {
+        "str": "マクドナルドの冷蔵庫の温度の設定基準はどれか？",
+        "blen": 46,
+        "freelen": 118,
+        "address": 1090568
+    }
+]

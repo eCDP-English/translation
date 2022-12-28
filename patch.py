@@ -1,7 +1,7 @@
 #!/bin/python3
 import bin.patch
 import overlay.patch
-import font.fixfont
+import cmcd.patch
 import os
 import argparse
 
@@ -13,7 +13,7 @@ args = parser.parse_args()
 data = bytearray(args.file.read())
 
 data = bin.patch.main(args.lang, data, "bin")
-data = font.fixfont.main(data, "font")
+data = cmcd.patch.main(args.lang, data, "cmcd")
 data = overlay.patch.main(args.lang, data, "overlay")
 
 print("Patches done. writing to file.")
