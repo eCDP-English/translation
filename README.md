@@ -5,7 +5,7 @@ This is a repository to create a fan English translation patch of McDonald's [eC
 The repository consists of three sections, one directory for each section:
 - `overlay` - Translates overlay files, which contain UI texts, as well as the game's compiled code.
 - `bin` - Translates bin files, containing texts mainly for SOC Guides and Self Check.
-- `font` - Replaces the font file used in "Challenge the McDonald's" section to display alphabet letters correctly.
+- `cmcd` - Translates the "Challenge the McDonald's" section. Also replaces the font used there.
 
 ## Patching your ROM
 This guide is for patching all translations to your ROM. For patching individual sections, please check instructions inside corresponding directories.
