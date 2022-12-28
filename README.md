@@ -14,9 +14,9 @@ This guide is for patching all translations to your ROM. For patching individual
 pip install ndspy
 ```
 2. Place an original, unmodified ROM of McDonald's eCDP in this directory. (File SHA-1: `136aacc9d3d7c8567381cd4e735ff3c004a018d0`)
-4. Run `patch.py` in Python 3.9 (Not tested with other versions) with the ROM file specified:
+4. Run `patch_all.py` in Python 3.9 (Not tested with other versions) with the ROM file specified:
 ```
-python patch.py <ROM Filename>.nds
+python patch_all.py <ROM Filename>.nds
 ```
 4. The script will patch strings of all sections, and it will create a file named `\<ROM Filename\>-patched.nds`.
 5. Patching done! You can now play the game in a Nintendo DS emulator of your choice.
