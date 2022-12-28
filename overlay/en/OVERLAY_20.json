@@ -1,55 +1,55 @@
 {
     //--- Hashbrowns ---
     //Title
-    "1503024": "バスケットに入れ",
-    "1502816": "ガードをする",
+    "1503024": "Put in basket,",
+    "1502816": "Put on guard.",
     //Comment
-    "1502768": "バスケットに",
-    "1503004": "１枚ずつ入れます",
+    "1502768": "Put one in",
+    "1503004": "the basket.",
 
     //Title
-    "1502800": "バットに入れ",
-    "1502880": "スイッチを押す",
+    "1502800": "Put in vat.",
+    "1502880": "Push the switch.",
     //Comment
-    "1502736": "バスケットを",
-    "1502964": "オイルに入れます",
+    "1502736": "Put basket",
+    "1502964": "in the oil.",
 
     //Title
-    "1502984": "ブザーが鳴ったら",
-    "1502720": "リムーブする",
+    "1502984": "When it beeps,",
+    "1502720": "remove from oil.",
     //Comment
-    "1503044": "タイマーが鳴ったら",
-    "1502832": "取り出します",
+    "1503044": "When timer rings,",
+    "1502832": "take it out.",
 
     //Title
-    "1502696": "油をきる",
+    "1502696": "Stop the oil.",
     //Comment
-    "1502784": "５〜１０秒、",
-    "1503084": "油をきってください",
+    "1502784": "Stop the oil",
+    "1503084": "for 5-10s, please.",
 
     //Title
-    "1502928": "タイマーを押し",
-    "1502752": "トレーに移す",
+    "1502928": "Press the timer.",
+    "1502752": "Transfer to tray.",
     //Comment
-    "1502912": "ＨＴタイマーを",
-    "1502848": "押してください",
+    "1502912": "Please press",
+    "1502848": "the HT-timer.",
 
     //Title
-    "1502864": "バッグに入れる",
+    "1502864": "Put in bag.",
     //Comment
-    "1502944": "ハッシュポテトを",
-    "1502896": "パッケージング",
+    "1502944": "Package the",
+    "1502896": "Hashbrowns.",
 
     //Title
-    "1502688": "並べる",
+    "1502688": "Line them up.",
     //Comment
-    "1503064": "１０分以内にサーブ",
-    "1502708": "しましょう",
+    "1503064": "Let's serve",
+    "1502708": "within 10m.",
 
     //Control instructions
     "1503128": "Press 「早送り」 (Fast Forward)",
-    "1503156": "Press the left cross button.",
-    "1503188": "Press the right cross button.",
+    "1503156": "Press left on the D-pad.",
+    "1503188": "Press right on the D-pad.",
     "1503220": "Slide basket to the right.",
     "1503256": "Slide basket to the right.",
     "1503332": "Touch and hold basket for 5-10s."

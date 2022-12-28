@@ -1,121 +1,121 @@
 {
     //--- Patties ---
     //Title
-    "1586816": "プラテンを上げる",
+    "1586816": "Open the platen.",
     //Comment
-    "1586108": "スイッチを",
-    "1586288": "押して下さい",
+    "1586108": "Please press",
+    "1586288": "the switch.",
 
     //Title
-    "1586916": "プラテンを上げる",
+    "1586916": "Open the platen.",
     //Comment
-    "1586096": "スイッチを",
-    "1586336": "押して下さい",
+    "1586096": "Please press",
+    "1586336": "the switch.",
 
     //Title
-    "1586796": "プラテンを上げる",
+    "1586796": "Open the platen.",
     //Comment
-    "1586120": "スイッチを",
-    "1586208": "押して下さい",
+    "1586120": "Please press",
+    "1586208": "the switch.",
 
     //Title
-    "1586224": "パティを並べ",
-    "1586856": "プラテンを下ろす",
+    "1586224": "Place patties",
+    "1586856": "and close platen.",
     //Comment
-    "1586836": "手前から奥へ並べ",
-    "1585984": "ます",
+    "1586836": "Arrange from",
+    "1585984": "front to back.",
 
     //Title
-    "1586304": "パティを並べ",
-    "1586976": "プラテンを下ろす",
+    "1586304": "Place patties",
+    "1586976": "and close platen.",
     //Comment
-    "1586936": "手前から奥へ並べ",
-    "1585992": "ます",
+    "1586936": "Arrange from",
+    "1585992": "front to back.",
 
     //Title
-    "1586272": "パティを並べ",
-    "1586896": "プラテンを下ろす",
+    "1586272": "Place patties",
+    "1586896": "and close platen.",
     //Comment
-    "1586876": "手前から奥へ並べ",
-    "1586000": "ます",
+    "1586876": "Arrange from",
+    "1586000": "front to back.",
 
     //Title
-    "1586996": "抗菌ウェットワイ",
-    "1586368": "パーで手を拭く",
+    "1586996": "Don't forget to",
+    "1586368": "wipe your hands!",
     //Comment
-    "1586624": "二次汚染を防ぐ",
-    "1586956": "手順を確認します",
+    "1586624": "Try to prevent",
+    "1586956": "cross-contamination.",
 
     //Title
-    "1586756": "抗菌ウェットワイ",
-    "1586640": "パーで手を拭く",
+    "1586756": "Don't forget to",
+    "1586640": "wipe your hands!",
     //Comment
-    "1586688": "二次汚染を防ぐ",
-    "1586736": "手順を確認します",
+    "1586688": "Try to prevent",
+    "1586736": "cross-contamination.",
 
     //Title
-    "1586528": "右手前から順に",
-    "1586132": "奥へとふる",
+    "1586528": "Front to back.",
+    "1586132": "Left to right.",
     //Comment
-    "1587036": "グリルシーズニング",
-    "1586160": "を、ふります",
+    "1587036": "Sprinkle on the",
+    "1586160": "seasoning.",
 
     //Title
-    "1586776": "グリルシーズニン",
-    "1586320": "グの量を確認",
+    "1586776": "Check you have",
+    "1586320": "the right amount.",
     //Comment
-    "1587016": "グリルシーズニング",
-    "1586240": "を、ふります",
+    "1587016": "Sprinkle on the",
+    "1586240": "seasoning.",
 
     //Title
-    "1586496": "トレーを用意し",
-    "1586176": "リムーブする",
+    "1586496": "Prepare a tray",
+    "1586176": "for removal",
     //Comment
-    "1586384": "４枚まで重ねて",
-    "1586464": "リムーブします",
+    "1586384": "Stack 4 at a",
+    "1586464": "time and remove.",
 
     //Title
-    "1586656": "トレーを用意し",
-    "1586256": "リムーブする",
+    "1586656": "Prepare a tray",
+    "1586256": "for removal.",
     //Comment
-    "1586416": "４枚まで重ねて",
-    "1586672": "リムーブします",
+    "1586416": "Stack 4 at a",
+    "1586672": "time and remove.",
 
     //Title
-    "1586144": "リムーブする",
+    "1586144": "Removal",
     //Comment
-    "1586352": "４枚まで重ねて",
-    "1586432": "リムーブします",
+    "1586352": "Stack 4 at a",
+    "1586432": "time and remove.",
 
     //Title
-    "1586192": "リムーブする",
+    "1586192": "Removal",
     //Comment
-    "1586544": "３枚まで重ねて",
-    "1586560": "リムーブします",
+    "1586544": "Stack 3 at a",
+    "1586560": "time and remove.",
 
     //Title
-    "1586704": "タイマーを押し",
-    "1586084": "保管する",
+    "1586704": "Press the timer",
+    "1586084": "and store it.",
     //Comment
-    "1586576": "ホールディング",
-    "1586608": "タイムは６０分",
+    "1586576": "The holding",
+    "1586608": "time is 60m.",
 
     //Title
-    "1586480": "タイマーを押し",
-    "1586072": "保管する",
+    "1586480": "Press the timer",
+    "1586072": "and store it.",
     //Comment
-    "1586512": "ホールディング",
-    "1586448": "タイムは１５分",
+    "1586512": "The holding",
+    "1586448": "time is 15m.",
 
     //Title
-    "1586400": "タイマーを押し",
-    "1586060": "保管する",
+    "1586400": "Press the timer",
+    "1586060": "and store it.",
     //Comment
-    "1586720": "ホールディング",
-    "1586592": "タイムは６０分",
+    "1586720": "The holding",
+    "1586592": "time is 60m.",
 
     //Control instructions
-    "1587056": "Press the right cross button.",
+    "1587056": "Press right on the D-pad.",
     "1587088": "Drag the basket to the left.",
     "1587124": "Drag the basket to the right."
 }
