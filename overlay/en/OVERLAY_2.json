@@ -1,68 +1,118 @@
 {
-    "950512": "Select",
-    "950520": "Select",
-    "950528": "Select",
-    "950536": "Select",
-    "950552": "Quarter",
-    "950564": "Put on top",
-    "950576": "Put on top",
-    "950588": "Quarter",
-    "950600": "Put on top",
-    "950612": "Put on top",
-    "950624": "Put in tar",
-    "950640": "Put in tar",
-    "950656": "Put in tar",
-    "950672": "Put in tar",
-    "950688": "Heel on HLZ",
-    "950704": "Heel on HLZ",
-    "950720": "Heel on HLZ",
-    "950736": "Heel on HLZ",
-    "950752": "Toss the buns",
-    "950768": "Crown in centre",
-    "950784": "Please choose",
-    "950800": "Crown in centre",
-    "950816": "Please choose",
-    "950832": "Heel in front",
-    "950848": "Toss the buns",
-    "950864": "The proper buns",
-    "950880": "Crown in centre",
-    "950896": "The proper buns",
-    "950912": "Please choose",
-    "950928": "The proper buns",
-    "950944": "Crown in centre",
-    "950960": "Please choose",
-    "950976": "The proper buns",
-    "950992": "The proper buns",
-    "951008": "The proper buns",
-    "951024": "The proper buns",
-    "951040": "Heel in front",
-    "951056": "Heel in front",
-    "951072": "Heel in front",
-    "951088": "Toss the buns",
-    "951104": "Toss the buns",
-    "951120": "The proper buns",
-    "951136": "The proper box",
-    "951156": "Quarter-Pounder",
-    "951176": "Double-Quarter",
-    "951196": "Pounder-Cheese",
-    "951216": "The proper box",
-    "951236": "Behind the crown",
-    "951256": "Double-Quarter",
-    "951276": "Pounder-Cheese",
-    "951296": "Pounder-Cheese",
-    "951316": "The proper box",
-    "951336": "The proper box",
-    "951356": "Quarter-Pounder",
-    "951376": "Pounder-Cheese",
-    "951396": "Behind the crown",
-    "951416": "Behind the crown",
-    "951436": "Behind the crown",
-    "951456": "Driver Assembly",
-    "951476": "Ｗ-Quarter-Pounder",
-    "951496": "Driver Assembly",
-    "951516": "Driver Assembly",
-    "951536": "Ｗ-Quarter-Pounder",
-    "951556": "Driver Assembly",
+    //--- Quarter Pounder & Double Quarter Pounder ---
+    //Title
+    "950864": "正しいバンズを",
+    "950512": "選ぶ",
+    //Comment
+    "951120": "正しいバンズを",
+    "950784": "選んでください",
+
+    //Title
+    "950928": "正しいバンズを",
+    "950520": "選ぶ",
+    //Comment
+    "950896": "正しいバンズを",
+    "950912": "選んでください",
+
+    //Title
+    "951024": "正しいバンズを",
+    "950536": "選ぶ",
+    //Comment
+    "951008": "正しいバンズを",
+    "950960": "選んでください",
+
+    //Title
+    "950992": "正しいバンズを",
+    "950528": "選ぶ",
+    //Comment
+    "950976": "正しいバンズを",
+    "950816": "選んでください",
+
+    //Title
+    "950848": "バンズをトース",
+    "950624": "ターに入れる",
+    //Comment
+    "950832": "ヒールを手前に",
+    "951236": "クラウンを後ろに",
+
+    //Title
+    "950752": "バンズをトース",
+    "950656": "ターに入れる",
+    //Comment
+    "951056": "ヒールを手前に",
+    "951436": "クラウンを後ろに",
+
+    //Title
+    "951104": "バンズをトース",
+    "950640": "ターに入れる",
+    //Comment
+    "951072": "ヒールを手前に",
+    "951396": "クラウンを後ろに",
+
+    //Title
+    "951088": "バンズをトース",
+    "950672": "ターに入れる",
+    //Comment
+    "951040": "ヒールを手前に",
+    "951416": "クラウンを後ろに",
+
+    //Title
+    "951316": "正しいボックスの",
+    "950576": "上に並べる",
+    //Comment
+    "950880": "中央にクラウン",
+    "950704": "HLZ側にヒール",
+
+    //Title
+    "951336": "正しいボックスの",
+    "950612": "上に並べる",
+    //Comment
+    "950800": "中央にクラウン",
+    "950736": "HLZ側にヒール",
+
+    //Title
+    "951136": "正しいボックスの",
+    "950600": "上に並べる",
+    //Comment
+    "950768": "中央にクラウン",
+    "950688": "HLZ側にヒール",
+
+    //Title
+    "951216": "正しいボックスの",
+    "950564": "上に並べる",
+    //Comment
+    "950944": "中央にクラウン",
+    "950720": "HLZ側にヒール",
+    
+    //Title
+    "950588": "クォーター",
+    "951376": "パウンダーチーズ",
+    //Comment
+    "951356": "クォ−ターパウン",
+    "951516": "ダーのアッセンブル",
+
+    //Title
+    "950552": "クォーター",
+    "951196": "パウンダーチーズ",
+    //Comment
+    "951156": "クォ−ターパウン",
+    "951456": "ダーのアッセンブル",
+
+    //Title
+    "951176": "ダブルクォーター",
+    "951276": "パウンダーチーズ",
+    //Comment
+    "951536": "Ｗクォ−ターパウン",
+    "951556": "ダーのアッセンブル",
+
+    //Title
+    "951256": "ダブルクォーター",
+    "951296": "パウンダーチーズ",
+    //Comment
+    "951476": "Ｗクォ−ターパウン",
+    "951496": "ダーのアッセンブル",
+
+    //Control instructions
     "951672": "Press right on the D-pad.",
     "951704": "Press left on the D-pad."
 }
