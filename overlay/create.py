@@ -56,7 +56,7 @@ exceptions_start = [
 	"（",
 	"○○円",
 	"DSカード",
-	" \\nさあ",
+	" \nさあ",
 	"　", #mcdonalds people why would you start a string with a space
 	"Wi-Fi"
 ]
