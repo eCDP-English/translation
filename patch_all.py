@@ -22,7 +22,8 @@ tlen = len(tbytes)
 blen = len(data)
 offset = 0
 for b in tbytes:
-	data[blen-tlen+offset] = b
+	if data[blen-tlen+offset] == 0xFF:
+		data[blen-tlen+offset] = b
 	offset += 1
 
 print("Patches done. writing to file.")
