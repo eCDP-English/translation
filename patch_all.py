@@ -16,6 +16,15 @@ data = bin.patch.main(args.lang, data, "bin")
 data = cmcd.patch.main(args.lang, data, "cmcd")
 data = overlay.patch.main(args.lang, data, "overlay")
 
+text = "eCDP English Translation Patch v1.0.0 - https://github.com/eCDP-English/translation"
+tbytes = text.encode("SHIFT-JIS")
+tlen = len(tbytes)
+blen = len(data)
+offset = 0
+for b in tbytes:
+	data[blen-tlen+offset] = b
+	offset += 1
+
 print("Patches done. writing to file.")
 fname = args.file.name
 open(fname[0:len(fname)-4] + "_patched.nds", "wb").write(data)
