@@ -17,14 +17,8 @@ data = cmcd.patch.main(args.lang, data, "cmcd")
 data = overlay.patch.main(args.lang, data, "overlay")
 
 text = "eCDP English Translation Patch v1.0.0 - https://github.com/eCDP-English/translation"
-tbytes = text.encode("SHIFT-JIS")
-tlen = len(tbytes)
-blen = len(data)
-offset = 0
-for b in tbytes:
-	if data[blen-tlen+offset] == 0xFF:
-		data[blen-tlen+offset] = b
-	offset += 1
+for b in text.encode("SHIFT-JIS"):
+	data.append(b)
 
 print("Patches done. writing to file.")
 fname = args.file.name
