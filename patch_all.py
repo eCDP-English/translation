@@ -1,5 +1,6 @@
 #!/bin/python3
 import bin.patch
+import arm9.patch
 import overlay.patch
 import cmcd.patch
 import os
@@ -15,6 +16,7 @@ data = bytearray(args.file.read())
 data = bin.patch.main(args.lang, data, "bin")
 data = cmcd.patch.main(args.lang, data, "cmcd")
 data = overlay.patch.main(args.lang, data, "overlay")
+data = arm9.patch.main(args.lang, data, "arm9")
 
 text = "eCDP English Translation Patch v1.0.0 - https://github.com/eCDP-English/translation"
 for b in text.encode("SHIFT-JIS"):
