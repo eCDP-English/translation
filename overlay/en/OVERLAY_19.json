@@ -1,104 +1,104 @@
 {
     //--- Fries ---
     //Title
-    "1480972": "Basketing",
-    "1480496": "Potatoes",
+    "30476": "Basketing",
+    "30000": "Potatoes",
     //Comment
-    "1481052": "Put potatoes into",
-    "1481072": "baskets in two pours.",
+    "30556": "Put potatoes into",
+    "30576": "baskets in two pours.",
 
     //Title
-    "1480872": "Basketing",
-    "1480488": "Potatoes",
+    "30376": "Basketing",
+    "29992": "Potatoes",
     //Comment
-    "1480528": "Press button on",
-    "1480588": "the dispenser.",
+    "30032": "Press button on",
+    "30092": "the dispenser.",
 
     //Title
-    "1480652": "Hang up",
-    "1480520": "the baskets",
+    "30156": "Hang up",
+    "30024": "the baskets",
     //Comment
-    "1480932": "Place baskets in",
-    "1481240": "the correct order.",
+    "30436": "Place baskets in",
+    "30744": "the correct order.",
 
     //Title
-    "1480732": "Hang up",
-    "1480504": "the baskets",
+    "30236": "Hang up",
+    "30008": "the baskets",
     //Comment
-    "1480892": "Place baskets in",
-    "1481216": "the correct order.",
+    "30396": "Place baskets in",
+    "30720": "the correct order.",
 
     //Title
-    "1480668": "Put in the vat &",
-    "1480796": "press the button",
+    "30172": "Put in the vat &",
+    "30300": "press the button",
     //Comment
-    "1481152": "Don't put two baskets",
-    "1481288": "in the same vat.",
+    "30656": "Don't put two baskets",
+    "30792": "in the same vat.",
 
     //Title
-    "1480748": "Put in the vat &",
-    "1480780": "press the button",
+    "30252": "Put in the vat &",
+    "30284": "press the button",
     //Comment
-    "1481112": "Don't put two baskets",
-    "1481264": "in the same vat.",
+    "30616": "Don't put two baskets",
+    "30768": "in the same vat.",
 
     //Title
-    "1481012": "Shake basket",
-    "1480716": "after the beep",
+    "30516": "Shake basket",
+    "30220": "after the beep",
     //Comment
-    "1481172": "Make sure potatoes",
-    "1480700": "aren't stuck together.",
+    "30676": "Make sure potatoes",
+    "30204": "aren't stuck together.",
 
     //Title
-    "1481032": "Remove after",
-    "1480620": "the second beep",
+    "30536": "Remove after",
+    "30124": "the second beep",
     //Comment
-    "1481336": "Make sure fries are",
-    "1481360": "crispy and not oily.",
+    "30840": "Make sure fries are",
+    "30864": "crispy and not oily.",
 
     //Title
-    "1480552": "Turn the oil off",
+    "30056": "Turn the oil off",
     //Comment
-    "1481192": "Let oil drop from",
-    "1480852": "potatoes for 5-10s.",
+    "30696": "Let oil drop from",
+    "30356": "potatoes for 5-10s.",
 
     //Title
-    "1480540": "Turn the oil off",
+    "30044": "Turn the oil off",
     //Comment
-    "1480992": "Let oil drop from",
-    "1480684": "potatoes for 5-10s.",
+    "30496": "Let oil drop from",
+    "30188": "potatoes for 5-10s.",
 
     //Title
-    "1480764": "Turn on the timer",
+    "30268": "Turn on the timer",
     //Comment
-    "1480576": "Press the button on",
-    "1480604": "the timer.",
+    "30080": "Press the button on",
+    "30108": "the timer.",
 
     //Title
-    "1480952": "Move the fries to",
-    "1480480": "the bagging tray",
+    "30456": "Move the fries to",
+    "29984": "the bagging tray",
     //Comment
-    "1481092": "Spread the freshly",
-    "1481132": "fried potatoes.",
+    "30596": "Spread the freshly",
+    "30636": "fried potatoes.",
 
     //Title
-    "1480832": "Sprinkle the salt",
+    "30336": "Sprinkle the salt",
     //Comment
-    "1481312": "Do not let the salt",
-    "1480812": "get into the vat.",
+    "30816": "Do not let the salt",
+    "30316": "get into the vat.",
 
     //Title
-    "1480636": "Put the fries in",
-    "1480512": "to fill the bag.",
+    "30140": "Put the fries in",
+    "30016": "to fill the bag.",
     //Comment
-    "1480912": "Serve within 7 minutes.",
-    "1480564": "",
+    "30416": "Serve within 7 minutes.",
+    "30068": "",
 
     //Control instructions
-    "1481408": "Press [早送り] (Fast Forward).",
-    "1481436": "Press left on the D-pad.",
-    "1481468": "Press right on the D-pad.",
-    "1481500": "Please slide basket to right.",
-    "1481536": "Please slide basket to left",
-    "1481612": "Touch the potatoes and wait 5-10s."
+    "30912": "Press [早送り] (Fast Forward).",
+    "30940": "Press left on the D-pad.",
+    "30972": "Press right on the D-pad.",
+    "31004": "Please slide basket to right.",
+    "31040": "Please slide basket to left",
+    "31116": "Touch the potatoes and wait 5-10s."
 }

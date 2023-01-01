@@ -1,601 +1,534 @@
 {
+    "id": 24,
     "name": "OVERLAY_24",
-    "ram_loc": 35950816,
-    "file_loc": 1563136,
     "length": 25408,
     "strings": [
         {
             "str": "ます",
             "blen": 4,
             "memory_address": 35973664,
-            "rom_address": 1585984,
             "xrefs": [
-                1587616
+                24480
             ]
         },
         {
             "str": "ます",
             "blen": 4,
             "memory_address": 35973672,
-            "rom_address": 1585992,
             "xrefs": [
-                1587736
+                24600
             ]
         },
         {
             "str": "ます",
             "blen": 4,
             "memory_address": 35973680,
-            "rom_address": 1586000,
             "xrefs": [
-                1587232
+                24096
             ]
         },
         {
             "str": "保管する",
             "blen": 8,
             "memory_address": 35973740,
-            "rom_address": 1586060,
             "xrefs": [
-                1587288
+                24152
             ]
         },
         {
             "str": "保管する",
             "blen": 8,
             "memory_address": 35973752,
-            "rom_address": 1586072,
             "xrefs": [
-                1587840
+                24704
             ]
         },
         {
             "str": "保管する",
             "blen": 8,
             "memory_address": 35973764,
-            "rom_address": 1586084,
             "xrefs": [
-                1587696
+                24560
             ]
         },
         {
             "str": "スイッチを",
             "blen": 10,
             "memory_address": 35973776,
-            "rom_address": 1586096,
             "xrefs": [
-                1587708
+                24572
             ]
         },
         {
             "str": "スイッチを",
             "blen": 10,
             "memory_address": 35973788,
-            "rom_address": 1586108,
             "xrefs": [
-                1587588
+                24452
             ]
         },
         {
             "str": "スイッチを",
             "blen": 10,
             "memory_address": 35973800,
-            "rom_address": 1586120,
             "xrefs": [
-                1587204
+                24068
             ]
         },
         {
             "str": "奥へとふる",
             "blen": 10,
             "memory_address": 35973812,
-            "rom_address": 1586132,
             "xrefs": [
-                1587864
+                24728
             ]
         },
         {
             "str": "リムーブする",
             "blen": 12,
             "memory_address": 35973824,
-            "rom_address": 1586144,
             "xrefs": [
-                1587812
+                24676
             ]
         },
         {
             "str": "を、ふります",
             "blen": 12,
             "memory_address": 35973840,
-            "rom_address": 1586160,
             "xrefs": [
-                1587856
+                24720
             ]
         },
         {
             "str": "リムーブする",
             "blen": 12,
             "memory_address": 35973856,
-            "rom_address": 1586176,
             "xrefs": [
-                1587672
+                24536
             ]
         },
         {
             "str": "リムーブする",
             "blen": 12,
             "memory_address": 35973872,
-            "rom_address": 1586192,
             "xrefs": [
-                1587884
+                24748
             ]
         },
         {
             "str": "押して下さい",
             "blen": 12,
             "memory_address": 35973888,
-            "rom_address": 1586208,
             "xrefs": [
-                1587208
+                24072
             ]
         },
         {
             "str": "パティを並べ",
             "blen": 12,
             "memory_address": 35973904,
-            "rom_address": 1586224,
             "xrefs": [
-                1587620
+                24484
             ]
         },
         {
             "str": "を、ふります",
             "blen": 12,
             "memory_address": 35973920,
-            "rom_address": 1586240,
             "xrefs": [
-                1587784
+                24648
             ]
         },
         {
             "str": "リムーブする",
             "blen": 12,
             "memory_address": 35973936,
-            "rom_address": 1586256,
             "xrefs": [
-                1587264
+                24128
             ]
         },
         {
             "str": "パティを並べ",
             "blen": 12,
             "memory_address": 35973952,
-            "rom_address": 1586272,
             "xrefs": [
-                1587236
+                24100
             ]
         },
         {
             "str": "押して下さい",
             "blen": 12,
             "memory_address": 35973968,
-            "rom_address": 1586288,
             "xrefs": [
-                1587592
+                24456
             ]
         },
         {
             "str": "パティを並べ",
             "blen": 12,
             "memory_address": 35973984,
-            "rom_address": 1586304,
             "xrefs": [
-                1587740
+                24604
             ]
         },
         {
             "str": "グの量を確認",
             "blen": 12,
             "memory_address": 35974000,
-            "rom_address": 1586320,
             "xrefs": [
-                1587792
+                24656
             ]
         },
         {
             "str": "押して下さい",
             "blen": 12,
             "memory_address": 35974016,
-            "rom_address": 1586336,
             "xrefs": [
-                1587712
+                24576
             ]
         },
         {
             "str": "４枚まで重ねて",
             "blen": 14,
             "memory_address": 35974032,
-            "rom_address": 1586352,
             "xrefs": [
-                1587804
+                24668
             ]
         },
         {
             "str": "パーで手を拭く",
             "blen": 14,
             "memory_address": 35974048,
-            "rom_address": 1586368,
             "xrefs": [
-                1587648
+                24512
             ]
         },
         {
             "str": "４枚まで重ねて",
             "blen": 14,
             "memory_address": 35974064,
-            "rom_address": 1586384,
             "xrefs": [
-                1587660
+                24524
             ]
         },
         {
             "str": "タイマーを押し",
             "blen": 14,
             "memory_address": 35974080,
-            "rom_address": 1586400,
             "xrefs": [
-                1587284
+                24148
             ]
         },
         {
             "str": "４枚まで重ねて",
             "blen": 14,
             "memory_address": 35974096,
-            "rom_address": 1586416,
             "xrefs": [
-                1587252
+                24116
             ]
         },
         {
             "str": "リムーブします",
             "blen": 14,
             "memory_address": 35974112,
-            "rom_address": 1586432,
             "xrefs": [
-                1587808
+                24672
             ]
         },
         {
             "str": "タイムは１５分",
             "blen": 14,
             "memory_address": 35974128,
-            "rom_address": 1586448,
             "xrefs": [
-                1587832
+                24696
             ]
         },
         {
             "str": "リムーブします",
             "blen": 14,
             "memory_address": 35974144,
-            "rom_address": 1586464,
             "xrefs": [
-                1587664
+                24528
             ]
         },
         {
             "str": "タイマーを押し",
             "blen": 14,
             "memory_address": 35974160,
-            "rom_address": 1586480,
             "xrefs": [
-                1587836
+                24700
             ]
         },
         {
             "str": "トレーを用意し",
             "blen": 14,
             "memory_address": 35974176,
-            "rom_address": 1586496,
             "xrefs": [
-                1587668
+                24532
             ]
         },
         {
             "str": "ホールディング",
             "blen": 14,
             "memory_address": 35974192,
-            "rom_address": 1586512,
             "xrefs": [
-                1587828
+                24692
             ]
         },
         {
             "str": "右手前から順に",
             "blen": 14,
             "memory_address": 35974208,
-            "rom_address": 1586528,
             "xrefs": [
-                1587860
+                24724
             ]
         },
         {
             "str": "３枚まで重ねて",
             "blen": 14,
             "memory_address": 35974224,
-            "rom_address": 1586544,
             "xrefs": [
-                1587876
+                24740
             ]
         },
         {
             "str": "リムーブします",
             "blen": 14,
             "memory_address": 35974240,
-            "rom_address": 1586560,
             "xrefs": [
-                1587880
+                24744
             ]
         },
         {
             "str": "ホールディング",
             "blen": 14,
             "memory_address": 35974256,
-            "rom_address": 1586576,
             "xrefs": [
-                1587684
+                24548
             ]
         },
         {
             "str": "タイムは６０分",
             "blen": 14,
             "memory_address": 35974272,
-            "rom_address": 1586592,
             "xrefs": [
-                1587280
+                24144
             ]
         },
         {
             "str": "タイムは６０分",
             "blen": 14,
             "memory_address": 35974288,
-            "rom_address": 1586608,
             "xrefs": [
-                1587688
+                24552
             ]
         },
         {
             "str": "二次汚染を防ぐ",
             "blen": 14,
             "memory_address": 35974304,
-            "rom_address": 1586624,
             "xrefs": [
-                1587636
+                24500
             ]
         },
         {
             "str": "パーで手を拭く",
             "blen": 14,
             "memory_address": 35974320,
-            "rom_address": 1586640,
             "xrefs": [
-                1587768
+                24632
             ]
         },
         {
             "str": "トレーを用意し",
             "blen": 14,
             "memory_address": 35974336,
-            "rom_address": 1586656,
             "xrefs": [
-                1587260
+                24124
             ]
         },
         {
             "str": "リムーブします",
             "blen": 14,
             "memory_address": 35974352,
-            "rom_address": 1586672,
             "xrefs": [
-                1587256
+                24120
             ]
         },
         {
             "str": "二次汚染を防ぐ",
             "blen": 14,
             "memory_address": 35974368,
-            "rom_address": 1586688,
             "xrefs": [
-                1587756
+                24620
             ]
         },
         {
             "str": "タイマーを押し",
             "blen": 14,
             "memory_address": 35974384,
-            "rom_address": 1586704,
             "xrefs": [
-                1587692
+                24556
             ]
         },
         {
             "str": "ホールディング",
             "blen": 14,
             "memory_address": 35974400,
-            "rom_address": 1586720,
             "xrefs": [
-                1587276
+                24140
             ]
         },
         {
             "str": "手順を確認します",
             "blen": 16,
             "memory_address": 35974416,
-            "rom_address": 1586736,
             "xrefs": [
-                1587760
+                24624
             ]
         },
         {
             "str": "抗菌ウェットワイ",
             "blen": 16,
             "memory_address": 35974436,
-            "rom_address": 1586756,
             "xrefs": [
-                1587764
+                24628
             ]
         },
         {
             "str": "グリルシーズニン",
             "blen": 16,
             "memory_address": 35974456,
-            "rom_address": 1586776,
             "xrefs": [
-                1587788
+                24652
             ]
         },
         {
             "str": "プラテンを上げる",
             "blen": 16,
             "memory_address": 35974476,
-            "rom_address": 1586796,
             "xrefs": [
-                1587212
+                24076
             ]
         },
         {
             "str": "プラテンを上げる",
             "blen": 16,
             "memory_address": 35974496,
-            "rom_address": 1586816,
             "xrefs": [
-                1587596
+                24460
             ]
         },
         {
             "str": "手前から奥へ並べ",
             "blen": 16,
             "memory_address": 35974516,
-            "rom_address": 1586836,
             "xrefs": [
-                1587612
+                24476
             ]
         },
         {
             "str": "プラテンを下ろす",
             "blen": 16,
             "memory_address": 35974536,
-            "rom_address": 1586856,
             "xrefs": [
-                1587624
+                24488
             ]
         },
         {
             "str": "手前から奥へ並べ",
             "blen": 16,
             "memory_address": 35974556,
-            "rom_address": 1586876,
             "xrefs": [
-                1587228
+                24092
             ]
         },
         {
             "str": "プラテンを下ろす",
             "blen": 16,
             "memory_address": 35974576,
-            "rom_address": 1586896,
             "xrefs": [
-                1587240
+                24104
             ]
         },
         {
             "str": "プラテンを上げる",
             "blen": 16,
             "memory_address": 35974596,
-            "rom_address": 1586916,
             "xrefs": [
-                1587716
+                24580
             ]
         },
         {
             "str": "手前から奥へ並べ",
             "blen": 16,
             "memory_address": 35974616,
-            "rom_address": 1586936,
             "xrefs": [
-                1587732
+                24596
             ]
         },
         {
             "str": "手順を確認します",
             "blen": 16,
             "memory_address": 35974636,
-            "rom_address": 1586956,
             "xrefs": [
-                1587640
+                24504
             ]
         },
         {
             "str": "プラテンを下ろす",
             "blen": 16,
             "memory_address": 35974656,
-            "rom_address": 1586976,
             "xrefs": [
-                1587744
+                24608
             ]
         },
         {
             "str": "抗菌ウェットワイ",
             "blen": 16,
             "memory_address": 35974676,
-            "rom_address": 1586996,
             "xrefs": [
-                1587644
+                24508
             ]
         },
         {
             "str": "グリルシーズニング",
             "blen": 18,
             "memory_address": 35974696,
-            "rom_address": 1587016,
             "xrefs": [
-                1587780
+                24644
             ]
         },
         {
             "str": "グリルシーズニング",
             "blen": 18,
             "memory_address": 35974716,
-            "rom_address": 1587036,
             "xrefs": [
-                1587852
+                24716
             ]
         },
         {
             "str": "十字ボタンの右を押して下さい",
             "blen": 28,
             "memory_address": 35974736,
-            "rom_address": 1587056,
             "xrefs": [
-                1586024
+                22888
             ]
         },
         {
             "str": "バスケットを左にドラッグして下さい",
             "blen": 34,
             "memory_address": 35974768,
-            "rom_address": 1587088,
             "xrefs": [
-                1586016
+                22880
             ]
         },
         {
             "str": "バスケットを右にドラッグして下さい",
             "blen": 34,
             "memory_address": 35974804,
-            "rom_address": 1587124,
             "xrefs": [
-                1586020
+                22884
             ]
         }
     ]

@@ -1,35 +1,35 @@
 {
     //--- Canadian Bacon ---
     //Title
-    "1562152": "Prepare the tray.",
+    "12328": "Prepare the tray.",
     //Comment
-    "1562068": "Prepare the",
-    "1562008": "UHC tray.",
+    "12244": "Prepare the",
+    "12184": "UHC tray.",
 
     //Title
-    "1561968": "Line them up.",
+    "12144": "Line them up.",
     //Comment
-    "1562172": "Line them up",
-    "1562100": "on the hot plate.",
+    "12348": "Line them up",
+    "12276": "on the hot plate.",
 
     //Title
-    "1562052": "Turn them",
-    "1561960": "after 4s.",
+    "12228": "Turn them",
+    "12136": "after 4s.",
     //Comment
-    "1561984": "After 4s,",
-    "1562020": "turn them over.",
+    "12160": "After 4s,",
+    "12196": "turn them over.",
 
     //Title
-    "1562192": "After 4s,",
-    "1561952": "remove them.",
+    "12368": "After 4s,",
+    "12128": "remove them.",
     //Comment
-    "1562132": "Remove them in the",
-    "1562212": "order they're arranged.",
+    "12308": "Remove them in the",
+    "12388": "order they're arranged.",
     
     //Title
-    "1562116": "Press the timer",
-    "1561996": "and store them.",
+    "12292": "Press the timer",
+    "12172": "and store them.",
     //Comment
-    "1562036": "The holding",
-    "1562084": "time is 30m."
+    "12212": "The holding",
+    "12260": "time is 30m."
 }

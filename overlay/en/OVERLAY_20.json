@@ -1,56 +1,56 @@
 {
     //--- Hashbrowns ---
     //Title
-    "1503024": "Put in basket,",
-    "1502816": "Put on guard.",
+    "19760": "Put in basket,",
+    "19552": "Put on guard.",
     //Comment
-    "1502768": "Put one in",
-    "1503004": "the basket.",
+    "19504": "Put one in",
+    "19740": "the basket.",
 
     //Title
-    "1502800": "Put in vat.",
-    "1502880": "Push the switch.",
+    "19536": "Put in vat.",
+    "19616": "Push the switch.",
     //Comment
-    "1502736": "Put basket",
-    "1502964": "in the oil.",
+    "19472": "Put basket",
+    "19700": "in the oil.",
 
     //Title
-    "1502984": "When it beeps,",
-    "1502720": "remove from oil.",
+    "19720": "When it beeps,",
+    "19456": "remove from oil.",
     //Comment
-    "1503044": "When timer rings,",
-    "1502832": "take it out.",
+    "19780": "When timer rings,",
+    "19568": "take it out.",
 
     //Title
-    "1502696": "Stop the oil.",
+    "19432": "Stop the oil.",
     //Comment
-    "1502784": "Stop the oil",
-    "1503084": "for 5-10s, please.",
+    "19520": "Stop the oil",
+    "19820": "for 5-10s, please.",
 
     //Title
-    "1502928": "Press the timer.",
-    "1502752": "Transfer to tray.",
+    "19664": "Press the timer.",
+    "19488": "Transfer to tray.",
     //Comment
-    "1502912": "Please press",
-    "1502848": "the HT-timer.",
+    "19648": "Please press",
+    "19584": "the HT-timer.",
 
     //Title
-    "1502864": "Put in bag.",
+    "19600": "Put in bag.",
     //Comment
-    "1502944": "Package the",
-    "1502896": "Hashbrowns.",
+    "19680": "Package the",
+    "19632": "Hashbrowns.",
 
     //Title
-    "1502688": "Line them up.",
+    "19424": "Line them up.",
     //Comment
-    "1503064": "Let's serve",
-    "1502708": "within 10m.",
+    "19800": "Let's serve",
+    "19444": "within 10m.",
 
     //Control instructions
-    "1503128": "Press 「早送り」 (Fast Forward)",
-    "1503156": "Press left on the D-pad.",
-    "1503188": "Press right on the D-pad.",
-    "1503220": "Slide basket to the right.",
-    "1503256": "Slide basket to the right.",
-    "1503332": "Touch and hold basket for 5-10s."
+    "19864": "Press 「早送り」 (Fast Forward)",
+    "19892": "Press left on the D-pad.",
+    "19924": "Press right on the D-pad.",
+    "19956": "Slide basket to the right.",
+    "19992": "Slide basket to the right.",
+    "20068": "Touch and hold basket for 5-10s."
 }

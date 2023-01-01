@@ -1,601 +1,534 @@
 {
+    "id": 6,
     "name": "OVERLAY_6",
-    "ram_loc": 35950816,
-    "file_loc": 1175040,
     "length": 179296,
     "strings": [
         {
             "str": "接続中 ...",
             "blen": 10,
             "memory_address": 36125252,
-            "rom_address": 1349476,
             "xrefs": [
-                1316324
+                141284
             ]
         },
         {
             "str": "ログイン開始",
             "blen": 12,
             "memory_address": 36125304,
-            "rom_address": 1349528,
             "xrefs": [
-                1316332
+                141292
             ]
         },
         {
             "str": "ダウンロード初期化中 ...",
             "blen": 24,
             "memory_address": 36125320,
-            "rom_address": 1349544,
             "xrefs": [
-                1316336
+                141296
             ]
         },
         {
             "str": "ファイル数取得中 ...",
             "blen": 20,
             "memory_address": 36125348,
-            "rom_address": 1349572,
             "xrefs": [
-                1316344
+                141304
             ]
         },
         {
             "str": "ファイルリスト取得中 ...",
             "blen": 24,
             "memory_address": 36125384,
-            "rom_address": 1349608,
             "xrefs": [
-                1316364
+                141324
             ]
         },
         {
             "str": "ダウンロード %d %",
             "blen": 17,
             "memory_address": 36125412,
-            "rom_address": 1349636,
             "xrefs": [
-                1316368
+                141328
             ]
         },
         {
             "str": "ダウンロード終了中 ...",
             "blen": 22,
             "memory_address": 36125432,
-            "rom_address": 1349656,
             "xrefs": [
-                1316372
+                141332
             ]
         },
         {
             "str": "接続終了中 ...",
             "blen": 14,
             "memory_address": 36125456,
-            "rom_address": 1349680,
             "xrefs": [
-                1316380
+                141340
             ]
         },
         {
             "str": "接続終了",
             "blen": 8,
             "memory_address": 36125472,
-            "rom_address": 1349696,
             "xrefs": [
-                1316384
+                141344
             ]
         },
         {
             "str": "電源ＯＦＦしてください。",
             "blen": 24,
             "memory_address": 36125500,
-            "rom_address": 1349724,
             "xrefs": [
-                1316392
+                141352
             ]
         },
         {
             "str": "エラー終了",
             "blen": 10,
             "memory_address": 36125528,
-            "rom_address": 1349752,
             "xrefs": [
-                1316396
+                141356
             ]
         },
         {
             "str": "はい",
             "blen": 4,
             "memory_address": 36125540,
-            "rom_address": 1349764,
             "xrefs": [
-                1349780
+                174740
             ]
         },
         {
             "str": "いいえ",
             "blen": 6,
             "memory_address": 36125548,
-            "rom_address": 1349772,
             "xrefs": [
-                1349784
+                174744
             ]
         },
         {
             "str": "接続設定",
             "blen": 8,
             "memory_address": 36125788,
-            "rom_address": 1350012,
             "xrefs": [
-                1349800
+                174760
             ]
         },
         {
             "str": "進捗データの送信",
             "blen": 16,
             "memory_address": 36125800,
-            "rom_address": 1350024,
             "xrefs": [
-                1349792
+                174752
             ]
         },
         {
             "str": "接続方法を切り換えます",
             "blen": 22,
             "memory_address": 36125940,
-            "rom_address": 1350164,
             "xrefs": [
-                1349796
+                174756
             ]
         },
         {
             "str": "進捗データの送信を行います",
             "blen": 26,
             "memory_address": 36126036,
-            "rom_address": 1350260,
             "xrefs": [
-                1349788
+                174748
             ]
         },
         {
             "str": "本当に更新してもよろしいですか？",
             "blen": 32,
             "memory_address": 36126064,
-            "rom_address": 1350288,
             "xrefs": [
-                1350008
+                174968
             ]
         },
         {
             "str": "進捗データの送信を行います\n\nＷｉ−Ｆｉコネクションに接続しますか？",
             "blen": 66,
             "memory_address": 36126100,
-            "rom_address": 1350324,
             "xrefs": [
-                1349960
+                174920
             ]
         },
         {
             "str": "ＳＯＣガイドの更新を行います\nＷｉ−Ｆｉコネクションに接続しますか？",
             "blen": 67,
             "memory_address": 36126168,
-            "rom_address": 1350392,
             "xrefs": [
-                1349972
+                174932
             ]
         },
         {
             "str": "Ｗｉ−Ｆｉコネクションでは、ＤＳカードと\nＤＳ本体をセットで扱います。\nＤＳカードにＤＳ本体のＷｉ−Ｆｉユーザー\n情報を保存して、Ｗｉ−Ｆｉコネクションに\n接続しますか？",
             "blen": 166,
             "memory_address": 36126236,
-            "rom_address": 1350460,
             "xrefs": [
-                1349984
+                174944
             ]
         },
         {
             "str": "ＤＳ本体とＤＳカードの\nＷｉ−Ｆｉユーザー情報がちがうため\nＷｉ−Ｆｉコネクションに接続できません。\n　\nＤＳカードに保存されている\nＷｉ−Ｆｉユーザー情報を更新しますか？\nＷｉ−Ｆｉユーザー情報を更新すると\nＷｉ−Ｆｉコネクションでこれまで\nお使いになっていたデータは\n失われてしまいます。",
             "blen": 283,
             "memory_address": 36126404,
-            "rom_address": 1350628,
             "xrefs": [
-                1349996
+                174956
             ]
         },
         {
             "str": "前回送信したのは\n%04d/%02d/%02d %02d:%02d です",
             "blen": 46,
             "memory_address": 36126688,
-            "rom_address": 1350912,
             "xrefs": [
-                1319820
+                144780
             ]
         },
         {
             "str": "送信終了しました。",
             "blen": 18,
             "memory_address": 36126736,
-            "rom_address": 1350960,
             "xrefs": [
-                1343700
+                168660
             ]
         },
         {
             "str": "ログインしています。",
             "blen": 20,
             "memory_address": 36126852,
-            "rom_address": 1351076,
             "xrefs": [
-                1343692
+                168652
             ]
         },
         {
             "str": "ランキングを送信しています。",
             "blen": 28,
             "memory_address": 36127068,
-            "rom_address": 1351292,
             "xrefs": [
-                1343696
+                168656
             ]
         },
         {
             "str": "ランキングを受信しています。",
             "blen": 28,
             "memory_address": 36127100,
-            "rom_address": 1351324,
             "xrefs": [
-                1343704
+                168664
             ]
         },
         {
             "str": "トップリストを取得しています。",
             "blen": 30,
             "memory_address": 36127132,
-            "rom_address": 1351356,
             "xrefs": [
-                1343708
+                168668
             ]
         },
         {
             "str": "Ｗｉ−Ｆｉコネクションから\n切断しました。",
             "blen": 41,
             "memory_address": 36127164,
-            "rom_address": 1351388,
             "xrefs": [
-                1343716
+                168676
             ]
         },
         {
             "str": "Ｗｉ−Ｆｉコネクションから\n切断しています。",
             "blen": 43,
             "memory_address": 36127208,
-            "rom_address": 1351432,
             "xrefs": [
-                1343712
+                168672
             ]
         },
         {
             "str": "Ｗｉ−Ｆｉコネクションに接続しています。\nしばらくお待ちください。",
             "blen": 65,
             "memory_address": 36127252,
-            "rom_address": 1351476,
             "xrefs": [
-                1343684
+                168644
             ]
         },
         {
             "str": "このDS本体のWi-Fiユーザー情報を\nDSカードに保存しました。\n今後のWi-Fiコネクションへの接続は、\nこのDS本体をお使いください。",
             "blen": 121,
             "memory_address": 36127320,
-            "rom_address": 1351544,
             "xrefs": [
-                1343688
+                168648
             ]
         },
         {
             "str": "マクドナルド",
             "blen": 12,
             "memory_address": 36127484,
-            "rom_address": 1351708,
             "xrefs": [
-                1324408
+                149368
             ]
         },
         {
             "str": "エラーが発生したため、\nWi-Fiコネクションの機能を使用できません。\n電源を切ってやり直してください。",
             "blen": 97,
             "memory_address": 36127500,
-            "rom_address": 1351724,
             "xrefs": [
-                1324912
+                149872
             ]
         },
         {
             "str": "エラーコード (%d)",
             "blen": 17,
             "memory_address": 36127608,
-            "rom_address": 1351832,
             "xrefs": [
-                1326492
+                151452
             ]
         },
         {
             "str": "通信エラーが発生しました。",
             "blen": 26,
             "memory_address": 36127628,
-            "rom_address": 1351852,
             "xrefs": [
-                1326496
+                151456
             ]
         },
         {
             "str": "相手からの応答がありません。\n既に相手がWi-Fiコネクションに\n接続していないか、相手の<友達リスト>から\n登録がなくなった可能性があります",
             "blen": 132,
             "memory_address": 36127656,
-            "rom_address": 1351880,
             "xrefs": [
-                1326512
+                151472
             ]
         },
         {
             "str": "通信エラーが発生しました。",
             "blen": 26,
             "memory_address": 36127792,
-            "rom_address": 1352016,
             "xrefs": [
-                1326516
+                151476
             ]
         },
         {
             "str": "ダウンロードに失敗しました。",
             "blen": 28,
             "memory_address": 36127820,
-            "rom_address": 1352044,
             "xrefs": [
-                1326528
+                151488
             ]
         },
         {
             "str": "通信エラーが発生しました。",
             "blen": 26,
             "memory_address": 36127852,
-            "rom_address": 1352076,
             "xrefs": [
-                1326540
+                151500
             ]
         },
         {
             "str": "Wi-Fiコネクションが混み合っているか\nサービスが停止しているために\n接続できません。\nしばらく待ってやり直してください。",
             "blen": 116,
             "memory_address": 36127880,
-            "rom_address": 1352104,
             "xrefs": [
-                1326560
+                151520
             ]
         },
         {
             "str": "お客様のWi-FiコネクションIDは長い間\n使用されなかったため削除されました。\n詳しくはガイドブックをご覧ください。",
             "blen": 109,
             "memory_address": 36128000,
-            "rom_address": 1352224,
             "xrefs": [
-                1326568
+                151528
             ]
         },
         {
             "str": "このソフトの\nWi-Fiコネクションサービスは\n終了しました。\nご利用ありがとうございました。",
             "blen": 86,
             "memory_address": 36128112,
-            "rom_address": 1352336,
             "xrefs": [
-                1326572
+                151532
             ]
         },
         {
             "str": "Wi-Fiコネクションに\n接続できません。\n詳しくはガイドブックを\nご覧ください。",
             "blen": 74,
             "memory_address": 36128200,
-            "rom_address": 1352424,
             "xrefs": [
-                1326580
+                151540
             ]
         },
         {
             "str": "通信エラーが発生しました。",
             "blen": 26,
             "memory_address": 36128276,
-            "rom_address": 1352500,
             "xrefs": [
-                1326588
+                151548
             ]
         },
         {
             "str": "通信エラーが発生しました。",
             "blen": 26,
             "memory_address": 36128304,
-            "rom_address": 1352528,
             "xrefs": [
-                1326592
+                151552
             ]
         },
         {
             "str": "アクセスポイントが見つかりません。\nアクセスポイントに近づいて\nもう一度おためしください。",
             "blen": 88,
             "memory_address": 36128332,
-            "rom_address": 1352556,
             "xrefs": [
-                1326604
+                151564
             ]
         },
         {
             "str": "利用規約に同意する必要があります。\n本体設定で利用規約に\n同意してください。",
             "blen": 74,
             "memory_address": 36128424,
-            "rom_address": 1352648,
             "xrefs": [
-                1326612
+                151572
             ]
         },
         {
             "str": "無線通信の設定がOFFになっています。\n本体設定で無線通信の設定を\nONにしてください。",
             "blen": 81,
             "memory_address": 36128500,
-            "rom_address": 1352724,
             "xrefs": [
-                1326620
+                151580
             ]
         },
         {
             "str": "ニンテンドーWi-Fi USBコネクタに\n接続できません。\nWi-Fiコネクション設定で\nニンテンドーWi-Fi USBコネクタの\n接続をご確認ください。",
             "blen": 127,
             "memory_address": 36128584,
-            "rom_address": 1352808,
             "xrefs": [
-                1326628
+                151588
             ]
         },
         {
             "str": "接続できるアクセスポイントが\n見つかりません。\nWi-Fiコネクション設定で\n接続先の設定をご確認ください。",
             "blen": 100,
             "memory_address": 36128712,
-            "rom_address": 1352936,
             "xrefs": [
-                1326636
+                151596
             ]
         },
         {
             "str": "アクセスポイントが混み合っているため\n接続できません。\nしばらく待ってやり直してください。",
             "blen": 88,
             "memory_address": 36128816,
-            "rom_address": 1353040,
             "xrefs": [
-                1326644
+                151604
             ]
         },
         {
             "str": "Wi-Fiコネクションに\n接続できません。\nWi-Fiコネクション設定で\n接続先の設定をご確認ください。",
             "blen": 91,
             "memory_address": 36128908,
-            "rom_address": 1353132,
             "xrefs": [
-                1326696
+                151656
             ]
         },
         {
             "str": "Wi-Fiコネクションに\n接続できません。\n詳しくはガイドブックを\nご覧ください。",
             "blen": 74,
             "memory_address": 36129000,
-            "rom_address": 1353224,
             "xrefs": [
-                1326716
+                151676
             ]
         },
         {
             "str": "通信エラーが発生しました。",
             "blen": 26,
             "memory_address": 36129076,
-            "rom_address": 1353300,
             "xrefs": [
-                1326720
+                151680
             ]
         },
         {
             "str": "全国１位",
             "blen": 8,
             "memory_address": 36129352,
-            "rom_address": 1353576,
             "xrefs": [
-                1327660
+                152620
             ]
         },
         {
             "str": "全国ＴＯＰ１０と\nあなたの順位です。",
             "blen": 35,
             "memory_address": 36129364,
-            "rom_address": 1353588,
             "xrefs": [
-                1327664
+                152624
             ]
         },
         {
             "str": "全国ＴＯＰ１０です。",
             "blen": 20,
             "memory_address": 36129400,
-            "rom_address": 1353624,
             "xrefs": [
-                1327668
+                152628
             ]
         },
         {
             "str": "あなたは %7d人中",
             "blen": 16,
             "memory_address": 36129424,
-            "rom_address": 1353648,
             "xrefs": [
-                1327672
+                152632
             ]
         },
         {
             "str": "総得点 %7d点",
             "blen": 12,
             "memory_address": 36129444,
-            "rom_address": 1353668,
             "xrefs": [
-                1327676
+                152636
             ]
         },
         {
             "str": "位",
             "blen": 2,
             "memory_address": 36129460,
-            "rom_address": 1353684,
             "xrefs": [
-                1327680
+                152640
             ]
         },
         {
             "str": "%04d/%02d/%02d %02d:%02d のデータです。",
             "blen": 39,
             "memory_address": 36129464,
-            "rom_address": 1353688,
             "xrefs": [
-                1327688
+                152648
             ]
         },
         {
             "str": "ランキングデータを受信していません。",
             "blen": 36,
             "memory_address": 36129504,
-            "rom_address": 1353728,
             "xrefs": [
-                1327692
+                152652
             ]
         },
         {
             "str": "設定を保存しました",
             "blen": 18,
             "memory_address": 36129552,
-            "rom_address": 1353776,
             "xrefs": [
-                1353808
+                178768
             ]
         },
         {
             "str": "ニンテンドーゾーンでのみ\n接続することができます",
             "blen": 47,
             "memory_address": 36129840,
-            "rom_address": 1354064,
             "xrefs": [
-                1353800
+                178760
             ]
         },
         {
             "str": "他のアクセスポイントからも\n接続することができます",
             "blen": 49,
             "memory_address": 36129888,
-            "rom_address": 1354112,
             "xrefs": [
-                1353804
+                178764
             ]
         }
     ]

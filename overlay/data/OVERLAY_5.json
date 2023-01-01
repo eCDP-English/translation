@@ -1,1141 +1,1014 @@
 {
+    "id": 5,
     "name": "OVERLAY_5",
-    "ram_loc": 35950816,
-    "file_loc": 1091072,
     "length": 83520,
     "strings": [
         {
             "str": "選ぶ",
             "blen": 4,
             "memory_address": 36030408,
-            "rom_address": 1170664,
             "xrefs": [
-                1173328
+                82256
             ]
         },
         {
             "str": "選ぶ",
             "blen": 4,
             "memory_address": 36030416,
-            "rom_address": 1170672,
             "xrefs": [
-                1173232
+                82160
             ]
         },
         {
             "str": "選ぶ",
             "blen": 4,
             "memory_address": 36030424,
-            "rom_address": 1170680,
             "xrefs": [
-                1172944
+                81872
             ]
         },
         {
             "str": "選ぶ",
             "blen": 4,
             "memory_address": 36030432,
-            "rom_address": 1170688,
             "xrefs": [
-                1173040
+                81968
             ]
         },
         {
             "str": "選ぶ",
             "blen": 4,
             "memory_address": 36030440,
-            "rom_address": 1170696,
             "xrefs": [
-                1173616
+                82544
             ]
         },
         {
             "str": "選ぶ",
             "blen": 4,
             "memory_address": 36030448,
-            "rom_address": 1170704,
             "xrefs": [
-                1173520
+                82448
             ]
         },
         {
             "str": "選ぶ",
             "blen": 4,
             "memory_address": 36030456,
-            "rom_address": 1170712,
             "xrefs": [
-                1173136
+                82064
             ]
         },
         {
             "str": "選ぶ",
             "blen": 4,
             "memory_address": 36030464,
-            "rom_address": 1170720,
             "xrefs": [
-                1173424
+                82352
             ]
         },
         {
             "str": "フィレオ",
             "blen": 8,
             "memory_address": 36030480,
-            "rom_address": 1170736,
             "xrefs": [
-                1173492
+                82420
             ]
         },
         {
             "str": "てりやき",
             "blen": 8,
             "memory_address": 36030492,
-            "rom_address": 1170748,
             "xrefs": [
-                1173108
+                82036
             ]
         },
         {
             "str": "てりやき",
             "blen": 8,
             "memory_address": 36030504,
-            "rom_address": 1170760,
             "xrefs": [
-                1173588
+                82516
             ]
         },
         {
             "str": "向けます",
             "blen": 8,
             "memory_address": 36030516,
-            "rom_address": 1170772,
             "xrefs": [
-                1173440
+                82368
             ]
         },
         {
             "str": "向けます",
             "blen": 8,
             "memory_address": 36030528,
-            "rom_address": 1170784,
             "xrefs": [
-                1173344
+                82272
             ]
         },
         {
             "str": "フィレオ",
             "blen": 8,
             "memory_address": 36030540,
-            "rom_address": 1170796,
             "xrefs": [
-                1173396
+                82324
             ]
         },
         {
             "str": "フィッシュ",
             "blen": 10,
             "memory_address": 36030552,
-            "rom_address": 1170808,
             "xrefs": [
-                1173496
+                82424
             ]
         },
         {
             "str": "上に並べる",
             "blen": 10,
             "memory_address": 36030564,
-            "rom_address": 1170820,
             "xrefs": [
-                1173088
+                82016
             ]
         },
         {
             "str": "上に並べる",
             "blen": 10,
             "memory_address": 36030576,
-            "rom_address": 1170832,
             "xrefs": [
-                1173664
+                82592
             ]
         },
         {
             "str": "上にします",
             "blen": 10,
             "memory_address": 36030588,
-            "rom_address": 1170844,
             "xrefs": [
-                1173272
+                82200
             ]
         },
         {
             "str": "奥にヒール",
             "blen": 10,
             "memory_address": 36030600,
-            "rom_address": 1170856,
             "xrefs": [
-                1173080
+                82008
             ]
         },
         {
             "str": "上に並べる",
             "blen": 10,
             "memory_address": 36030612,
-            "rom_address": 1170868,
             "xrefs": [
-                1173472
+                82400
             ]
         },
         {
             "str": "上にします",
             "blen": 10,
             "memory_address": 36030624,
-            "rom_address": 1170880,
             "xrefs": [
-                1173656
+                82584
             ]
         },
         {
             "str": "上に並べる",
             "blen": 10,
             "memory_address": 36030636,
-            "rom_address": 1170892,
             "xrefs": [
-                1173376
+                82304
             ]
         },
         {
             "str": "フィッシュ",
             "blen": 10,
             "memory_address": 36030648,
-            "rom_address": 1170904,
             "xrefs": [
-                1173400
+                82328
             ]
         },
         {
             "str": "奥にヒール",
             "blen": 10,
             "memory_address": 36030660,
-            "rom_address": 1170916,
             "xrefs": [
-                1173560
+                82488
             ]
         },
         {
             "str": "上に並べる",
             "blen": 10,
             "memory_address": 36030672,
-            "rom_address": 1170928,
             "xrefs": [
-                1172992
+                81920
             ]
         },
         {
             "str": "上に並べる",
             "blen": 10,
             "memory_address": 36030684,
-            "rom_address": 1170940,
             "xrefs": [
-                1173280
+                82208
             ]
         },
         {
             "str": "上に並べる",
             "blen": 10,
             "memory_address": 36030696,
-            "rom_address": 1170952,
             "xrefs": [
-                1173568
+                82496
             ]
         },
         {
             "str": "上に並べる",
             "blen": 10,
             "memory_address": 36030708,
-            "rom_address": 1170964,
             "xrefs": [
-                1173184
+                82112
             ]
         },
         {
             "str": "ターに入れる",
             "blen": 12,
             "memory_address": 36030720,
-            "rom_address": 1170976,
             "xrefs": [
-                1173256
+                82184
             ]
         },
         {
             "str": "ターに入れる",
             "blen": 12,
             "memory_address": 36030736,
-            "rom_address": 1170992,
             "xrefs": [
-                1173544
+                82472
             ]
         },
         {
             "str": "ビッグマック",
             "blen": 12,
             "memory_address": 36030752,
-            "rom_address": 1171008,
             "xrefs": [
-                1173300
+                82228
             ]
         },
         {
             "str": "ビッグマック",
             "blen": 12,
             "memory_address": 36030768,
-            "rom_address": 1171024,
             "xrefs": [
-                1173684
+                82612
             ]
         },
         {
             "str": "マーに入れる",
             "blen": 12,
             "memory_address": 36030784,
-            "rom_address": 1171040,
             "xrefs": [
-                1173352
+                82280
             ]
         },
         {
             "str": "ターに入れる",
             "blen": 12,
             "memory_address": 36030800,
-            "rom_address": 1171056,
             "xrefs": [
-                1173640
+                82568
             ]
         },
         {
             "str": "アッセンブル",
             "blen": 12,
             "memory_address": 36030816,
-            "rom_address": 1171072,
             "xrefs": [
-                1173008
+                81936
             ]
         },
         {
             "str": "マーに入れる",
             "blen": 12,
             "memory_address": 36030832,
-            "rom_address": 1171088,
             "xrefs": [
-                1173448
+                82376
             ]
         },
         {
             "str": "ターに入れる",
             "blen": 12,
             "memory_address": 36030848,
-            "rom_address": 1171104,
             "xrefs": [
-                1172968
+                81896
             ]
         },
         {
             "str": "アッセンブル",
             "blen": 12,
             "memory_address": 36030864,
-            "rom_address": 1171120,
             "xrefs": [
-                1173680
+                82608
             ]
         },
         {
             "str": "ターに入れる",
             "blen": 12,
             "memory_address": 36030880,
-            "rom_address": 1171136,
             "xrefs": [
-                1173064
+                81992
             ]
         },
         {
             "str": "アッセンブル",
             "blen": 12,
             "memory_address": 36030896,
-            "rom_address": 1171152,
             "xrefs": [
-                1173296
+                82224
             ]
         },
         {
             "str": "切り口を下に",
             "blen": 12,
             "memory_address": 36030912,
-            "rom_address": 1171168,
             "xrefs": [
-                1173340
+                82268
             ]
         },
         {
             "str": "切り口を下に",
             "blen": 12,
             "memory_address": 36030928,
-            "rom_address": 1171184,
             "xrefs": [
-                1173436
+                82364
             ]
         },
         {
             "str": "アッセンブル",
             "blen": 12,
             "memory_address": 36030944,
-            "rom_address": 1171200,
             "xrefs": [
-                1173200
+                82128
             ]
         },
         {
             "str": "ターに入れる",
             "blen": 12,
             "memory_address": 36030960,
-            "rom_address": 1171216,
             "xrefs": [
-                1173160
+                82088
             ]
         },
         {
             "str": "HLZ側にヒール",
             "blen": 13,
             "memory_address": 36030976,
-            "rom_address": 1171232,
             "xrefs": [
-                1173368
+                82296
             ]
         },
         {
             "str": "HLZ側にヒール",
             "blen": 13,
             "memory_address": 36030992,
-            "rom_address": 1171248,
             "xrefs": [
-                1172984
+                81912
             ]
         },
         {
             "str": "HLZ側にヒール",
             "blen": 13,
             "memory_address": 36031008,
-            "rom_address": 1171264,
             "xrefs": [
-                1173464
+                82392
             ]
         },
         {
             "str": "HLZ側にヒール",
             "blen": 13,
             "memory_address": 36031024,
-            "rom_address": 1171280,
             "xrefs": [
-                1173176
+                82104
             ]
         },
         {
             "str": "バンズをスチー",
             "blen": 14,
             "memory_address": 36031040,
-            "rom_address": 1171296,
             "xrefs": [
-                1173444
+                82372
             ]
         },
         {
             "str": "正しいバンズを",
             "blen": 14,
             "memory_address": 36031056,
-            "rom_address": 1171312,
             "xrefs": [
-                1173324
+                82252
             ]
         },
         {
             "str": "中央にクラウン",
             "blen": 14,
             "memory_address": 36031072,
-            "rom_address": 1171328,
             "xrefs": [
-                1173364
+                82292
             ]
         },
         {
             "str": "ヒールを手前に",
             "blen": 14,
             "memory_address": 36031088,
-            "rom_address": 1171344,
             "xrefs": [
-                1173148
+                82076
             ]
         },
         {
             "str": "バンズをトース",
             "blen": 14,
             "memory_address": 36031104,
-            "rom_address": 1171360,
             "xrefs": [
-                1173156
+                82084
             ]
         },
         {
             "str": "正しいラップの",
             "blen": 14,
             "memory_address": 36031120,
-            "rom_address": 1171376,
             "xrefs": [
-                1173084
+                82012
             ]
         },
         {
             "str": "チーズバーガー",
             "blen": 14,
             "memory_address": 36031136,
-            "rom_address": 1171392,
             "xrefs": [
-                1173012
+                81940
             ]
         },
         {
             "str": "中央にクラウン",
             "blen": 14,
             "memory_address": 36031152,
-            "rom_address": 1171408,
             "xrefs": [
-                1172980
+                81908
             ]
         },
         {
             "str": "マックバーガー",
             "blen": 14,
             "memory_address": 36031168,
-            "rom_address": 1171424,
             "xrefs": [
-                1173112
+                82040
             ]
         },
         {
             "str": "正しいラップの",
             "blen": 14,
             "memory_address": 36031184,
-            "rom_address": 1171440,
             "xrefs": [
-                1173180
+                82108
             ]
         },
         {
             "str": "正しいラップの",
             "blen": 14,
             "memory_address": 36031200,
-            "rom_address": 1171456,
             "xrefs": [
-                1173372
+                82300
             ]
         },
         {
             "str": "正しいバンズを",
             "blen": 14,
             "memory_address": 36031216,
-            "rom_address": 1171472,
             "xrefs": [
-                1173508
+                82436
             ]
         },
         {
             "str": "選んでください",
             "blen": 14,
             "memory_address": 36031232,
-            "rom_address": 1171488,
             "xrefs": [
-                1173512
+                82440
             ]
         },
         {
             "str": "選んでください",
             "blen": 14,
             "memory_address": 36031248,
-            "rom_address": 1171504,
             "xrefs": [
-                1173128
+                82056
             ]
         },
         {
             "str": "正しいバンズを",
             "blen": 14,
             "memory_address": 36031264,
-            "rom_address": 1171520,
             "xrefs": [
-                1173516
+                82444
             ]
         },
         {
             "str": "正しいバンズを",
             "blen": 14,
             "memory_address": 36031280,
-            "rom_address": 1171536,
             "xrefs": [
-                1173228
+                82156
             ]
         },
         {
             "str": "中央にクラウン",
             "blen": 14,
             "memory_address": 36031296,
-            "rom_address": 1171552,
             "xrefs": [
-                1173460
+                82388
             ]
         },
         {
             "str": "のアッセンブル",
             "blen": 14,
             "memory_address": 36031312,
-            "rom_address": 1171568,
             "xrefs": [
-                1173392
+                82320
             ]
         },
         {
             "str": "バンズをトース",
             "blen": 14,
             "memory_address": 36031328,
-            "rom_address": 1171584,
             "xrefs": [
-                1173252
+                82180
             ]
         },
         {
             "str": "バンズをトース",
             "blen": 14,
             "memory_address": 36031344,
-            "rom_address": 1171600,
             "xrefs": [
-                1173540
+                82468
             ]
         },
         {
             "str": "正しいバンズを",
             "blen": 14,
             "memory_address": 36031360,
-            "rom_address": 1171616,
             "xrefs": [
-                1173132
+                82060
             ]
         },
         {
             "str": "チーズバーガー",
             "blen": 14,
             "memory_address": 36031376,
-            "rom_address": 1171632,
             "xrefs": [
-                1173204
+                82132
             ]
         },
         {
             "str": "ビッグマックの",
             "blen": 14,
             "memory_address": 36031392,
-            "rom_address": 1171648,
             "xrefs": [
-                1173292
+                82220
             ]
         },
         {
             "str": "手前にクラウン",
             "blen": 14,
             "memory_address": 36031408,
-            "rom_address": 1171664,
             "xrefs": [
-                1173556
+                82484
             ]
         },
         {
             "str": "正しいラップの",
             "blen": 14,
             "memory_address": 36031424,
-            "rom_address": 1171680,
             "xrefs": [
-                1173564
+                82492
             ]
         },
         {
             "str": "正しいラップの",
             "blen": 14,
             "memory_address": 36031440,
-            "rom_address": 1171696,
             "xrefs": [
-                1173468
+                82396
             ]
         },
         {
             "str": "正しいバンズを",
             "blen": 14,
             "memory_address": 36031456,
-            "rom_address": 1171712,
             "xrefs": [
-                1173612
+                82540
             ]
         },
         {
             "str": "バンズをトース",
             "blen": 14,
             "memory_address": 36031472,
-            "rom_address": 1171728,
             "xrefs": [
-                1173636
+                82564
             ]
         },
         {
             "str": "マックバーガー",
             "blen": 14,
             "memory_address": 36031488,
-            "rom_address": 1171744,
             "xrefs": [
-                1173592
+                82520
             ]
         },
         {
             "str": "選んでください",
             "blen": 14,
             "memory_address": 36031504,
-            "rom_address": 1171760,
             "xrefs": [
-                1173416
+                82344
             ]
         },
         {
             "str": "正しいバンズを",
             "blen": 14,
             "memory_address": 36031520,
-            "rom_address": 1171776,
             "xrefs": [
-                1173420
+                82348
             ]
         },
         {
             "str": "ビッグマックの",
             "blen": 14,
             "memory_address": 36031536,
-            "rom_address": 1171792,
             "xrefs": [
-                1173676
+                82604
             ]
         },
         {
             "str": "選んでください",
             "blen": 14,
             "memory_address": 36031552,
-            "rom_address": 1171808,
             "xrefs": [
-                1173320
+                82248
             ]
         },
         {
             "str": "選んでください",
             "blen": 14,
             "memory_address": 36031568,
-            "rom_address": 1171824,
             "xrefs": [
-                1172936
+                81864
             ]
         },
         {
             "str": "正しいバンズを",
             "blen": 14,
             "memory_address": 36031584,
-            "rom_address": 1171840,
             "xrefs": [
-                1173028
+                81956
             ]
         },
         {
             "str": "中央にクラウン",
             "blen": 14,
             "memory_address": 36031600,
-            "rom_address": 1171856,
             "xrefs": [
-                1173172
+                82100
             ]
         },
         {
             "str": "のアッセンブル",
             "blen": 14,
             "memory_address": 36031616,
-            "rom_address": 1171872,
             "xrefs": [
-                1173488
+                82416
             ]
         },
         {
             "str": "正しいバンズを",
             "blen": 14,
             "memory_address": 36031632,
-            "rom_address": 1171888,
             "xrefs": [
-                1173036
+                81964
             ]
         },
         {
             "str": "正しいバンズを",
             "blen": 14,
             "memory_address": 36031648,
-            "rom_address": 1171904,
             "xrefs": [
-                1172940
+                81868
             ]
         },
         {
             "str": "ヒールを手前に",
             "blen": 14,
             "memory_address": 36031664,
-            "rom_address": 1171920,
             "xrefs": [
-                1172956
+                81884
             ]
         },
         {
             "str": "ヒールを手前に",
             "blen": 14,
             "memory_address": 36031680,
-            "rom_address": 1171936,
             "xrefs": [
-                1173052
+                81980
             ]
         },
         {
             "str": "選んでください",
             "blen": 14,
             "memory_address": 36031696,
-            "rom_address": 1171952,
             "xrefs": [
-                1173032
+                81960
             ]
         },
         {
             "str": "バンズをトース",
             "blen": 14,
             "memory_address": 36031712,
-            "rom_address": 1171968,
             "xrefs": [
-                1172964
+                81892
             ]
         },
         {
             "str": "バンズをトース",
             "blen": 14,
             "memory_address": 36031728,
-            "rom_address": 1171984,
             "xrefs": [
-                1173060
+                81988
             ]
         },
         {
             "str": "正しいラップの",
             "blen": 14,
             "memory_address": 36031744,
-            "rom_address": 1172000,
             "xrefs": [
-                1172988
+                81916
             ]
         },
         {
             "str": "ヒールを手前に",
             "blen": 14,
             "memory_address": 36031760,
-            "rom_address": 1172016,
             "xrefs": [
-                1173532
+                82460
             ]
         },
         {
             "str": "手前にクラウン",
             "blen": 14,
             "memory_address": 36031776,
-            "rom_address": 1172032,
             "xrefs": [
-                1173076
+                82004
             ]
         },
         {
             "str": "バンズをスチー",
             "blen": 14,
             "memory_address": 36031792,
-            "rom_address": 1172048,
             "xrefs": [
-                1173348
+                82276
             ]
         },
         {
             "str": "クラウンを後ろに",
             "blen": 16,
             "memory_address": 36031808,
-            "rom_address": 1172064,
             "xrefs": [
-                1173152
+                82080
             ]
         },
         {
             "str": "チーズバーガーの",
             "blen": 16,
             "memory_address": 36031828,
-            "rom_address": 1172084,
             "xrefs": [
-                1173196
+                82124
             ]
         },
         {
             "str": "クラウンを後ろに",
             "blen": 16,
             "memory_address": 36031848,
-            "rom_address": 1172104,
             "xrefs": [
-                1173248
+                82176
             ]
         },
         {
             "str": "クラウンを後ろに",
             "blen": 16,
             "memory_address": 36031868,
-            "rom_address": 1172124,
             "xrefs": [
-                1173536
+                82464
             ]
         },
         {
             "str": "トーストした側を",
             "blen": 16,
             "memory_address": 36031888,
-            "rom_address": 1172144,
             "xrefs": [
-                1173268
+                82196
             ]
         },
         {
             "str": "正しいボックスの",
             "blen": 16,
             "memory_address": 36031908,
-            "rom_address": 1172164,
             "xrefs": [
-                1173276
+                82204
             ]
         },
         {
             "str": "クラウンを後ろに",
             "blen": 16,
             "memory_address": 36031928,
-            "rom_address": 1172184,
             "xrefs": [
-                1173632
+                82560
             ]
         },
         {
             "str": "トーストした側を",
             "blen": 16,
             "memory_address": 36031948,
-            "rom_address": 1172204,
             "xrefs": [
-                1173652
+                82580
             ]
         },
         {
             "str": "正しいボックスの",
             "blen": 16,
             "memory_address": 36031968,
-            "rom_address": 1172224,
             "xrefs": [
-                1173660
+                82588
             ]
         },
         {
             "str": "クラウンを後ろに",
             "blen": 16,
             "memory_address": 36031988,
-            "rom_address": 1172244,
             "xrefs": [
-                1172960
+                81888
             ]
         },
         {
             "str": "クラウンを後ろに",
             "blen": 16,
             "memory_address": 36032008,
-            "rom_address": 1172264,
             "xrefs": [
-                1173056
+                81984
             ]
         },
         {
             "str": "チーズバーガーの",
             "blen": 16,
             "memory_address": 36032028,
-            "rom_address": 1172284,
             "xrefs": [
-                1173004
+                81932
             ]
         },
         {
             "str": "レギュラーバンズを",
             "blen": 18,
             "memory_address": 36032048,
-            "rom_address": 1172304,
             "xrefs": [
-                1173124
+                82052
             ]
         },
         {
             "str": "てりやきマックバー",
             "blen": 18,
             "memory_address": 36032068,
-            "rom_address": 1172324,
             "xrefs": [
-                1173100
+                82028
             ]
         },
         {
             "str": "ガーのアッセンブル",
             "blen": 18,
             "memory_address": 36032088,
-            "rom_address": 1172344,
             "xrefs": [
-                1173104
+                82032
             ]
         },
         {
             "str": "ビッグマックバンズ",
             "blen": 18,
             "memory_address": 36032108,
-            "rom_address": 1172364,
             "xrefs": [
-                1173220
+                82148
             ]
         },
         {
             "str": "フィレオフィッシュ",
             "blen": 18,
             "memory_address": 36032128,
-            "rom_address": 1172384,
             "xrefs": [
-                1173388
+                82316
             ]
         },
         {
             "str": "を、選んでください",
             "blen": 18,
             "memory_address": 36032148,
-            "rom_address": 1172404,
             "xrefs": [
-                1173224
+                82152
             ]
         },
         {
             "str": "ビッグマックバンズ",
             "blen": 18,
             "memory_address": 36032168,
-            "rom_address": 1172424,
             "xrefs": [
-                1173604
+                82532
             ]
         },
         {
             "str": "を、選んでください",
             "blen": 18,
             "memory_address": 36032188,
-            "rom_address": 1172444,
             "xrefs": [
-                1173608
+                82536
             ]
         },
         {
             "str": "てりやきマックバー",
             "blen": 18,
             "memory_address": 36032208,
-            "rom_address": 1172464,
             "xrefs": [
-                1173580
+                82508
             ]
         },
         {
             "str": "ガーのアッセンブル",
             "blen": 18,
             "memory_address": 36032228,
-            "rom_address": 1172484,
             "xrefs": [
-                1173584
+                82512
             ]
         },
         {
             "str": "レギュラーバンズを",
             "blen": 18,
             "memory_address": 36032248,
-            "rom_address": 1172504,
             "xrefs": [
-                1173412
+                82340
             ]
         },
         {
             "str": "レギュラーバンズを",
             "blen": 18,
             "memory_address": 36032268,
-            "rom_address": 1172524,
             "xrefs": [
-                1173316
+                82244
             ]
         },
         {
             "str": "フィレオフィッシュ",
             "blen": 18,
             "memory_address": 36032288,
-            "rom_address": 1172544,
             "xrefs": [
-                1173484
+                82412
             ]
         },
         {
             "str": "レギュラーバンズを",
             "blen": 18,
             "memory_address": 36032308,
-            "rom_address": 1172564,
             "xrefs": [
-                1172932
+                81860
             ]
         },
         {
             "str": "ヒールとクラブは手前",
             "blen": 20,
             "memory_address": 36032352,
-            "rom_address": 1172608,
             "xrefs": [
-                1173244
+                82172
             ]
         },
         {
             "str": "ヒールとクラブは手前",
             "blen": 20,
             "memory_address": 36032376,
-            "rom_address": 1172632,
             "xrefs": [
-                1173628
+                82556
             ]
         },
         {
             "str": "十字ボタンの右を押して下さい",
             "blen": 28,
             "memory_address": 36032568,
-            "rom_address": 1172824,
             "xrefs": [
-                1170732
+                79660
             ]
         },
         {
             "str": "十字ボタンの左を押して下さい",
             "blen": 28,
             "memory_address": 36032600,
-            "rom_address": 1172856,
             "xrefs": [
-                1170728
+                79656
             ]
         }
     ]

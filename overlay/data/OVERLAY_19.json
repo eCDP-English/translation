@@ -1,529 +1,470 @@
 {
+    "id": 19,
     "name": "OVERLAY_19",
-    "ram_loc": 35950816,
-    "file_loc": 1450496,
     "length": 32288,
     "strings": [
         {
             "str": "移す",
             "blen": 4,
             "memory_address": 35980800,
-            "rom_address": 1480480,
             "xrefs": [
-                1481912
+                31416
             ]
         },
         {
             "str": "する",
             "blen": 4,
             "memory_address": 35980808,
-            "rom_address": 1480488,
             "xrefs": [
-                1481696
+                31200
             ]
         },
         {
             "str": "する",
             "blen": 4,
             "memory_address": 35980816,
-            "rom_address": 1480496,
             "xrefs": [
-                1481672
+                31176
             ]
         },
         {
             "str": "入れる",
             "blen": 6,
             "memory_address": 35980824,
-            "rom_address": 1480504,
             "xrefs": [
-                1481720
+                31224
             ]
         },
         {
             "str": "入れる",
             "blen": 6,
             "memory_address": 35980832,
-            "rom_address": 1480512,
             "xrefs": [
-                1481984
+                31488
             ]
         },
         {
             "str": "入れる",
             "blen": 6,
             "memory_address": 35980840,
-            "rom_address": 1480520,
             "xrefs": [
-                1481744
+                31248
             ]
         },
         {
             "str": "ボタンを",
             "blen": 8,
             "memory_address": 35980848,
-            "rom_address": 1480528,
             "xrefs": [
-                1481684
+                31188
             ]
         },
         {
             "str": "油をきる",
             "blen": 8,
             "memory_address": 35980860,
-            "rom_address": 1480540,
             "xrefs": [
-                1481932
+                31436
             ]
         },
         {
             "str": "油をきる",
             "blen": 8,
             "memory_address": 35980872,
-            "rom_address": 1480552,
             "xrefs": [
-                1481860
+                31364
             ]
         },
         {
             "str": "しましょう",
             "blen": 10,
             "memory_address": 35980884,
-            "rom_address": 1480564,
             "xrefs": [
-                1481976
+                31480
             ]
         },
         {
             "str": "タイマーを",
             "blen": 10,
             "memory_address": 35980896,
-            "rom_address": 1480576,
             "xrefs": [
-                1481876
+                31380
             ]
         },
         {
             "str": "押して下さい",
             "blen": 12,
             "memory_address": 35980908,
-            "rom_address": 1480588,
             "xrefs": [
-                1481688
+                31192
             ]
         },
         {
             "str": "押して下さい",
             "blen": 12,
             "memory_address": 35980924,
-            "rom_address": 1480604,
             "xrefs": [
-                1481880
+                31384
             ]
         },
         {
             "str": "リムーブする",
             "blen": 12,
             "memory_address": 35980940,
-            "rom_address": 1480620,
             "xrefs": [
-                1481840
+                31344
             ]
         },
         {
             "str": "フルバッグで",
             "blen": 12,
             "memory_address": 35980956,
-            "rom_address": 1480636,
             "xrefs": [
-                1481980
+                31484
             ]
         },
         {
             "str": "バスケットを",
             "blen": 12,
             "memory_address": 35980972,
-            "rom_address": 1480652,
             "xrefs": [
-                1481740
+                31244
             ]
         },
         {
             "str": "バットに入れ",
             "blen": 12,
             "memory_address": 35980988,
-            "rom_address": 1480668,
             "xrefs": [
-                1481788
+                31292
             ]
         },
         {
             "str": "きって下さい",
             "blen": 12,
             "memory_address": 35981004,
-            "rom_address": 1480684,
             "xrefs": [
-                1481928
+                31432
             ]
         },
         {
             "str": "いませんか？",
             "blen": 12,
             "memory_address": 35981020,
-            "rom_address": 1480700,
             "xrefs": [
-                1481808
+                31312
             ]
         },
         {
             "str": "シェイクする",
             "blen": 12,
             "memory_address": 35981036,
-            "rom_address": 1480716,
             "xrefs": [
-                1481816
+                31320
             ]
         },
         {
             "str": "バスケットを",
             "blen": 12,
             "memory_address": 35981052,
-            "rom_address": 1480732,
             "xrefs": [
-                1481716
+                31220
             ]
         },
         {
             "str": "バットに入れ",
             "blen": 12,
             "memory_address": 35981068,
-            "rom_address": 1480748,
             "xrefs": [
-                1481764
+                31268
             ]
         },
         {
             "str": "タイマーを押す",
             "blen": 14,
             "memory_address": 35981084,
-            "rom_address": 1480764,
             "xrefs": [
-                1481884
+                31388
             ]
         },
         {
             "str": "スイッチを押す",
             "blen": 14,
             "memory_address": 35981100,
-            "rom_address": 1480780,
             "xrefs": [
-                1481768
+                31272
             ]
         },
         {
             "str": "スイッチを押す",
             "blen": 14,
             "memory_address": 35981116,
-            "rom_address": 1480796,
             "xrefs": [
-                1481792
+                31296
             ]
         },
         {
             "str": "気をつけて下さい",
             "blen": 16,
             "memory_address": 35981132,
-            "rom_address": 1480812,
             "xrefs": [
-                1481952
+                31456
             ]
         },
         {
             "str": "塩をふり、混ぜる",
             "blen": 16,
             "memory_address": 35981152,
-            "rom_address": 1480832,
             "xrefs": [
-                1481956
+                31460
             ]
         },
         {
             "str": "油をきって下さい",
             "blen": 16,
             "memory_address": 35981172,
-            "rom_address": 1480852,
             "xrefs": [
-                1481856
+                31360
             ]
         },
         {
             "str": "バスケッティング",
             "blen": 16,
             "memory_address": 35981192,
-            "rom_address": 1480872,
             "xrefs": [
-                1481692
+                31196
             ]
         },
         {
             "str": "ローテーションを",
             "blen": 16,
             "memory_address": 35981212,
-            "rom_address": 1480892,
             "xrefs": [
-                1481708
+                31212
             ]
         },
         {
             "str": "７分以内にサーブ",
             "blen": 16,
             "memory_address": 35981232,
-            "rom_address": 1480912,
             "xrefs": [
-                1481972
+                31476
             ]
         },
         {
             "str": "ローテーションを",
             "blen": 16,
             "memory_address": 35981252,
-            "rom_address": 1480932,
             "xrefs": [
-                1481732
+                31236
             ]
         },
         {
             "str": "バギングトレーに",
             "blen": 16,
             "memory_address": 35981272,
-            "rom_address": 1480952,
             "xrefs": [
-                1481908
+                31412
             ]
         },
         {
             "str": "バスケッティング",
             "blen": 16,
             "memory_address": 35981292,
-            "rom_address": 1480972,
             "xrefs": [
-                1481668
+                31172
             ]
         },
         {
             "str": "バスケットの油を",
             "blen": 16,
             "memory_address": 35981312,
-            "rom_address": 1480992,
             "xrefs": [
-                1481924
+                31428
             ]
         },
         {
             "str": "ブザーが鳴ったら",
             "blen": 16,
             "memory_address": 35981332,
-            "rom_address": 1481012,
             "xrefs": [
-                1481812
+                31316
             ]
         },
         {
             "str": "２回目のブザーで",
             "blen": 16,
             "memory_address": 35981352,
-            "rom_address": 1481032,
             "xrefs": [
-                1481836
+                31340
             ]
         },
         {
             "str": "バスケッティングは",
             "blen": 18,
             "memory_address": 35981372,
-            "rom_address": 1481052,
             "xrefs": [
-                1481660
+                31164
             ]
         },
         {
             "str": "２回に分けましょう",
             "blen": 18,
             "memory_address": 35981392,
-            "rom_address": 1481072,
             "xrefs": [
-                1481664
+                31168
             ]
         },
         {
             "str": "揚げたてのポテトを",
             "blen": 18,
             "memory_address": 35981412,
-            "rom_address": 1481092,
             "xrefs": [
-                1481900
+                31404
             ]
         },
         {
             "str": "同じバットに同時に",
             "blen": 18,
             "memory_address": 35981432,
-            "rom_address": 1481112,
             "xrefs": [
-                1481756
+                31260
             ]
         },
         {
             "str": "全体に広げて下さい",
             "blen": 18,
             "memory_address": 35981452,
-            "rom_address": 1481132,
             "xrefs": [
-                1481904
+                31408
             ]
         },
         {
             "str": "同じバットに同時に",
             "blen": 18,
             "memory_address": 35981472,
-            "rom_address": 1481152,
             "xrefs": [
-                1481780
+                31284
             ]
         },
         {
             "str": "ポテトはくっついて",
             "blen": 18,
             "memory_address": 35981492,
-            "rom_address": 1481172,
             "xrefs": [
-                1481804
+                31308
             ]
         },
         {
             "str": "ポテトは５〜１０秒、",
             "blen": 20,
             "memory_address": 35981512,
-            "rom_address": 1481192,
             "xrefs": [
-                1481852
+                31356
             ]
         },
         {
             "str": "守って配置して下さい",
             "blen": 20,
             "memory_address": 35981536,
-            "rom_address": 1481216,
             "xrefs": [
-                1481712
+                31216
             ]
         },
         {
             "str": "守って配置して下さい",
             "blen": 20,
             "memory_address": 35981560,
-            "rom_address": 1481240,
             "xrefs": [
-                1481736
+                31240
             ]
         },
         {
             "str": "２個入れないで下さい",
             "blen": 20,
             "memory_address": 35981584,
-            "rom_address": 1481264,
             "xrefs": [
-                1481760
+                31264
             ]
         },
         {
             "str": "２個入れないで下さい",
             "blen": 20,
             "memory_address": 35981608,
-            "rom_address": 1481288,
             "xrefs": [
-                1481784
+                31288
             ]
         },
         {
             "str": "バットに入らないよう",
             "blen": 20,
             "memory_address": 35981632,
-            "rom_address": 1481312,
             "xrefs": [
-                1481948
+                31452
             ]
         },
         {
             "str": "ポテトはカリカリとして",
             "blen": 22,
             "memory_address": 35981656,
-            "rom_address": 1481336,
             "xrefs": [
-                1481828
+                31332
             ]
         },
         {
             "str": "油っぽくありませんか？",
             "blen": 22,
             "memory_address": 35981680,
-            "rom_address": 1481360,
             "xrefs": [
-                1481832
+                31336
             ]
         },
         {
             "str": "「早送り」を押して下さい",
             "blen": 24,
             "memory_address": 35981728,
-            "rom_address": 1481408,
             "xrefs": [
-                1481392
+                30896
             ]
         },
         {
             "str": "十字ボタンの左を押して下さい",
             "blen": 28,
             "memory_address": 35981756,
-            "rom_address": 1481436,
             "xrefs": [
-                1481396
+                30900
             ]
         },
         {
             "str": "十字ボタンの右を押して下さい",
             "blen": 28,
             "memory_address": 35981788,
-            "rom_address": 1481468,
             "xrefs": [
-                1481400
+                30904
             ]
         },
         {
             "str": "バスケットを右にスライドして下さい",
             "blen": 34,
             "memory_address": 35981820,
-            "rom_address": 1481500,
             "xrefs": [
-                1481388
+                30892
             ]
         },
         {
             "str": "バスケットを左にスライドして下さい",
             "blen": 34,
             "memory_address": 35981856,
-            "rom_address": 1481536,
             "xrefs": [
-                1481384
+                30888
             ]
         },
         {
             "str": "ポテトをタッチしたまま、５〜１０秒間待つ",
             "blen": 40,
             "memory_address": 35981932,
-            "rom_address": 1481612,
             "xrefs": [
-                1481404
+                30908
             ]
         }
     ]

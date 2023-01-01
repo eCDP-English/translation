@@ -1,16 +1,14 @@
 {
+    "id": 10,
     "name": "OVERLAY_10",
-    "ram_loc": 35950816,
-    "file_loc": 1391104,
     "length": 3424,
     "strings": [
         {
             "str": "トレーニングする項目を選択してください",
             "blen": 38,
             "memory_address": 35954140,
-            "rom_address": 1394428,
             "xrefs": [
-                1392176
+                1072
             ]
         }
     ]
