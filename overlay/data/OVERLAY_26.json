@@ -1,43 +1,38 @@
 {
+    "id": 26,
     "name": "OVERLAY_26",
-    "ram_loc": 35950816,
-    "file_loc": 1608192,
     "length": 25504,
     "strings": [
         {
             "str": "「START!」をタッチして\n始めましょう",
             "blen": 35,
             "memory_address": 35975532,
-            "rom_address": 1632908,
             "xrefs": [
-                1610220
+                2028
             ]
         },
         {
             "str": "○○円、\n丁度いただきます。",
             "blen": 27,
             "memory_address": 35975684,
-            "rom_address": 1633060,
             "xrefs": [
-                1614060
+                5868
             ]
         },
         {
             "str": "目標タイム ",
             "blen": 11,
             "memory_address": 35976232,
-            "rom_address": 1633608,
             "xrefs": [
-                1631044
+                22852
             ]
         },
         {
             "str": "フロントカウンター",
             "blen": 18,
             "memory_address": 35976248,
-            "rom_address": 1633624,
             "xrefs": [
-                1631104
+                22912
             ]
         }
     ]

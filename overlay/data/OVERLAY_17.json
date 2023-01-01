@@ -1,1852 +1,1646 @@
 {
+    "id": 17,
     "name": "OVERLAY_17",
-    "ram_loc": 35950816,
-    "file_loc": 1425408,
     "length": 22144,
     "strings": [
         {
             "str": "安全",
             "blen": 4,
             "memory_address": 35958404,
-            "rom_address": 1432996,
             "xrefs": [
-                1444972
+                19564
             ]
         },
         {
             "str": "安全",
             "blen": 4,
             "memory_address": 35958412,
-            "rom_address": 1433004,
             "xrefs": [
-                1445396
+                19988
             ]
         },
         {
             "str": "安全",
             "blen": 4,
             "memory_address": 35958420,
-            "rom_address": 1433012,
             "xrefs": [
-                1444548
+                19140
             ]
         },
         {
             "str": "安全",
             "blen": 4,
             "memory_address": 35958428,
-            "rom_address": 1433020,
             "xrefs": [
-                1443276
+                17868
             ]
         },
         {
             "str": "安全",
             "blen": 4,
             "memory_address": 35958436,
-            "rom_address": 1433028,
             "xrefs": [
-                1444124
+                18716
             ]
         },
         {
             "str": "安全",
             "blen": 4,
             "memory_address": 35958444,
-            "rom_address": 1433036,
             "xrefs": [
-                1443700
+                18292
             ]
         },
         {
             "str": "安全",
             "blen": 4,
             "memory_address": 35958452,
-            "rom_address": 1433044,
             "xrefs": [
-                1445820
+                20412
             ]
         },
         {
             "str": "新鮮さ",
             "blen": 6,
             "memory_address": 35958468,
-            "rom_address": 1433060,
             "xrefs": [
-                1443260
+                17852
             ]
         },
         {
             "str": "温かさ",
             "blen": 6,
             "memory_address": 35958476,
-            "rom_address": 1433068,
             "xrefs": [
-                1444524
+                19116
             ]
         },
         {
             "str": "新鮮さ",
             "blen": 6,
             "memory_address": 35958484,
-            "rom_address": 1433076,
             "xrefs": [
-                1444956
+                19548
             ]
         },
         {
             "str": "新鮮さ",
             "blen": 6,
             "memory_address": 35958492,
-            "rom_address": 1433084,
             "xrefs": [
-                1445804
+                20396
             ]
         },
         {
             "str": "温かさ",
             "blen": 6,
             "memory_address": 35958500,
-            "rom_address": 1433092,
             "xrefs": [
-                1443676
+                18268
             ]
         },
         {
             "str": "温かさ",
             "blen": 6,
             "memory_address": 35958508,
-            "rom_address": 1433100,
             "xrefs": [
-                1445796
+                20388
             ]
         },
         {
             "str": "新鮮さ",
             "blen": 6,
             "memory_address": 35958516,
-            "rom_address": 1433108,
             "xrefs": [
-                1444108
+                18700
             ]
         },
         {
             "str": "温かさ",
             "blen": 6,
             "memory_address": 35958524,
-            "rom_address": 1433116,
             "xrefs": [
-                1443252
+                17844
             ]
         },
         {
             "str": "温かさ",
             "blen": 6,
             "memory_address": 35958532,
-            "rom_address": 1433124,
             "xrefs": [
-                1445372
+                19964
             ]
         },
         {
             "str": "新鮮さ",
             "blen": 6,
             "memory_address": 35958540,
-            "rom_address": 1433132,
             "xrefs": [
-                1443684
+                18276
             ]
         },
         {
             "str": "新鮮さ",
             "blen": 6,
             "memory_address": 35958548,
-            "rom_address": 1433140,
             "xrefs": [
-                1444532
+                19124
             ]
         },
         {
             "str": "新鮮さ",
             "blen": 6,
             "memory_address": 35958556,
-            "rom_address": 1433148,
             "xrefs": [
-                1445380
+                19972
             ]
         },
         {
             "str": "温かさ",
             "blen": 6,
             "memory_address": 35958564,
-            "rom_address": 1433156,
             "xrefs": [
-                1444948
+                19540
             ]
         },
         {
             "str": "温かさ",
             "blen": 6,
             "memory_address": 35958572,
-            "rom_address": 1433164,
             "xrefs": [
-                1444100
+                18692
             ]
         },
         {
             "str": "エッグ",
             "blen": 6,
             "memory_address": 35958580,
-            "rom_address": 1433172,
             "xrefs": [
-                1440692
+                15284
             ]
         },
         {
             "str": "１７７℃",
             "blen": 8,
             "memory_address": 35959280,
-            "rom_address": 1433872,
             "xrefs": [
-                1442940
+                17532
             ]
         },
         {
             "str": "１７７℃",
             "blen": 8,
             "memory_address": 35959292,
-            "rom_address": 1433884,
             "xrefs": [
-                1442516
+                17108
             ]
         },
         {
             "str": "１７７℃",
             "blen": 8,
             "memory_address": 35959304,
-            "rom_address": 1433896,
             "xrefs": [
-                1442092
+                16684
             ]
         },
         {
             "str": "２１８℃",
             "blen": 8,
             "memory_address": 35959316,
-            "rom_address": 1433908,
             "xrefs": [
-                1442888
+                17480
             ]
         },
         {
             "str": "２１８℃",
             "blen": 8,
             "memory_address": 35959328,
-            "rom_address": 1433920,
             "xrefs": [
-                1442040
+                16632
             ]
         },
         {
             "str": "１７７℃",
             "blen": 8,
             "memory_address": 35959340,
-            "rom_address": 1433932,
             "xrefs": [
-                1441244
+                15836
             ]
         },
         {
             "str": "１６８℃",
             "blen": 8,
             "memory_address": 35959352,
-            "rom_address": 1433944,
             "xrefs": [
-                1439072
+                13664
             ]
         },
         {
             "str": "アツアツ",
             "blen": 8,
             "memory_address": 35959364,
-            "rom_address": 1433956,
             "xrefs": [
-                1441980
+                16572
             ]
         },
         {
             "str": "アツアツ",
             "blen": 8,
             "memory_address": 35959376,
-            "rom_address": 1433968,
             "xrefs": [
-                1441556
+                16148
             ]
         },
         {
             "str": "（目安）",
             "blen": 8,
             "memory_address": 35959388,
-            "rom_address": 1433980,
             "xrefs": [
-                1442136
+                16728
             ]
         },
         {
             "str": "１３５℃",
             "blen": 8,
             "memory_address": 35959400,
-            "rom_address": 1433992,
             "xrefs": [
-                1441608
+                16200
             ]
         },
         {
             "str": "（目安）",
             "blen": 8,
             "memory_address": 35959436,
-            "rom_address": 1434028,
             "xrefs": [
-                1441288
+                15880
             ]
         },
         {
             "str": "（目安）",
             "blen": 8,
             "memory_address": 35959448,
-            "rom_address": 1434040,
             "xrefs": [
-                1442984
+                17576
             ]
         },
         {
             "str": "アツアツ",
             "blen": 8,
             "memory_address": 35959460,
-            "rom_address": 1434052,
             "xrefs": [
-                1442828
+                17420
             ]
         },
         {
             "str": "アツアツ",
             "blen": 8,
             "memory_address": 35959472,
-            "rom_address": 1434064,
             "xrefs": [
-                1441132
+                15724
             ]
         },
         {
             "str": "２１８℃",
             "blen": 8,
             "memory_address": 35959484,
-            "rom_address": 1434076,
             "xrefs": [
-                1442464
+                17056
             ]
         },
         {
             "str": "１６６℃",
             "blen": 8,
             "memory_address": 35959496,
-            "rom_address": 1434088,
             "xrefs": [
-                1446280
+                20872
             ]
         },
         {
             "str": "１８２℃",
             "blen": 8,
             "memory_address": 35959508,
-            "rom_address": 1434100,
             "xrefs": [
-                1439496
+                14088
             ]
         },
         {
             "str": "アツアツ",
             "blen": 8,
             "memory_address": 35959520,
-            "rom_address": 1434112,
             "xrefs": [
-                1442404
+                16996
             ]
         },
         {
             "str": "２１８℃",
             "blen": 8,
             "memory_address": 35959532,
-            "rom_address": 1434124,
             "xrefs": [
-                1441192
+                15784
             ]
         },
         {
             "str": "グリル温度",
             "blen": 10,
             "memory_address": 35959544,
-            "rom_address": 1434136,
             "xrefs": [
-                1442500
+                17092
             ]
         },
         {
             "str": "ジューシー",
             "blen": 10,
             "memory_address": 35959556,
-            "rom_address": 1434148,
             "xrefs": [
-                1442836
+                17428
             ]
         },
         {
             "str": "正しく焼成",
             "blen": 10,
             "memory_address": 35959568,
-            "rom_address": 1434160,
             "xrefs": [
-                1442420
+                17012
             ]
         },
         {
             "str": "正しい調理",
             "blen": 10,
             "memory_address": 35959580,
-            "rom_address": 1434172,
             "xrefs": [
-                1440284
+                14876
             ]
         },
         {
             "str": "ジューシー",
             "blen": 10,
             "memory_address": 35959592,
-            "rom_address": 1434184,
             "xrefs": [
-                1441988
+                16580
             ]
         },
         {
             "str": "フルバッグ",
             "blen": 10,
             "memory_address": 35959604,
-            "rom_address": 1434196,
             "xrefs": [
-                1439028
+                13620
             ]
         },
         {
             "str": "正しい調理",
             "blen": 10,
             "memory_address": 35959616,
-            "rom_address": 1434208,
             "xrefs": [
-                1446236
+                20828
             ]
         },
         {
             "str": "正しく焼成",
             "blen": 10,
             "memory_address": 35959628,
-            "rom_address": 1434220,
             "xrefs": [
-                1442844
+                17436
             ]
         },
         {
             "str": "正しく焼成",
             "blen": 10,
             "memory_address": 35959640,
-            "rom_address": 1434232,
             "xrefs": [
-                1440724
+                15316
             ]
         },
         {
             "str": "ジューシー",
             "blen": 10,
             "memory_address": 35959652,
-            "rom_address": 1434244,
             "xrefs": [
-                1441140
+                15732
             ]
         },
         {
             "str": "正しく焼成",
             "blen": 10,
             "memory_address": 35959664,
-            "rom_address": 1434256,
             "xrefs": [
-                1441148
+                15740
             ]
         },
         {
             "str": "ジューシー",
             "blen": 10,
             "memory_address": 35959676,
-            "rom_address": 1434268,
             "xrefs": [
-                1442412
+                17004
             ]
         },
         {
             "str": "グリル温度",
             "blen": 10,
             "memory_address": 35959688,
-            "rom_address": 1434280,
             "xrefs": [
-                1441228
+                15820
             ]
         },
         {
             "str": "正しく焼成",
             "blen": 10,
             "memory_address": 35959700,
-            "rom_address": 1434292,
             "xrefs": [
-                1441564
+                16156
             ]
         },
         {
             "str": "グリル温度",
             "blen": 10,
             "memory_address": 35959712,
-            "rom_address": 1434304,
             "xrefs": [
-                1442924
+                17516
             ]
         },
         {
             "str": "正しく焼成",
             "blen": 10,
             "memory_address": 35959724,
-            "rom_address": 1434316,
             "xrefs": [
-                1441996
+                16588
             ]
         },
         {
             "str": "グリル温度",
             "blen": 10,
             "memory_address": 35959736,
-            "rom_address": 1434328,
             "xrefs": [
-                1442076
+                16668
             ]
         },
         {
             "str": "程よい塩加減",
             "blen": 12,
             "memory_address": 35959748,
-            "rom_address": 1434340,
             "xrefs": [
-                1439020
+                13612
             ]
         },
         {
             "str": "４：１パティ",
             "blen": 12,
             "memory_address": 35959764,
-            "rom_address": 1434356,
             "xrefs": [
-                1442456
+                17048
             ]
         },
         {
             "str": "プラテン温度",
             "blen": 12,
             "memory_address": 35959780,
-            "rom_address": 1434372,
             "xrefs": [
-                1442024
+                16616
             ]
         },
         {
             "str": "４：１パティ",
             "blen": 12,
             "memory_address": 35959796,
-            "rom_address": 1434388,
             "xrefs": [
-                1442508
+                17100
             ]
         },
         {
             "str": "スタンダード",
             "blen": 12,
             "memory_address": 35959812,
-            "rom_address": 1434404,
             "xrefs": [
-                1440336
+                14928
             ]
         },
         {
             "str": "スピーディー",
             "blen": 12,
             "memory_address": 35959828,
-            "rom_address": 1434420,
             "xrefs": [
-                1447068
+                21660
             ]
         },
         {
             "str": "エクステンド",
             "blen": 12,
             "memory_address": 35959844,
-            "rom_address": 1434436,
             "xrefs": [
-                1440344
+                14936
             ]
         },
         {
             "str": "卵は室温か？",
             "blen": 12,
             "memory_address": 35959860,
-            "rom_address": 1434452,
             "xrefs": [
-                1440380
+                14972
             ]
         },
         {
             "str": "スピーディー",
             "blen": 12,
             "memory_address": 35959876,
-            "rom_address": 1434468,
             "xrefs": [
-                1446644
+                21236
             ]
         },
         {
             "str": "プラテン温度",
             "blen": 12,
             "memory_address": 35959892,
-            "rom_address": 1434484,
             "xrefs": [
-                1441176
+                15768
             ]
         },
         {
             "str": "プラテン温度",
             "blen": 12,
             "memory_address": 35959908,
-            "rom_address": 1434500,
             "xrefs": [
-                1442448
+                17040
             ]
         },
         {
             "str": "外はカリカリ",
             "blen": 12,
             "memory_address": 35959924,
-            "rom_address": 1434516,
             "xrefs": [
-                1439444
+                14036
             ]
         },
         {
             "str": "ビッグマック",
             "blen": 12,
             "memory_address": 35959940,
-            "rom_address": 1434532,
             "xrefs": [
-                1444508
+                19100
             ]
         },
         {
             "str": "４：１パティ",
             "blen": 12,
             "memory_address": 35959956,
-            "rom_address": 1434548,
             "xrefs": [
-                1442812
+                17404
             ]
         },
         {
             "str": "プラテン温度",
             "blen": 12,
             "memory_address": 35959972,
-            "rom_address": 1434564,
             "xrefs": [
-                1442872
+                17464
             ]
         },
         {
             "str": "フライヤー温度",
             "blen": 14,
             "memory_address": 35959988,
-            "rom_address": 1434580,
             "xrefs": [
-                1439056
+                13648
             ]
         },
         {
             "str": "ドライブスルー",
             "blen": 14,
             "memory_address": 35960004,
-            "rom_address": 1434596,
             "xrefs": [
-                1447476
+                22068
             ]
         },
         {
             "str": "見た目の美しさ",
             "blen": 14,
             "memory_address": 35960020,
-            "rom_address": 1434612,
             "xrefs": [
-                1444964
+                19556
             ]
         },
         {
             "str": "プレップタイム",
             "blen": 14,
             "memory_address": 35960036,
-            "rom_address": 1434628,
             "xrefs": [
-                1444992
+                19584
             ]
         },
         {
             "str": "ハッシュポテト",
             "blen": 14,
             "memory_address": 35960052,
-            "rom_address": 1434644,
             "xrefs": [
-                1439844
+                14436
             ]
         },
         {
             "str": "見た目の美しさ",
             "blen": 14,
             "memory_address": 35960068,
-            "rom_address": 1434660,
             "xrefs": [
-                1445388
+                19980
             ]
         },
         {
             "str": "正確な取り揃え",
             "blen": 14,
             "memory_address": 35960084,
-            "rom_address": 1434676,
             "xrefs": [
-                1446652
+                21244
             ]
         },
         {
             "str": "見た目の美しさ",
             "blen": 14,
             "memory_address": 35960100,
-            "rom_address": 1434692,
             "xrefs": [
-                1445812
+                20404
             ]
         },
         {
             "str": "ハッシュポテト",
             "blen": 14,
             "memory_address": 35960116,
-            "rom_address": 1434708,
             "xrefs": [
-                1439488
+                14080
             ]
         },
         {
             "str": "プレップタイム",
             "blen": 14,
             "memory_address": 35960132,
-            "rom_address": 1434724,
             "xrefs": [
-                1445416
+                20008
             ]
         },
         {
             "str": "正確な取り揃え",
             "blen": 14,
             "memory_address": 35960148,
-            "rom_address": 1434740,
             "xrefs": [
-                1447076
+                21668
             ]
         },
         {
             "str": "お客様への礼儀",
             "blen": 14,
             "memory_address": 35960164,
-            "rom_address": 1434756,
             "xrefs": [
-                1439852
+                14444
             ]
         },
         {
             "str": "プレップタイム",
             "blen": 14,
             "memory_address": 35960180,
-            "rom_address": 1434772,
             "xrefs": [
-                1443296
+                17888
             ]
         },
         {
             "str": "ロット＆ロビー",
             "blen": 14,
             "memory_address": 35960196,
-            "rom_address": 1434788,
             "xrefs": [
-                1440268
+                14860
             ]
         },
         {
             "str": "見た目の美しさ",
             "blen": 14,
             "memory_address": 35960212,
-            "rom_address": 1434804,
             "xrefs": [
-                1443692
+                18284
             ]
         },
         {
             "str": "程よい焼きムラ",
             "blen": 14,
             "memory_address": 35960228,
-            "rom_address": 1434820,
             "xrefs": [
-                1440708
+                15300
             ]
         },
         {
             "str": "プレップタイム",
             "blen": 14,
             "memory_address": 35960244,
-            "rom_address": 1434836,
             "xrefs": [
-                1443720
+                18312
             ]
         },
         {
             "str": "見た目の美しさ",
             "blen": 14,
             "memory_address": 35960260,
-            "rom_address": 1434852,
             "xrefs": [
-                1443268
+                17860
             ]
         },
         {
             "str": "チーズバーガー",
             "blen": 14,
             "memory_address": 35960276,
-            "rom_address": 1434868,
             "xrefs": [
-                1444084
+                18676
             ]
         },
         {
             "str": "ＳＡＵＳＡＧＥ",
             "blen": 14,
             "memory_address": 35960292,
-            "rom_address": 1434884,
             "xrefs": [
-                1441184
+                15776
             ]
         },
         {
             "str": "ＳＡＵＳＡＧＥ",
             "blen": 14,
             "memory_address": 35960308,
-            "rom_address": 1434900,
             "xrefs": [
-                1441236
+                15828
             ]
         },
         {
             "str": "見た目の美しさ",
             "blen": 14,
             "memory_address": 35960324,
-            "rom_address": 1434916,
             "xrefs": [
-                1444116
+                18708
             ]
         },
         {
             "str": "プレップタイム",
             "blen": 14,
             "memory_address": 35960340,
-            "rom_address": 1434932,
             "xrefs": [
-                1445840
+                20432
             ]
         },
         {
             "str": "プレップタイム",
             "blen": 14,
             "memory_address": 35960356,
-            "rom_address": 1434948,
             "xrefs": [
-                1444144
+                18736
             ]
         },
         {
             "str": "フライヤー温度",
             "blen": 14,
             "memory_address": 35960372,
-            "rom_address": 1434964,
             "xrefs": [
-                1439480
+                14072
             ]
         },
         {
             "str": "フライヤー温度",
             "blen": 14,
             "memory_address": 35960388,
-            "rom_address": 1434980,
             "xrefs": [
-                1446264
+                20856
             ]
         },
         {
             "str": "てりやきパティ",
             "blen": 14,
             "memory_address": 35960404,
-            "rom_address": 1434996,
             "xrefs": [
-                1443236
+                17828
             ]
         },
         {
             "str": "１０：１パティ",
             "blen": 14,
             "memory_address": 35960420,
-            "rom_address": 1435012,
             "xrefs": [
-                1442388
+                16980
             ]
         },
         {
             "str": "お客様への礼儀",
             "blen": 14,
             "memory_address": 35960436,
-            "rom_address": 1435028,
             "xrefs": [
-                1439904
+                14496
             ]
         },
         {
             "str": "ＲＥＧ／ＭＡＣ",
             "blen": 14,
             "memory_address": 35960452,
-            "rom_address": 1435044,
             "xrefs": [
-                1442032
+                16624
             ]
         },
         {
             "str": "見た目の美しさ",
             "blen": 14,
             "memory_address": 35960468,
-            "rom_address": 1435060,
             "xrefs": [
-                1444540
+                19132
             ]
         },
         {
             "str": "ＲＥＧ／ＭＡＣ",
             "blen": 14,
             "memory_address": 35960484,
-            "rom_address": 1435076,
             "xrefs": [
-                1442084
+                16676
             ]
         },
         {
             "str": "プレップタイム",
             "blen": 14,
             "memory_address": 35960500,
-            "rom_address": 1435092,
             "xrefs": [
-                1444568
+                19160
             ]
         },
         {
             "str": "クッキングタイム",
             "blen": 16,
             "memory_address": 35960516,
-            "rom_address": 1435108,
             "xrefs": [
-                1439108
+                13700
             ]
         },
         {
             "str": "クッキングタイム",
             "blen": 16,
             "memory_address": 35960536,
-            "rom_address": 1435128,
             "xrefs": [
-                1446316
+                20908
             ]
         },
         {
             "str": "クッキングタイム",
             "blen": 16,
             "memory_address": 35960556,
-            "rom_address": 1435148,
             "xrefs": [
-                1442552
+                17144
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960576,
-            "rom_address": 1435168,
             "xrefs": [
-                1442604
+                17196
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960596,
-            "rom_address": 1435188,
             "xrefs": [
-                1444672
+                19264
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960616,
-            "rom_address": 1435208,
             "xrefs": [
-                1447216
+                21808
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960636,
-            "rom_address": 1435228,
             "xrefs": [
-                1445096
+                19688
             ]
         },
         {
             "str": "ＴＥＲＩＹＡＫＩ",
             "blen": 16,
             "memory_address": 35960656,
-            "rom_address": 1435248,
             "xrefs": [
-                1442880
+                17472
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960676,
-            "rom_address": 1435268,
             "xrefs": [
-                1446368
+                20960
             ]
         },
         {
             "str": "ＴＥＲＩＹＡＫＩ",
             "blen": 16,
             "memory_address": 35960696,
-            "rom_address": 1435288,
             "xrefs": [
-                1442932
+                17524
             ]
         },
         {
             "str": "クッキングタイム",
             "blen": 16,
             "memory_address": 35960716,
-            "rom_address": 1435308,
             "xrefs": [
-                1442976
+                17568
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960736,
-            "rom_address": 1435328,
             "xrefs": [
-                1443028
+                17620
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960756,
-            "rom_address": 1435348,
             "xrefs": [
-                1439212
+                13804
             ]
         },
         {
             "str": "クッキングタイム",
             "blen": 16,
             "memory_address": 35960776,
-            "rom_address": 1435368,
             "xrefs": [
-                1439532
+                14124
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960796,
-            "rom_address": 1435388,
             "xrefs": [
-                1439584
+                14176
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960816,
-            "rom_address": 1435408,
             "xrefs": [
-                1445520
+                20112
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960836,
-            "rom_address": 1435428,
             "xrefs": [
-                1443400
+                17992
             ]
         },
         {
             "str": "クッキングタイム",
             "blen": 16,
             "memory_address": 35960856,
-            "rom_address": 1435448,
             "xrefs": [
-                1442128
+                16720
             ]
         },
         {
             "str": "クッキングタイム",
             "blen": 16,
             "memory_address": 35960876,
-            "rom_address": 1435468,
             "xrefs": [
-                1440328
+                14920
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960896,
-            "rom_address": 1435488,
             "xrefs": [
-                1440432
+                15024
             ]
         },
         {
             "str": "カリッとした食感",
             "blen": 16,
             "memory_address": 35960916,
-            "rom_address": 1435508,
             "xrefs": [
-                1440716
+                15308
             ]
         },
         {
             "str": "クッキングタイム",
             "blen": 16,
             "memory_address": 35960936,
-            "rom_address": 1435528,
             "xrefs": [
-                1440752
+                15344
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960956,
-            "rom_address": 1435548,
             "xrefs": [
-                1446792
+                21384
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960976,
-            "rom_address": 1435568,
             "xrefs": [
-                1443824
+                18416
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35960996,
-            "rom_address": 1435588,
             "xrefs": [
-                1440856
+                15448
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35961016,
-            "rom_address": 1435608,
             "xrefs": [
-                1442180
+                16772
             ]
         },
         {
             "str": "クッキングタイム",
             "blen": 16,
             "memory_address": 35961036,
-            "rom_address": 1435628,
             "xrefs": [
-                1441280
+                15872
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35961056,
-            "rom_address": 1435648,
             "xrefs": [
-                1441332
+                15924
             ]
         },
         {
             "str": "ソーセージパティ",
             "blen": 16,
             "memory_address": 35961076,
-            "rom_address": 1435668,
             "xrefs": [
-                1441540
+                16132
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35961096,
-            "rom_address": 1435688,
             "xrefs": [
-                1445944
+                20536
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35961116,
-            "rom_address": 1435708,
             "xrefs": [
-                1444248
+                18840
             ]
         },
         {
             "str": "作業前に手を洗う",
             "blen": 16,
             "memory_address": 35961136,
-            "rom_address": 1435728,
             "xrefs": [
-                1441652
+                16244
             ]
         },
         {
             "str": "フィレオフィッシュ",
             "blen": 18,
             "memory_address": 35961156,
-            "rom_address": 1435748,
             "xrefs": [
-                1446272
+                20864
             ]
         },
         {
             "str": "マネージャーに確認",
             "blen": 18,
             "memory_address": 35961176,
-            "rom_address": 1435768,
             "xrefs": [
-                1442560
+                17152
             ]
         },
         {
             "str": "フロントカウンター",
             "blen": 18,
             "memory_address": 35961196,
-            "rom_address": 1435788,
             "xrefs": [
-                1447052
+                21644
             ]
         },
         {
             "str": "マックフライポテト",
             "blen": 18,
             "memory_address": 35961216,
-            "rom_address": 1435808,
             "xrefs": [
-                1439064
+                13656
             ]
         },
         {
             "str": "ポテトのサイズと量",
             "blen": 18,
             "memory_address": 35961236,
-            "rom_address": 1435828,
             "xrefs": [
-                1439160
+                13752
             ]
         },
         {
             "str": "マックフライポテト",
             "blen": 18,
             "memory_address": 35961256,
-            "rom_address": 1435848,
             "xrefs": [
-                1439420
+                14012
             ]
         },
         {
             "str": "ゴールデンブラウン",
             "blen": 18,
             "memory_address": 35961276,
-            "rom_address": 1435868,
             "xrefs": [
-                1439452
+                14044
             ]
         },
         {
             "str": "形がくずれていない",
             "blen": 18,
             "memory_address": 35961296,
-            "rom_address": 1435888,
             "xrefs": [
-                1440292
+                14884
             ]
         },
         {
             "str": "フレンドリーな対応",
             "blen": 18,
             "memory_address": 35961316,
-            "rom_address": 1435908,
             "xrefs": [
-                1446660
+                21252
             ]
         },
         {
             "str": "フレンドリーな対応",
             "blen": 18,
             "memory_address": 35961336,
-            "rom_address": 1435928,
             "xrefs": [
-                1447084
+                21676
             ]
         },
         {
             "str": "エッグクッカー温度",
             "blen": 18,
             "memory_address": 35961356,
-            "rom_address": 1435948,
             "xrefs": [
-                1441600
+                16192
             ]
         },
         {
             "str": "フィレオフィッシュ",
             "blen": 18,
             "memory_address": 35961376,
-            "rom_address": 1435968,
             "xrefs": [
-                1446204
+                20796
             ]
         },
         {
             "str": "クォーターパウンダー",
             "blen": 20,
             "memory_address": 35961396,
-            "rom_address": 1435988,
             "xrefs": [
-                1444932
+                19524
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961420,
-            "rom_address": 1436012,
             "xrefs": [
-                1444940
+                19532
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961444,
-            "rom_address": 1436036,
             "xrefs": [
-                1442820
+                17412
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961468,
-            "rom_address": 1436060,
             "xrefs": [
-                1447060
+                21652
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961492,
-            "rom_address": 1436084,
             "xrefs": [
-                1439004
+                13596
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961516,
-            "rom_address": 1436108,
             "xrefs": [
-                1445364
+                19956
             ]
         },
         {
             "str": "アツアツでフレッシュ",
             "blen": 20,
             "memory_address": 35961540,
-            "rom_address": 1436132,
             "xrefs": [
-                1439012
+                13604
             ]
         },
         {
             "str": "（フルバット使用時）",
             "blen": 20,
             "memory_address": 35961564,
-            "rom_address": 1436156,
             "xrefs": [
-                1439116
+                13708
             ]
         },
         {
             "str": "フィッシュポーション",
             "blen": 20,
             "memory_address": 35961588,
-            "rom_address": 1436180,
             "xrefs": [
-                1446628
+                21220
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961612,
-            "rom_address": 1436204,
             "xrefs": [
-                1439428
+                14020
             ]
         },
         {
             "str": "アツアツでフレッシュ",
             "blen": 20,
             "memory_address": 35961636,
-            "rom_address": 1436228,
             "xrefs": [
-                1439436
+                14028
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961660,
-            "rom_address": 1436252,
             "xrefs": [
-                1443244
+                17836
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961684,
-            "rom_address": 1436276,
             "xrefs": [
-                1446636
+                21228
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961708,
-            "rom_address": 1436300,
             "xrefs": [
-                1440276
+                14868
             ]
         },
         {
             "str": "エッグマックマフィン",
             "blen": 20,
             "memory_address": 35961732,
-            "rom_address": 1436324,
             "xrefs": [
-                1443660
+                18252
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961756,
-            "rom_address": 1436348,
             "xrefs": [
-                1443668
+                18260
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961780,
-            "rom_address": 1436372,
             "xrefs": [
-                1445788
+                20380
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961804,
-            "rom_address": 1436396,
             "xrefs": [
-                1440700
+                15292
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961828,
-            "rom_address": 1436420,
             "xrefs": [
-                1441124
+                15716
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961852,
-            "rom_address": 1436444,
             "xrefs": [
-                1444092
+                18684
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961876,
-            "rom_address": 1436468,
             "xrefs": [
-                1442396
+                16988
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961900,
-            "rom_address": 1436492,
             "xrefs": [
-                1441548
+                16140
             ]
         },
         {
             "str": "カナディアンベーコン",
             "blen": 20,
             "memory_address": 35961924,
-            "rom_address": 1436516,
             "xrefs": [
-                1441964
+                16556
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961948,
-            "rom_address": 1436540,
             "xrefs": [
-                1444516
+                19108
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961972,
-            "rom_address": 1436564,
             "xrefs": [
-                1441972
+                16564
             ]
         },
         {
             "str": "お客様が期待すること",
             "blen": 20,
             "memory_address": 35961996,
-            "rom_address": 1436588,
             "xrefs": [
-                1446212
+                20804
             ]
         },
         {
             "str": "アツアツ、新鮮な風味",
             "blen": 20,
             "memory_address": 35962020,
-            "rom_address": 1436612,
             "xrefs": [
-                1446220
+                20812
             ]
         },
         {
             "str": "てりやき\nマックバーガー",
             "blen": 23,
             "memory_address": 35962404,
-            "rom_address": 1436996,
             "xrefs": [
-                1445780
+                20372
             ]
         },
         {
             "str": "イングリッシュ\nマフィン",
             "blen": 23,
             "memory_address": 35962428,
-            "rom_address": 1437020,
             "xrefs": [
-                1441116
+                15708
             ]
         },
         {
             "str": "ベーシックオーダーテイク",
             "blen": 24,
             "memory_address": 35962452,
-            "rom_address": 1437044,
             "xrefs": [
-                1447164
+                21756
             ]
         },
         {
             "str": "温かく、しっとりしている",
             "blen": 24,
             "memory_address": 35962480,
-            "rom_address": 1437072,
             "xrefs": [
-                1440300
+                14892
             ]
         },
         {
             "str": "ベーシックオーダーテイク",
             "blen": 24,
             "memory_address": 35962508,
-            "rom_address": 1437100,
             "xrefs": [
-                1446688
+                21280
             ]
         },
         {
             "str": "ベーシックオーダーテイク",
             "blen": 24,
             "memory_address": 35962536,
-            "rom_address": 1437128,
             "xrefs": [
-                1447112
+                21704
             ]
         },
         {
             "str": "ベーシックオーダーテイク",
             "blen": 24,
             "memory_address": 35962564,
-            "rom_address": 1437156,
             "xrefs": [
-                1446740
+                21332
             ]
         },
         {
             "str": "ダブル\nクォーターパウンダー",
             "blen": 27,
             "memory_address": 35962648,
-            "rom_address": 1437240,
             "xrefs": [
-                1445356
+                19948
             ]
         },
         {
             "str": "お客様のニーズを見つ\nけましょう",
             "blen": 31,
             "memory_address": 35962676,
-            "rom_address": 1437268,
             "xrefs": [
-                1439912
+                14504
             ]
         },
         {
             "str": "外側はカリカリ、\n内側はしっとり",
             "blen": 31,
             "memory_address": 35962708,
-            "rom_address": 1437300,
             "xrefs": [
-                1446228
+                20820
             ]
         },
         {
             "str": "シェルフライフは守られて\nいるか？",
             "blen": 33,
             "memory_address": 35962740,
-            "rom_address": 1437332,
             "xrefs": [
-                1440804
+                15396
             ]
         },
         {
             "str": "オーダーが不明確な\n場合は復唱をする",
             "blen": 35,
             "memory_address": 35962776,
-            "rom_address": 1437368,
             "xrefs": [
-                1447180
+                21772
             ]
         },
         {
             "str": "オーダーが不明確な\n場合は復唱をする",
             "blen": 35,
             "memory_address": 35962812,
-            "rom_address": 1437404,
             "xrefs": [
-                1446756
+                21348
             ]
         },
         {
             "str": "常にスマイルで、アイ\nコンタクトを忘れない",
             "blen": 41,
             "memory_address": 35962848,
-            "rom_address": 1437440,
             "xrefs": [
-                1447172
+                21764
             ]
         },
         {
             "str": "常にスマイルで、アイ\nコンタクトを忘れない",
             "blen": 41,
             "memory_address": 35962892,
-            "rom_address": 1437484,
             "xrefs": [
-                1446748
+                21340
             ]
         },
         {
             "str": "原材料のホールディング\nタイムは守られているか？",
             "blen": 47,
             "memory_address": 35962936,
-            "rom_address": 1437528,
             "xrefs": [
-                1445044
+                19636
             ]
         },
         {
             "str": "原材料のホールディング\nタイムは守られているか？",
             "blen": 47,
             "memory_address": 35962984,
-            "rom_address": 1437576,
             "xrefs": [
-                1445468
+                20060
             ]
         },
         {
             "str": "原材料のホールディング\nタイムは守られているか？",
             "blen": 47,
             "memory_address": 35963032,
-            "rom_address": 1437624,
             "xrefs": [
-                1443348
+                17940
             ]
         },
         {
             "str": "原材料のホールディング\nタイムは守られているか？",
             "blen": 47,
             "memory_address": 35963080,
-            "rom_address": 1437672,
             "xrefs": [
-                1443772
+                18364
             ]
         },
         {
             "str": "原材料のホールディング\nタイムは守られているか？",
             "blen": 47,
             "memory_address": 35963128,
-            "rom_address": 1437720,
             "xrefs": [
-                1445892
+                20484
             ]
         },
         {
             "str": "原材料のホールディング\nタイムは守られているか？",
             "blen": 47,
             "memory_address": 35963176,
-            "rom_address": 1437768,
             "xrefs": [
-                1444196
+                18788
             ]
         },
         {
             "str": "原材料のホールディング\nタイムは守られているか？",
             "blen": 47,
             "memory_address": 35963224,
-            "rom_address": 1437816,
             "xrefs": [
-                1444620
+                19212
             ]
         },
         {
             "str": "礼儀正しさと思いや\nりは、商品の価格に含\nまれています",
             "blen": 52,
             "memory_address": 35963272,
-            "rom_address": 1437864,
             "xrefs": [
-                1439860
+                14452
             ]
         },
         {
             "str": "お客様の話をさえぎら\nないように、注文を最後\nまで聞く",
             "blen": 52,
             "memory_address": 35963328,
-            "rom_address": 1437920,
             "xrefs": [
-                1446696
+                21288
             ]
         },
         {
             "str": "お客様の話をさえぎら\nないように、注文を最後\nまで聞く",
             "blen": 52,
             "memory_address": 35963384,
-            "rom_address": 1437976,
             "xrefs": [
-                1447120
+                21712
             ]
         },
         {
             "str": "確認したら「CHECK □」をタッチ",
             "blen": 30,
             "memory_address": 35972888,
-            "rom_address": 1447480,
             "xrefs": [
-                1426732
+                1324
             ]
         },
         {
             "str": "作業の前に注意事項を\n確認しましょう",
             "blen": 35,
             "memory_address": 35972920,
-            "rom_address": 1447512,
             "xrefs": [
-                1426740
+                1332
             ]
         }
     ]

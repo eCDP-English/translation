@@ -3,8 +3,8 @@ import json
 import struct
 import re
 import argparse
-import ndspy.rom
-import ndspy.code
+#import ndspy.rom
+#import ndspy.code
 
 #this section of the rom contains strings for challenge the mcdonalds
 #which this script should not touch at all
@@ -13,22 +13,11 @@ cmcd_ranges = [
 	[0x001059E0, 0x0010A47F]
 ]
 
-#sections in the memory that overlay files should not overwrite
-protected_ranges = [
-	[0x022544A0, 0x02254B3F]
-]
-
-OVERLAY_TABLE = "ftc/y9.bin"
 
 def main(lang, rom_data, working_dir):
 
 	json_names = []
 	json_datas = []
-
-	rom = ndspy.rom.NintendoDSRom(rom_data)
-	overlays = rom.loadArm9Overlays()
-	arm7 = rom.arm7
-	a7_len = len(arm7)
 
 	def read_jsonc(filepath:str):
 		with open(filepath, 'r', encoding='utf-8') as f:
@@ -131,53 +120,43 @@ def main(lang, rom_data, working_dir):
 		section = read_jsonc(working_dir + "/data/" + name)
 		text = read_jsonc(working_dir + "/" + lang + "/" + name)
 
-		oid = section["id"]
-		overlay = overlays[oid]
-		
-		data = overlay.data
-
 		for string in section["strings"]:
 			old_text = string["str"]
 			old_blen = string["blen"]
+			rom_addr = string["rom_address"]
 			mem_addr = string["memory_address"]
 			xrefs = string["xrefs"]
-			ov_addr = mem_addr - overlay.ramAddress
 
-			if str(ov_addr) in text.keys():
-				new_text = text[str(ov_addr)]
+			og_bytes = rom_data[rom_addr:rom_addr+old_blen]
+
+			if str(rom_addr) in text.keys():
+				new_text = text[str(rom_addr)]
 
 				if old_text != new_text:
 					text_sjis = new_text.encode("SHIFT_JIS")
 					new_blen = len(text_sjis)+1
-					print("Changing: "+old_text.replace("\n", "\\n")+" to "+new_text.replace("\n", "\\n"))
+					print("Changing: "+old_text+" to "+new_text)
 					if new_blen <= old_blen:
-						print("Translated string is shorter, changing in-place")
-						strcpy(text_sjis, data, ov_addr)
-						fill(data, ov_addr+len(text_sjis)+1, ov_addr+old_blen)
+						print(new_text + " is smaller than "+ old_text+". changing in-place")
+						strcpy(text_sjis, rom_data, rom_addr)
+						fill(rom_data, rom_addr+len(text_sjis)+1, rom_addr+old_blen)
 					else:
-						print("Translated string is longer, reallocating")
-						fill(data, ov_addr, ov_addr+old_blen)
-
-						new_mem_addr = len(arm7) + rom.arm7RamAddress
-
-						if len(arm7) == a7_len:
-							arm7.append(0)
-
-						for b in text_sjis:
-							arm7.append(b)
-						arm7.append(0)
-
+						print(new_text + " is larger than "+old_text+" reallocating")
+						print("Locating new area for text")
+						fill(rom_data, rom_addr, rom_addr+old_blen)
+						new_file_addr, new_mem_addr = find_free_area(section, new_blen)
+						print("Found : "+hex(new_file_addr)+", "+hex(new_mem_addr))
+						strcpy(text_sjis, rom_data, new_file_addr)
 						for xref in xrefs:
-							old_addr = struct.unpack("I", data[xref:xref+4])[0]
+							old_addr = struct.unpack("I", rom_data[xref:xref+4])[0]
 							if not old_addr == mem_addr:
-								print("Address at "+hex(xref)+" is "+hex(old_addr)+" not "+hex(mem_addr)+" NOT CHANGING!")
+								print("address at "+hex(xref)+" is "+hex(old_addr)+" not "+hex(mem_addr)+" NOT CHANGING!")
 								continue
 							print("Changing "+hex(old_addr)+" to "+hex(new_mem_addr))
 							new_addr = struct.pack("I", new_mem_addr)
-							memcpy(new_addr, data, xref)
+							memcpy(new_addr, rom_data, xref)
 			else:
-				print(old_text + " (" + str(ov_addr) + ") is missing from translation!")
-			rom.files[overlay.fileID] = overlay.save()
+				print(old_text + " (" + str(rom_addr) + ") is missing from translation!")
 					
 	def read_jsons(jsonname):
 		json_list = read_jsonc(jsonname)
@@ -185,11 +164,12 @@ def main(lang, rom_data, working_dir):
 			json_datas.append(read_jsonc(working_dir + "/data/" + json_name))
 			json_names.append(json_name)
 
+
 	read_jsons(working_dir + "/files.json")
 	for name in json_names:
 		apply_mods(name)
-
-	return bytearray(rom.save())
+	
+	return rom_data
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()

@@ -1,61 +1,54 @@
 {
+    "id": 12,
     "name": "OVERLAY_12",
-    "ram_loc": 35950816,
-    "file_loc": 1404928,
     "length": 7232,
     "strings": [
         {
             "str": "１０問のテストに挑戦 ！",
             "blen": 23,
             "memory_address": 35957796,
-            "rom_address": 1411908,
             "xrefs": [
-                1405920
+                992
             ]
         },
         {
             "str": "第　　　問",
             "blen": 10,
             "memory_address": 35957896,
-            "rom_address": 1412008,
             "xrefs": [
-                1408508
+                3580
             ]
         },
         {
             "str": "さあ、次のステージに\nチャレンジしよう ！",
             "blen": 40,
             "memory_address": 35957912,
-            "rom_address": 1412024,
             "xrefs": [
-                1409860
+                4932
             ]
         },
         {
             "str": "うーん、残念・・\neCDP を見直して\n再チャレンジしよう ！",
             "blen": 54,
             "memory_address": 35957956,
-            "rom_address": 1412068,
             "xrefs": [
-                1409864
+                4936
             ]
         },
         {
             "str": "もう一度受ける",
             "blen": 14,
             "memory_address": 35958012,
-            "rom_address": 1412124,
             "xrefs": [
-                1411012
+                6084
             ]
         },
         {
             "str": "終了",
             "blen": 4,
             "memory_address": 35958028,
-            "rom_address": 1412140,
             "xrefs": [
-                1411016
+                6088
             ]
         }
     ]

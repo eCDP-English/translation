@@ -1,169 +1,150 @@
 {
+    "id": 23,
     "name": "OVERLAY_23",
-    "ram_loc": 35950816,
-    "file_loc": 1549824,
     "length": 13248,
     "strings": [
         {
             "str": "する",
             "blen": 4,
             "memory_address": 35962944,
-            "rom_address": 1561952,
             "xrefs": [
-                1562648
+                12824
             ]
         },
         {
             "str": "する",
             "blen": 4,
             "memory_address": 35962952,
-            "rom_address": 1561960,
             "xrefs": [
-                1562624
+                12800
             ]
         },
         {
             "str": "並べる",
             "blen": 6,
             "memory_address": 35962960,
-            "rom_address": 1561968,
             "xrefs": [
-                1562596
+                12772
             ]
         },
         {
             "str": "４秒後に",
             "blen": 8,
             "memory_address": 35962976,
-            "rom_address": 1561984,
             "xrefs": [
-                1562612
+                12788
             ]
         },
         {
             "str": "保管する",
             "blen": 8,
             "memory_address": 35962988,
-            "rom_address": 1561996,
             "xrefs": [
-                1562672
+                12848
             ]
         },
         {
             "str": "準備します",
             "blen": 10,
             "memory_address": 35963000,
-            "rom_address": 1562008,
             "xrefs": [
-                1562568
+                12744
             ]
         },
         {
             "str": "ターンします",
             "blen": 12,
             "memory_address": 35963012,
-            "rom_address": 1562020,
             "xrefs": [
-                1562616
+                12792
             ]
         },
         {
             "str": "ホールディング",
             "blen": 14,
             "memory_address": 35963028,
-            "rom_address": 1562036,
             "xrefs": [
-                1562660
+                12836
             ]
         },
         {
             "str": "４秒後にターン",
             "blen": 14,
             "memory_address": 35963044,
-            "rom_address": 1562052,
             "xrefs": [
-                1562620
+                12796
             ]
         },
         {
             "str": "ＵＨＣトレーを",
             "blen": 14,
             "memory_address": 35963060,
-            "rom_address": 1562068,
             "xrefs": [
-                1562564
+                12740
             ]
         },
         {
             "str": "タイムは３０分",
             "blen": 14,
             "memory_address": 35963076,
-            "rom_address": 1562084,
             "xrefs": [
-                1562664
+                12840
             ]
         },
         {
             "str": "並べてください",
             "blen": 14,
             "memory_address": 35963092,
-            "rom_address": 1562100,
             "xrefs": [
-                1562592
+                12768
             ]
         },
         {
             "str": "タイマーを押し",
             "blen": 14,
             "memory_address": 35963108,
-            "rom_address": 1562116,
             "xrefs": [
-                1562668
+                12844
             ]
         },
         {
             "str": "並べたときと同じ",
             "blen": 16,
             "memory_address": 35963124,
-            "rom_address": 1562132,
             "xrefs": [
-                1562636
+                12812
             ]
         },
         {
             "str": "トレーを準備する",
             "blen": 16,
             "memory_address": 35963144,
-            "rom_address": 1562152,
             "xrefs": [
-                1562572
+                12748
             ]
         },
         {
             "str": "コールドゾーンに",
             "blen": 16,
             "memory_address": 35963164,
-            "rom_address": 1562172,
             "xrefs": [
-                1562588
+                12764
             ]
         },
         {
             "str": "４秒後にリムーブ",
             "blen": 16,
             "memory_address": 35963184,
-            "rom_address": 1562192,
             "xrefs": [
-                1562644
+                12820
             ]
         },
         {
             "str": "順にリムーブします",
             "blen": 18,
             "memory_address": 35963204,
-            "rom_address": 1562212,
             "xrefs": [
-                1562640
+                12816
             ]
         }
     ]

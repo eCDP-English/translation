@@ -1,44 +1,44 @@
 {
     //--- Fish Portion ---
     //Title
-    "1606684": "Put in basket.",
-    "1606668": "Put on guard.",
+    "17948": "Put in basket.",
+    "17932": "Put on guard.",
     //Comment
-    "1606572": "Don't put on",
-    "1606604": "top of vat.",
+    "17836": "Don't put on",
+    "17868": "top of vat.",
 
     //Title
-    "1606524": "Put in vat.",
-    "1606556": "Press switch.",
+    "17788": "Put in vat.",
+    "17820": "Press switch.",
     //Comment
-    "1606704": "Don't splash",
-    "1606540": "the oil!",
+    "17968": "Don't splash",
+    "17804": "the oil!",
 
     //Title
-    "1606724": "When timer beeps,",
-    "1606492": "remove them.",
+    "17988": "When timer beeps,",
+    "17756": "remove them.",
     //Comment
-    "1606476": "Turn off oil",
-    "1606764": "for 5-10s.",
+    "17740": "Turn off oil",
+    "18028": "for 5-10s.",
 
     //Title
-    "1606508": "Transfer to tray.",
+    "17772": "Transfer to tray.",
     //Comment
-    "1606588": "Use tongs to",
-    "1606744": "line up on tray.",
+    "17852": "Use tongs to",
+    "18008": "line up on tray.",
 
     //Title
-    "1606652": "Press timer and",
-    "1606464": "store it.",
+    "17916": "Press timer and",
+    "17728": "store it.",
     //Comment
-    "1606620": "The holding",
-    "1606636": "time is 30m.",
+    "17884": "The holding",
+    "17900": "time is 30m.",
 
     //Control instructions
-    "1606880": "Press [早送り] (Fast Forward).",
-    "1606908": "Press left on the D-pad.",
-    "1606940": "Press right on the D-pad.",
-    "1606972": "Slide the basket to the right.",
-    "1607008": "Slide the basket to the left.",
-    "1607084": "Touch and hold basket for 5-10s."
+    "18144": "Press [早送り] (Fast Forward).",
+    "18172": "Press left on the D-pad.",
+    "18204": "Press right on the D-pad.",
+    "18236": "Slide the basket to the right.",
+    "18272": "Slide the basket to the left.",
+    "18348": "Touch and hold basket for 5-10s."
 }

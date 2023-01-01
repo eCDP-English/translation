@@ -1,61 +1,54 @@
 {
+    "id": 4,
     "name": "OVERLAY_4",
-    "ram_loc": 35950816,
-    "file_loc": 955904,
     "length": 134816,
     "strings": [
         {
             "str": "１０問のクイズに挑戦！",
             "blen": 22,
             "memory_address": 36063492,
-            "rom_address": 1068580,
             "xrefs": [
-                1045636
+                89732
             ]
         },
         {
             "str": "クイズのコースを選んでください",
             "blen": 30,
             "memory_address": 36064764,
-            "rom_address": 1069852,
             "xrefs": [
-                1054880
+                98976
             ]
         },
         {
             "str": "マクドナルドの豆知識",
             "blen": 20,
             "memory_address": 36064796,
-            "rom_address": 1069884,
             "xrefs": [
-                1054884
+                98980
             ]
         },
         {
             "str": "フードセーフティに関するクイズ",
             "blen": 30,
             "memory_address": 36064820,
-            "rom_address": 1069908,
             "xrefs": [
-                1054888
+                98984
             ]
         },
         {
             "str": "１００点目指してがんばろう！",
             "blen": 28,
             "memory_address": 36064852,
-            "rom_address": 1069940,
             "xrefs": [
-                1054892
+                98988
             ]
         },
         {
             "str": "きみはいくつ正解できるかな？",
             "blen": 28,
             "memory_address": 36064884,
-            "rom_address": 1069972,
             "xrefs": [
-                1054896
+                98992
             ]
         }
     ]

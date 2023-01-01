@@ -1,250 +1,222 @@
 {
+    "id": 22,
     "name": "OVERLAY_22",
-    "ram_loc": 35950816,
-    "file_loc": 1528320,
     "length": 21472,
     "strings": [
         {
             "str": "を割る",
             "blen": 6,
             "memory_address": 35970280,
-            "rom_address": 1547784,
             "xrefs": [
-                1548368
+                20048
             ]
         },
         {
             "str": "入れる",
             "blen": 6,
             "memory_address": 35970288,
-            "rom_address": 1547792,
             "xrefs": [
-                1548416
+                20096
             ]
         },
         {
             "str": "保管する",
             "blen": 8,
             "memory_address": 35970296,
-            "rom_address": 1547800,
             "xrefs": [
-                1548512
+                20192
             ]
         },
         {
             "str": "準備します",
             "blen": 10,
             "memory_address": 35970308,
-            "rom_address": 1547812,
             "xrefs": [
-                1548432
+                20112
             ]
         },
         {
             "str": "ヒールは奥",
             "blen": 10,
             "memory_address": 35970320,
-            "rom_address": 1547824,
             "xrefs": [
-                1548384
+                20064
             ]
         },
         {
             "str": "UHCトレーを",
             "blen": 11,
             "memory_address": 35970332,
-            "rom_address": 1547836,
             "xrefs": [
-                1548428
+                20108
             ]
         },
         {
             "str": "トースターに",
             "blen": 12,
             "memory_address": 35970344,
-            "rom_address": 1547848,
             "xrefs": [
-                1548412
+                20092
             ]
         },
         {
             "str": "スプレーする",
             "blen": 12,
             "memory_address": 35970360,
-            "rom_address": 1547864,
             "xrefs": [
-                1548464
+                20144
             ]
         },
         {
             "str": "スパチュラに",
             "blen": 12,
             "memory_address": 35970376,
-            "rom_address": 1547880,
             "xrefs": [
-                1548388
+                20068
             ]
         },
         {
             "str": "トースターに",
             "blen": 12,
             "memory_address": 35970392,
-            "rom_address": 1547896,
             "xrefs": [
-                1548404
+                20084
             ]
         },
         {
             "str": "面を上にします",
             "blen": 14,
             "memory_address": 35970408,
-            "rom_address": 1547912,
             "xrefs": [
-                1548480
+                20160
             ]
         },
         {
             "str": "クラウンが手前",
             "blen": 14,
             "memory_address": 35970424,
-            "rom_address": 1547928,
             "xrefs": [
-                1548380
+                20060
             ]
         },
         {
             "str": "を重ねて入れる",
             "blen": 14,
             "memory_address": 35970440,
-            "rom_address": 1547944,
             "xrefs": [
-                1548488
+                20168
             ]
         },
         {
             "str": "ホールディング",
             "blen": 14,
             "memory_address": 35970456,
-            "rom_address": 1547960,
             "xrefs": [
-                1548500
+                20180
             ]
         },
         {
             "str": "タイムは２０分",
             "blen": 14,
             "memory_address": 35970472,
-            "rom_address": 1547976,
             "xrefs": [
-                1548504
+                20184
             ]
         },
         {
             "str": "タイマーを押し",
             "blen": 14,
             "memory_address": 35970488,
-            "rom_address": 1547992,
             "xrefs": [
-                1548508
+                20188
             ]
         },
         {
             "str": "入れてください",
             "blen": 14,
             "memory_address": 35970504,
-            "rom_address": 1548008,
             "xrefs": [
-                1548408
+                20088
             ]
         },
         {
             "str": "スプレーします",
             "blen": 14,
             "memory_address": 35970520,
-            "rom_address": 1548024,
             "xrefs": [
-                1548456
+                20136
             ]
         },
         {
             "str": "親指でマフィン",
             "blen": 14,
             "memory_address": 35970536,
-            "rom_address": 1548040,
             "xrefs": [
-                1548364
+                20044
             ]
         },
         {
             "str": "マフィンを並べる",
             "blen": 16,
             "memory_address": 35970552,
-            "rom_address": 1548056,
             "xrefs": [
-                1548392
+                20072
             ]
         },
         {
             "str": "クラウンとヒール",
             "blen": 16,
             "memory_address": 35970572,
-            "rom_address": 1548076,
             "xrefs": [
-                1548484
+                20164
             ]
         },
         {
             "str": "トレーを用意する",
             "blen": 16,
             "memory_address": 35970592,
-            "rom_address": 1548096,
             "xrefs": [
-                1548436
+                20116
             ]
         },
         {
             "str": "リムーブしたあと",
             "blen": 16,
             "memory_address": 35970612,
-            "rom_address": 1548116,
             "xrefs": [
-                1548460
+                20140
             ]
         },
         {
             "str": "ねじらないように",
             "blen": 16,
             "memory_address": 35970632,
-            "rom_address": 1548136,
             "xrefs": [
-                1548356
+                20036
             ]
         },
         {
             "str": "注意してください",
             "blen": 16,
             "memory_address": 35970652,
-            "rom_address": 1548156,
             "xrefs": [
-                1548360
+                20040
             ]
         },
         {
             "str": "まんべんなく、３回",
             "blen": 18,
             "memory_address": 35970672,
-            "rom_address": 1548176,
             "xrefs": [
-                1548452
+                20132
             ]
         },
         {
             "str": "トースティングした",
             "blen": 18,
             "memory_address": 35970692,
-            "rom_address": 1548196,
             "xrefs": [
-                1548476
+                20156
             ]
         }
     ]

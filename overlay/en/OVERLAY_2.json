@@ -1,119 +1,119 @@
 {
     //--- Quarter Pounder & Double Quarter Pounder ---
     //Title
-    "950864": "Please choose",
-    "950512": "the correct buns.",
+    "47184": "Please choose",
+    "46832": "the correct buns.",
     
     //Comment
-    "951120": "Please choose",
-    "950784": "the correct buns.",
+    "47440": "Please choose",
+    "47104": "the correct buns.",
 
     //Title
-    "950928": "Please choose",
-    "950520": "the correct buns.",
+    "47248": "Please choose",
+    "46840": "the correct buns.",
     //Comment
-    "950896": "Please choose",
-    "950912": "the correct buns.",
+    "47216": "Please choose",
+    "47232": "the correct buns.",
 
     //Title
-    "951024": "Please choose",
-    "950536": "the correct buns.",
+    "47344": "Please choose",
+    "46856": "the correct buns.",
     //Comment
-    "951008": "Please choose",
-    "950960": "the correct buns.",
+    "47328": "Please choose",
+    "47280": "the correct buns.",
 
     //Title
-    "950992": "Choose the",
-    "950528": "correct bun.",
+    "47312": "Choose the",
+    "46848": "correct bun.",
     //Comment
-    "950976": "Please choose",
-    "950816": "the correct buns.",
+    "47296": "Please choose",
+    "47136": "the correct buns.",
 
     //Title
-    "950848": "Put the buns",
-    "950624": "in the toaster.",
+    "47168": "Put the buns",
+    "46944": "in the toaster.",
     //Comment
-    "950832": "Heel in front,",
-    "951236": "Crown in back",
+    "47152": "Heel in front,",
+    "47556": "Crown in back",
 
     //Title
-    "950752": "Put the buns",
-    "950656": "in the toaster.",
+    "47072": "Put the buns",
+    "46976": "in the toaster.",
     //Comment
-    "951056": "Heel in front,",
-    "951436": "Crown in back",
+    "47376": "Heel in front,",
+    "47756": "Crown in back",
 
     //Title
-    "951104": "Put the buns",
-    "950640": "in the toaster.",
+    "47424": "Put the buns",
+    "46960": "in the toaster.",
     //Comment
-    "951072": "Heel in front,",
-    "951396": "Crown in back",
+    "47392": "Heel in front,",
+    "47716": "Crown in back",
 
     //Title
-    "951088": "Put the buns",
-    "950672": "in the toaster.",
+    "47408": "Put the buns",
+    "46992": "in the toaster.",
     //Comment
-    "951040": "Heel in front.",
-    "951416": "Crown in back.",
+    "47360": "Heel in front.",
+    "47736": "Crown in back.",
 
     //Title
-    "951316": "Place in the",
-    "950576": "correct box.",
+    "47636": "Place in the",
+    "46896": "correct box.",
     //Comment
-    "950880": "Crown in centre.",
-    "950704": "Heel by HLZ.",
+    "47200": "Crown in centre.",
+    "47024": "Heel by HLZ.",
 
     //Title
-    "951336": "Place in the",
-    "950612": "correct box.",
+    "47656": "Place in the",
+    "46932": "correct box.",
     //Comment
-    "950800": "Crown in centre.",
-    "950736": "Heel by HLZ.",
+    "47120": "Crown in centre.",
+    "47056": "Heel by HLZ.",
 
     //Title
-    "951136": "Place in the",
-    "950600": "correct box.",
+    "47456": "Place in the",
+    "46920": "correct box.",
     //Comment
-    "950768": "Crown in centre.",
-    "950688": "heel by HLZ.",
+    "47088": "Crown in centre.",
+    "47008": "heel by HLZ.",
 
     //Title
-    "951216": "Place in the",
-    "950564": "correct box.",
+    "47536": "Place in the",
+    "46884": "correct box.",
     //Comment
-    "950944": "Crown in centre.",
-    "950720": "Heel by HLZ.",
+    "47264": "Crown in centre.",
+    "47040": "Heel by HLZ.",
     
     //Title
-    "950588": "Quarter-Pounder",
-    "951376": "Cheeseburger",
+    "46908": "Quarter-Pounder",
+    "47696": "Cheeseburger",
     //Comment
-    "951356": "Quarter-Pounder",
-    "951516": "Assembly",
+    "47676": "Quarter-Pounder",
+    "47836": "Assembly",
 
     //Title
-    "950552": "Quarter-Pounder",
-    "951196": "Cheeseburger",
+    "46872": "Quarter-Pounder",
+    "47516": "Cheeseburger",
     //Comment
-    "951156": "Quarter-Pounder",
-    "951456": "Assembly",
+    "47476": "Quarter-Pounder",
+    "47776": "Assembly",
 
     //Title
-    "951176": "Assembly",
-    "951276": "Drawing",
+    "47496": "Assembly",
+    "47596": "Drawing",
     //Comment
-    "951536": "Double-Quarter",
-    "951556": "Pounder Assembly",
+    "47856": "Double-Quarter",
+    "47876": "Pounder Assembly",
 
     //Title
-    "951256": "Assembly",
-    "951296": "Drawing",
+    "47576": "Assembly",
+    "47616": "Drawing",
     //Comment
-    "951476": "Double-Quarter",
-    "951496": "Pounder Assembly",
+    "47796": "Double-Quarter",
+    "47816": "Pounder Assembly",
 
     //Control instructions
-    "951672": "Press right on the D-pad.",
-    "951704": "Press left on the D-pad."
+    "47992": "Press right on the D-pad.",
+    "48024": "Press left on the D-pad."
 }

@@ -45,33 +45,22 @@ range_sjis = [
 #always valid when a string starts with any of these
 #(still goes through control character checks)
 exceptions_start = [
-    "[テイクオフ]",
-    "GoodJob!",
-	"Get Ready？",
 	"SOC",
 	"UHC",
 	"HLZ",
-    "eCDP",
 	"「",
-	"（",
 	"○○円",
-	"DSカード",
-	" \nさあ",
-	"　", #mcdonalds people why would you start a string with a space
-	"Wi-Fi"
 ]
 
 #always valid when a string ends with any of these
 #(still goes through control character checks)
 exceptions_end = [
-    "のデータです。"
 ]
 
 #always valid when a string equals to any of these
 #this ignores the length check
 #(still goes through control character checks)
 exceptions_single = [
-	"位"
 ]
 
 #this section of the rom contains strings for challenge the mcdonalds
@@ -169,7 +158,7 @@ def find_all(data, to_find):
 			return addresses
 
 
-def search_data(oid, friendlyname, data, base_address):
+def search_data(friendlyname, data, base_address):
 	strBytes = b""
 	memory_address = base_address
 	new_mem = 0
@@ -191,16 +180,25 @@ def search_data(oid, friendlyname, data, base_address):
 							# search entire code section for pointers
 							ptr_locs = find_all(data, struct.pack("I", (mloc))) 
 							if len(ptr_locs) > 0: # if found more than 0 pointers
-								rom_address = (mloc - base_address)+real_location
-								valid = True
-								for range in cmcd_ranges:
-									if rom_address >= range[0] and rom_address <= range[1]:
-										valid = False
-								if valid == False:
-									continue
-								if rom_bytes[rom_address:rom_address+len(obytes)] == obytes:
-									strings.append({"str":strs, "blen": len(obytes), "memory_address": mloc, "xrefs":ptr_locs})
-									data_mod[str(mloc - base_address)] = strs
+								#absstr = "( ptr: "
+								ptr_to_ptrs = []
+								for ptr_loc in ptr_locs: # calculate real location of pointers in file
+									ptr_to_ptr_loc = ptr_loc + real_location
+									if ptr_to_ptr_loc in found_addresses: # have we seen this ptr be4?
+										continue
+									found_addresses.append(ptr_to_ptr_loc)
+									ptr_to_ptrs.append(ptr_to_ptr_loc)
+								if len(ptr_to_ptrs) > 0: # No real address ptr found?
+									rom_address = (mloc - base_address)+real_location
+									valid = True
+									for range in cmcd_ranges:
+										if rom_address >= range[0] and rom_address <= range[1]:
+											valid = False
+									if valid == False:
+										continue
+									if rom_bytes[rom_address:rom_address+len(obytes)] == obytes:
+										strings.append({"str":strs, "blen": len(obytes), "memory_address": mloc, "rom_address":rom_address, "xrefs":ptr_to_ptrs})
+										data_mod[str(rom_address)] = strs
 				except UnicodeDecodeError:
 					pass					
 			
@@ -210,16 +208,19 @@ def search_data(oid, friendlyname, data, base_address):
 			new_mem = 0
 			continue
 		strBytes += b.to_bytes(1, "little")
-	data_info = {"id": oid, "name":friendlyname, "length":len(data), "strings":strings}
+	data_info = {"name":friendlyname, "ram_loc":base_address, "file_loc": real_location, "length":len(data), "strings":strings}
 	
 	return [data_info, data_mod]
+		
+base_addr = rom.arm9RamAddress
+arm9 = rom.loadArm9()
 
 total_strings = 0
-	
-overlays = rom.loadArm9Overlays()
-for oid, overlay in overlays.items():
-	print("Scanning Overlay "+str(oid)+" .. ", end="", flush=True)
-	data = search_data(oid, "OVERLAY_"+str(oid), overlay.data, overlay.ramAddress)
+
+sectionId = 0
+for section in arm9.sections:
+	print("Scanning ARM9 Section: "+str(sectionId)+" .. ", end="", flush=True)
+	data = search_data("ARM9_"+str(sectionId), section.data, section.ramAddress)
 	dinfo = data[0]
 	#master_strings.append(dinfo)
 	total_found = len(dinfo["strings"])
@@ -227,10 +228,11 @@ for oid, overlay in overlays.items():
 	print("Found "+str(total_found)+" Strings!", flush=True)
 	jsonData = json.dumps(dinfo, indent=4, ensure_ascii=False)
 	jsonData_mod = json.dumps(data[1], indent=4, ensure_ascii=False)
-	jsonName = "OVERLAY_"+str(oid)+".json"
+	jsonName = "ARM9_"+str(sectionId)+".json"
 	open("data/" + jsonName, "wb").write(bytes(jsonData, "UTF-8"))
 	open("ja/" + jsonName, "wb").write(bytes(jsonData_mod, "UTF-8"))
 	json_files.append(jsonName)
+	sectionId+=1
 
 jsonData = json.dumps(json_files, indent=4, ensure_ascii=False)
 open("files.json", "wb").write(bytes(jsonData, "UTF-8"))
