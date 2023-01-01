@@ -2,7 +2,8 @@
 This is a repository to create a fan English translation patch of McDonald's [eCrew Development Program](https://en.wikipedia.org/wiki/ECrew_Development_Program).
 
 ## Repository Structure
-The repository consists of three sections, one directory for each section:
+The repository consists of 4 sections, one directory for each section:
+- `arm9` - Translates ARM9 sections.
 - `overlay` - Translates overlay files, which contain UI texts, as well as the game's compiled code.
 - `bin` - Translates bin files, containing texts mainly for SOC Guides and Self Check.
 - `cmcd` - Translates the "Challenge the McDonald's" section. Also replaces the font used there.
