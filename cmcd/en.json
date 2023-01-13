@@ -1,4 +1,5 @@
 {
+    //Results screen text
     "1066528": "Hmmm, sorry. Let's drink",
     "1066578": "a McShake and try again.",
     "1066678": "Tsk-tsk... Let's eat some",
@@ -19,6 +20,8 @@
     "1067578": "Perfect!",
     "1067628": "Today let's celebrate with",
     "1067678": "a quarter-pounder & cheese!",
+
+    //Quiz answers
     "1071592": "Safety",
     "1071614": "Government Orders",
     "1071636": "Recruitment",
@@ -319,6 +322,10 @@
     "1080090": "Staff",
     "1080124": "Kids Meal",
     "1080158": "Takeaway",
+
+    //Quiz questions
+    //Texts are automatically split into new line every 30 characters
+    //If the question has an image, the text is split every 11 characters
     "1080192": "What kind of cheese does\nMcDonald's use?",
     "1080278": "How does the McDonald's\nfactory check egg quality?",
     "1080364": "How often are grill settings\nchecked to ensure proper pattycooking temperature?",
