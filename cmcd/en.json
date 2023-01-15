@@ -1,4 +1,5 @@
 {
+    //Results screen text
     "1066528": "Hmmm, sorry. Let's drink",
     "1066578": "a McShake and try again.",
     "1066678": "Tsk-tsk... Let's eat some",
@@ -19,6 +20,8 @@
     "1067578": "Perfect!",
     "1067628": "Today let's celebrate with",
     "1067678": "a quarter-pounder & cheese!",
+
+    //Quiz answers
     "1071592": "Safety",
     "1071614": "Government Orders",
     "1071636": "Recruitment",
@@ -319,6 +322,10 @@
     "1080090": "Staff",
     "1080124": "Kids Meal",
     "1080158": "Takeaway",
+
+    //Quiz questions
+    //Texts are automatically split into new line every 30 characters
+    //If the question has an image, the text is split every 11 characters
     "1080192": "What kind of cheese does\nMcDonald's use?",
     "1080278": "How does the McDonald's\nfactory check egg quality?",
     "1080364": "How often are grill settings\nchecked to ensure proper pattycooking temperature?",
@@ -328,29 +335,29 @@
     "1080708": "Where does the lettuce used inJapanese McDonald's come from?",
     "1080794": "Where do McDonald's beef\npatties come from?",
     "1080880": "How are the small bones in thewhitefish used in Filet-O-Fish removed?",
-    "1080966": "What other\neffect does the hand\nsoap have?",
-    "1081052": "How do you\nreplace thenail brush\nused to\nwash hands?",
-    "1081138": "What is thehygenic wayto use the\nMcDonald's\nmop?",
-    "1081224": "McDonald's holds a\ncontest.\nSo, what's it about?",
-    "1081310": "McDonald's\nhas a\ntraining\nschool.\nWhat is itsname?",
+    "1080966": "What other\neffect does the hand\nsoap have?", //has an image
+    "1081052": "How do you\nreplace thenail brush\nused to\nwash hands?", //has an image
+    "1081138": "What is thehygenic wayto use the\nMcDonald's\nmop?", //has an image
+    "1081224": "McDonald's holds a\ncontest.\nWhat is it about?", //has an image
+    "1081310": "McDonald's\nhas a\ntraining\nschool.\nWhat is itsname?", //has an image
     "1081396": "What is the manufacturing\nsystem for providing freshly-\nmade burgers called?",
     "1081482": "How do you cook Filet-O-Fish\nbuns?",
-    "1081568": "How many\nburgers\ntall are\nRonald\nMcDonald's\nlegs?",
-    "1081654": "I'm Ronald McDonald.\nWhat do\npeople in\nJapan call\nme?",
+    "1081568": "How many\nburgers\ntall are\nRonald\nMcDonald's\nlegs?", //has an image
+    "1081654": "I'm Ronald McDonald.\nWhat do\npeople in\nJapan call\nme?", //has an image
     "1081740": "Where in Japan was the first McDonald's?",
     "1081826": "How long did it take to build the first McDonald's in Japan?",
     "1081912": "Where in Japan was the 5,000thMcDonald's store built?",
     "1081998": "Which sandwich has sesame on\nthe bun?",
     "1082084": "Is it true that the world\nstandard for McDonald's\npickles are the Japanese ones?",
-    "1082170": "Where on\nthe cow is\nthe tag\nwith the\nbreeding\nhistory\nattached?",
-    "1082256": "What does\nthis scale\nmeasure at McDonald's?",
-    "1082342": "What do the brushes\npictured\nclean?",
+    "1082170": "Where on\nthe cow is\nthe tag\nwith the\nbreeding\nhistory\nattached?", //has an image
+    "1082256": "What does\nthis scale\nmeasure at McDonald's?", //has an image
+    "1082342": "What do the brushes\npictured\nclean?", //has an image
     "1082428": "How long does it take to bake McDonald's buns?",
     "1082514": "How high can you stack beef\npatties in the freezer?",
     "1082600": "Which ingredient do you bring\nin first when delivering the\ningredients?",
     "1082686": "How long do you steam the\nFilet-O-Fish buns for?",
     "1082772": "Why do the McDonald's crew\nwear short-sleeved shirts all year round?",
-    "1082858": "Why are\nthere two\ntypes of\nspatulas\nfor cookingeggs?",
+    "1082858": "Why are\nthere two\ntypes of\nspatulas\nfor cookingeggs?", //has an image
     "1082944": "Where was the first McDonald'sDrive-Thru in Japan?",
     "1083030": "What is the first step in\ncustomer service?",
     "1083116": "Where are the beef patties\nstored?",
