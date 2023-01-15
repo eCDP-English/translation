@@ -196,9 +196,7 @@ def search_data(oid, friendlyname, data, base_address):
 								for range in cmcd_ranges:
 									if rom_address >= range[0] and rom_address <= range[1]:
 										valid = False
-								if valid == False:
-									continue
-								if rom_bytes[rom_address:rom_address+len(obytes)] == obytes:
+								if valid == True and rom_bytes[rom_address:rom_address+len(obytes)] == obytes:
 									strings.append({"str":strs, "blen": len(obytes), "memory_address": mloc, "xrefs":ptr_locs})
 									data_mod[str(mloc - base_address)] = strs
 				except UnicodeDecodeError:
