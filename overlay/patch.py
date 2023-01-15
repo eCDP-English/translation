@@ -13,11 +13,6 @@ cmcd_ranges = [
 	[0x001059E0, 0x0010A47F]
 ]
 
-#sections in the memory that overlay files should not overwrite
-protected_ranges = [
-	[0x022544A0, 0x02254B3F]
-]
-
 def main(lang, rom_data, working_dir):
 
 	json_names = []
