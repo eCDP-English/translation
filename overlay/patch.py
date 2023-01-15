@@ -18,8 +18,6 @@ protected_ranges = [
 	[0x022544A0, 0x02254B3F]
 ]
 
-OVERLAY_TABLE = "ftc/y9.bin"
-
 def main(lang, rom_data, working_dir):
 
 	json_names = []
