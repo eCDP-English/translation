@@ -1,7 +1,5 @@
 {
-    "name": "ARM9_1",
-    "ram_loc": 33521664,
-    "file_loc": 826912,
+    "id": 1,
     "length": 800,
     "strings": []
 }

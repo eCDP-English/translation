@@ -169,7 +169,7 @@ def find_all(data, to_find):
 			return addresses
 
 
-def search_data(oid, friendlyname, data, base_address):
+def search_data(oid, data, base_address):
 	strBytes = b""
 	memory_address = base_address
 	new_mem = 0
@@ -189,7 +189,7 @@ def search_data(oid, friendlyname, data, base_address):
 						if len(strs) > 0: # No 0 width strings
 							mloc = memory_address + offset
 							# search entire code section for pointers
-							ptr_locs = find_all(data, struct.pack("I", (mloc))) 
+							ptr_locs = find_all(data, struct.pack("I", mloc)) 
 							if len(ptr_locs) > 0: # if found more than 0 pointers
 								rom_address = (mloc - base_address)+real_location
 								valid = True
@@ -208,7 +208,7 @@ def search_data(oid, friendlyname, data, base_address):
 			new_mem = 0
 			continue
 		strBytes += b.to_bytes(1, "little")
-	data_info = {"id": oid, "name":friendlyname, "length":len(data), "strings":strings}
+	data_info = {"id": oid, "length":len(data), "strings":strings}
 	
 	return [data_info, data_mod]
 
@@ -217,7 +217,7 @@ total_strings = 0
 overlays = rom.loadArm9Overlays()
 for oid, overlay in overlays.items():
 	print("Scanning Overlay "+str(oid)+" .. ", end="", flush=True)
-	data = search_data(oid, "OVERLAY_"+str(oid), overlay.data, overlay.ramAddress)
+	data = search_data(oid, overlay.data, overlay.ramAddress)
 	dinfo = data[0]
 	#master_strings.append(dinfo)
 	total_found = len(dinfo["strings"])

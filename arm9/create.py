@@ -158,13 +158,22 @@ def find_all(data, to_find):
 			return addresses
 
 
-def search_data(friendlyname, data, base_address):
+def search_data(id, data, base_address):
 	strBytes = b""
 	memory_address = base_address
 	new_mem = 0
 	real_location = find_in_rom(data)
 	strings = []
 	data_mod = {}
+
+	def read_jsonc(filepath:str):
+		import re
+		with open(filepath, 'r', encoding='utf-8') as f:
+			text = f.read()
+		re_text = re.sub(r'/\*[\s\S]*?\*/|//.*', '', text)
+		json_obj = json.loads(re_text)
+		return json_obj   
+
 	for b in data:
 		new_mem += 1
 		if b == 0:
@@ -180,25 +189,16 @@ def search_data(friendlyname, data, base_address):
 							# search entire code section for pointers
 							ptr_locs = find_all(data, struct.pack("I", (mloc))) 
 							if len(ptr_locs) > 0: # if found more than 0 pointers
-								#absstr = "( ptr: "
-								ptr_to_ptrs = []
-								for ptr_loc in ptr_locs: # calculate real location of pointers in file
-									ptr_to_ptr_loc = ptr_loc + real_location
-									if ptr_to_ptr_loc in found_addresses: # have we seen this ptr be4?
-										continue
-									found_addresses.append(ptr_to_ptr_loc)
-									ptr_to_ptrs.append(ptr_to_ptr_loc)
-								if len(ptr_to_ptrs) > 0: # No real address ptr found?
-									rom_address = (mloc - base_address)+real_location
-									valid = True
-									for range in cmcd_ranges:
-										if rom_address >= range[0] and rom_address <= range[1]:
-											valid = False
-									if valid == False:
-										continue
-									if rom_bytes[rom_address:rom_address+len(obytes)] == obytes:
-										strings.append({"str":strs, "blen": len(obytes), "memory_address": mloc, "rom_address":rom_address, "xrefs":ptr_to_ptrs})
-										data_mod[str(rom_address)] = strs
+								rom_address = (mloc - base_address)+real_location
+								valid = True
+								for range in cmcd_ranges:
+									if rom_address >= range[0] and rom_address <= range[1]:
+										valid = False
+								if valid == False:
+									continue
+								if rom_bytes[rom_address:rom_address+len(obytes)] == obytes:
+									strings.append({"str":strs, "blen": len(obytes), "memory_address": mloc, "xrefs":ptr_locs})
+									data_mod[str(mloc - base_address)] = strs
 				except UnicodeDecodeError:
 					pass					
 			
@@ -208,7 +208,7 @@ def search_data(friendlyname, data, base_address):
 			new_mem = 0
 			continue
 		strBytes += b.to_bytes(1, "little")
-	data_info = {"name":friendlyname, "ram_loc":base_address, "file_loc": real_location, "length":len(data), "strings":strings}
+	data_info = {"id": id, "length":len(data), "strings":strings}
 	
 	return [data_info, data_mod]
 		
@@ -220,7 +220,7 @@ total_strings = 0
 sectionId = 0
 for section in arm9.sections:
 	print("Scanning ARM9 Section: "+str(sectionId)+" .. ", end="", flush=True)
-	data = search_data("ARM9_"+str(sectionId), section.data, section.ramAddress)
+	data = search_data(sectionId, section.data, section.ramAddress)
 	dinfo = data[0]
 	#master_strings.append(dinfo)
 	total_found = len(dinfo["strings"])
