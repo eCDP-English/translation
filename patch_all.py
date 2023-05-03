@@ -18,7 +18,7 @@ data = cmcd.patch.main(args.lang, data, "cmcd")
 data = overlay.patch.main(args.lang, data, "overlay")
 data = arm9.patch.main(args.lang, data, "arm9")
 
-text = "eCDP English Translation Patch v1.1.1 - https://github.com/eCDP-English/translation"
+text = "eCDP English Translation Patch v1.1.2 - https://github.com/eCDP-English/translation"
 for b in text.encode("SHIFT-JIS"):
 	data.append(b)
 
